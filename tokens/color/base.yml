@@ -1,0 +1,28 @@
+color:
+  base:
+    white:
+      value: "#FFFFFF"
+    gray10:
+      value: "#e6e6e6"
+    gray20:
+      value: "#cccccc"
+    gray30:
+      value: "#b3b3b3"
+    gray35:
+      value: "#a6a6a6"
+    gray75:
+      value: "#5a5a5a"
+    gray70:
+      value: "#4d4d4d"
+    gray80:
+      value: "#333333"
+    gray90:
+      value: "#1a1a1a"
+    black:
+      value: "#000000"
+    red:
+      value: "#E53935"
+    orange:
+      value: "#FF6D00"
+    green:
+      value: "#4CAF50"

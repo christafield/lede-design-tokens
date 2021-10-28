@@ -1,0 +1,12 @@
+color:
+  social:
+    comment:
+      value: "#101010"
+    facebook:
+      value: "#3B5998"
+    pinterest:
+      value: "#E60023"
+    reddit:
+      value: "#FF4500"
+    twitter:
+      value: "#1DA1F2"

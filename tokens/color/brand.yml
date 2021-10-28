@@ -1,0 +1,24 @@
+color:
+  brand:
+    primary:
+      value: "#510A7F"
+    primary10:
+      value: "#eee7f2"
+    primary20:
+      value: "#dccee5"
+    primary90:
+      value: "#62238c"
+    primary110:
+      value: "#490972"
+    secondary:
+      value: "#F6212E"
+    secondary10:
+      value: "#fee9ea"
+    secondary20:
+      value: "#fdd3d5"
+    secondary90:
+      value: "#f73743"
+    secondary110:
+      value: "#dd1e29"
+    accent:
+      value: "#FFDC2E"
