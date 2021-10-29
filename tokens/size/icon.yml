@@ -1,0 +1,14 @@
+size:
+  icon:
+    xs:
+      value: 1
+    small:
+      value: 2
+    base:
+      value: 2.5
+    large:
+      value: 3
+    xl:
+      value: 4
+    xxl:
+      value: 5

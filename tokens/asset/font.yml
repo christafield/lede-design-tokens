@@ -1,12 +1,12 @@
 asset:
   font:
-    opensans:
+    plexsans:
       name:
-        value: Open Sans
-      ttf:
-        value: assets/fonts/OpenSans-Regular.ttf
-    roboto:
+        value: IBM Plex Sans
+      stack:
+        value: '{asset.font.plexsans.name.value}, Helvetica, sans-serif'
+    times:
       name:
-        value: Roboto
-      ttf:
-        value: assets/fonts/Roboto-Regular.ttf
+        value: Times
+      stack:
+        value: '{asset.font.times.name.value}, Georgia, sans-serif'

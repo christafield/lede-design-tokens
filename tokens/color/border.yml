@@ -1,0 +1,31 @@
+color:
+  border:
+    light:
+      value: "{color.base.gray.20.value}"
+    base:
+      value: "{color.base.gray.30.value}"
+    dark:
+      value: "{color.base.gray.40.value}"
+    focus:
+      value: "{color.brand.primary.base.value}"
+    error:
+      value: "{color.base.red.base.value}"
+    warning:
+      value: "{color.base.orange.base.value}"
+    success:
+      value: "{color.base.green.base.value}"
+    button:
+      primary:
+        base:
+          value: "{color.border.base.value}"
+        active:
+          value: "{color.brand.primary.dark.value}"
+        disabled:
+          value: "{color.border.light.value}"
+      secondary:
+        base:
+          value: "{color.border.base.value}"
+        active:
+          value: "{color.brand.primary.dark.value}"
+        disabled:
+          value: "{color.border.light.value}"

@@ -1,0 +1,44 @@
+color:
+  font:
+    base:
+      value: "{color.base.gray.90.value}"
+    medium:
+      value: "{color.base.gray.80.value}"
+    light:
+      value: "{color.base.gray.60.value}"
+    link:
+      value: "{color.brand.primary.base.value}"
+    active:
+      value: "{color.brand.primary.110.value}"
+    error:
+      value: "{color.base.red.base.value}"
+    warning:
+      value: "{color.base.orange.base.value}"
+    success:
+      value: "{color.base.green.base.value}"
+    disabled:
+      value: "{color.font.light.value}"
+    inverse:
+      base:
+        value: "{color.base.white.value}"
+      medium:
+        value: "{color.base.gray.10.value}"
+      light:
+        value: "{color.base.gray.20.value}"
+      link:
+        value: "{color.brand.primary.10.value}"
+      active:
+        value: "{color.brand.primary.20.value}"
+      error:
+        value: "{color.base.red.20.value}"
+      warning:
+        value: "{color.base.orange.20.value}"
+      success:
+        value: "{color.base.green.20.value}"
+      disabled:
+        value: "{color.font.inverse.light.value}"
+    button:
+      primary:
+        value: "{color.font.inverse.base.value}"
+      secondary:
+        value: "{color.font.link.value}"

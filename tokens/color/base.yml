@@ -1,28 +1,60 @@
 color:
   base:
+    gray:
+      0:
+        value: "#FFFFFF"
+      10:
+        value: "#e6e6e6"
+      20:
+        value: "#cccccc"
+      30:
+        value: "#b3b3b3"
+      35:
+        value: "#a6a6a6"
+      75:
+        value: "#5a5a5a"
+      70:
+        value: "#4d4d4d"
+      80:
+        value: "#333333"
+      90:
+        value: "#1a1a1a"
+      100:
+        value: "#000000"
     white:
-      value: "#FFFFFF"
-    gray10:
-      value: "#e6e6e6"
-    gray20:
-      value: "#cccccc"
-    gray30:
-      value: "#b3b3b3"
-    gray35:
-      value: "#a6a6a6"
-    gray75:
-      value: "#5a5a5a"
-    gray70:
-      value: "#4d4d4d"
-    gray80:
-      value: "#333333"
-    gray90:
-      value: "#1a1a1a"
+      value: "{color.base.gray.0.value}"
     black:
-      value: "#000000"
+      value: "{color.base.gray.100.value}"
     red:
-      value: "#E53935"
+      base:
+        value: "#E53935"
+      10:
+        value: "#fad7d7"
+      20:
+        value: "#f7c4c2"
+      90:
+        value: "#e84d49"
+      110:
+        value: "#ce3330"
     orange:
-      value: "#FF6D00"
+      base:
+        value: "#FF6D00"
+      10:
+        value: "#ffe2cc"
+      20:
+        value: "#ffd3b3"
+      90:
+        value: "#ff7c1a"
+      110:
+        value: "#e66200"
     green:
-      value: "#4CAF50"
+      base:
+        value: "#4CAF50"
+      10:
+        value: "#dbefdc"
+      20:
+        value: "#c9e7cb"
+      90:
+        value: "#5eb762"
+      110:
+        value: "#449e48"

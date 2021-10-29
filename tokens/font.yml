@@ -1,0 +1,11 @@
+font:
+  plexsans:
+    name:
+      value: IBM Plex Sans
+    stack:
+      value: '{asset.font.plexsans.name.value}, Helvetica, sans-serif'
+  times:
+    name:
+      value: Times
+    stack:
+      value: '{asset.font.times.name.value}, Georgia, sans-serif'

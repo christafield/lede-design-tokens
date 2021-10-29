@@ -1,0 +1,20 @@
+size:
+  font:
+    xs:
+      value: 0.75
+    small:
+      value: 0.875
+    base:
+      value: 1
+    medium:
+      value: 1.125
+    large:
+      value: 1.25
+    xl:
+      value: 1.5
+    xxl:
+      value: 2
+    xxxl:
+      value: 3
+    default:
+      value: "{size.font.base.value}"
