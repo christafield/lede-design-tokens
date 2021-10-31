@@ -5,7 +5,7 @@ color:
     base:
       value: "{color.base.gray.30.value}"
     dark:
-      value: "{color.base.gray.40.value}"
+      value: "{color.base.gray.35.value}"
     focus:
       value: "{color.brand.primary.base.value}"
     error:
@@ -19,13 +19,13 @@ color:
         base:
           value: "{color.border.base.value}"
         active:
-          value: "{color.brand.primary.dark.value}"
+          value: "{color.brand.primary.110.value}"
         disabled:
           value: "{color.border.light.value}"
       secondary:
         base:
           value: "{color.border.base.value}"
         active:
-          value: "{color.brand.primary.dark.value}"
+          value: "{color.brand.primary.110.value}"
         disabled:
           value: "{color.border.light.value}"

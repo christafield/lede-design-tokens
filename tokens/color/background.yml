@@ -15,7 +15,7 @@ color:
     warning:
       value: "{color.base.orange.base.value}"
     low-priority:
-      value: "{color.base.gray.60.value}"
+      value: "{color.base.gray.75.value}"
     button:
       primary:
         base:

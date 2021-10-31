@@ -1,20 +1,20 @@
 font:
   plexsans:
     name:
-      value: IBM Plex Sans
+      value: "IBM Plex Sans"
     stack:
-      value: "{asset.font.plexsans.name.value}, Helvetica, sans-serif"
+      value: "IBM Plex Sans, Helvetica, sans-serif"
   times:
     name:
-      value: Times
+      value: "Times"
     stack:
-      value: "{asset.font.times.name.value}, Georgia, serif"
+      value: "Times, Georgia, serif"
   primary:
-    value: "{font.plexsans.stack}"
+    value: "{font.plexsans.stack.value}"
   secondary:
-    value: "{font.times.stack}"
+    value: "{font.times.stack.value}"
   tertiary:
-    value: "{font.plexsans.stack}"
+    value: "{font.plexsans.stack.value}"
   weight:
     light:
       value: 300

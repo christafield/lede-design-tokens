@@ -12,15 +12,36 @@ module.exports = {
     // The function is expected to return a plain object.
     parse: ({contents, filePath}) => yaml.parse(contents)
   }],
-  source: [`tokens/**/*.yaml`],
+  source: [`tokens/**/*.yml`],
   platforms: {
     css: {
       transformGroup: 'css',
       buildPath: 'build/',
       files: [{
         destination: 'variables.css',
-        format: 'css/variables'
+        format: 'css/variables',
+        options: {
+          outputReferences: true,
+        }
       }]
-    }
+    },
+    scss: {
+      transformGroup: 'scss',
+      buildPath: 'build/',
+      files: [{
+        destination: 'variables.scss',
+        format: 'scss/variables',
+        options: {
+          outputReferences: true,
+        }
+      }]
+    },
+    json: {
+      buildPath: 'build/',
+      files: [{
+        destination: 'tokens.json',
+        format: 'json',
+      }]
+    },
   }
 }
