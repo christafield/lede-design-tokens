@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 31 Oct 2021 18:56:04 GMT
+ * Generated on Sun, 31 Oct 2021 19:02:23 GMT
  */
 
 :root {
@@ -49,7 +49,7 @@
   --font-times-stack: Times, Georgia, serif;
   --font-times-name: Times;
   --font-plexsans-stack: IBM Plex Sans, Helvetica, sans-serif;
-  --font-plexsans-name: IBM Plex Sans;
+  --font-plexsans-name: Butts;
   --color-social-twitter: #1da1f2;
   --color-social-reddit: #ff4500;
   --color-social-pinterest: #e60023;
@@ -93,7 +93,9 @@
   --color-base-gray-0: #ffffff;
   --color-background-overlay-dark: rgba(0, 0, 0, 0.27);
   --color-background-overlay-light: rgba(255, 255, 255, 0.8);
+  --asset-font-times-stack: "Times, Georgia, sans-serif";
   --asset-font-times-name: "Times";
+  --asset-font-plexsans-stack: "IBM Plex Sans, Helvetica, sans-serif";
   --asset-font-plexsans-name: "IBM Plex Sans";
   --size-space-default: var(--size-space-base);
   --size-layout-gutter: var(--size-space-base);
@@ -153,8 +155,6 @@
   --breakpoint-small-min: (min-width: var(--size-screen-width-small));
   --breakpoint-xs-max: (max-width: var(--size-screen-width-xs));
   --breakpoint-xs-min: (min-width: var(--size-screen-width-xs));
-  --asset-font-times-stack: "var(--asset-font-times-name), Georgia, sans-serif";
-  --asset-font-plexsans-stack: "var(--asset-font-plexsans-name), Helvetica, sans-serif";
   --color-font-button-secondary: var(--color-font-link);
   --color-font-inverse-disabled: var(--color-font-inverse-light);
   --color-font-inverse-base: var(--color-base-white);

@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Sun, 31 Oct 2021 18:56:04 GMT
+// Generated on Sun, 31 Oct 2021 19:02:23 GMT
 
 $size-space-xxxl: 6rem;
 $size-space-xxl: 4rem;
@@ -47,7 +47,7 @@ $font-weight-light: 300;
 $font-times-stack: Times, Georgia, serif;
 $font-times-name: Times;
 $font-plexsans-stack: IBM Plex Sans, Helvetica, sans-serif;
-$font-plexsans-name: IBM Plex Sans;
+$font-plexsans-name: Butts;
 $color-social-twitter: #1da1f2;
 $color-social-reddit: #ff4500;
 $color-social-pinterest: #e60023;
@@ -91,7 +91,9 @@ $color-base-gray-10: #e6e6e6;
 $color-base-gray-0: #ffffff;
 $color-background-overlay-dark: rgba(0, 0, 0, 0.27);
 $color-background-overlay-light: rgba(255, 255, 255, 0.8);
+$asset-font-times-stack: "Times, Georgia, sans-serif";
 $asset-font-times-name: "Times";
+$asset-font-plexsans-stack: "IBM Plex Sans, Helvetica, sans-serif";
 $asset-font-plexsans-name: "IBM Plex Sans";
 $size-space-default: $size-space-base;
 $size-layout-gutter: $size-space-base;
@@ -151,8 +153,6 @@ $breakpoint-small-max: (max-width: $size-screen-width-small);
 $breakpoint-small-min: (min-width: $size-screen-width-small);
 $breakpoint-xs-max: (max-width: $size-screen-width-xs);
 $breakpoint-xs-min: (min-width: $size-screen-width-xs);
-$asset-font-times-stack: "$asset-font-times-name, Georgia, sans-serif";
-$asset-font-plexsans-stack: "$asset-font-plexsans-name, Helvetica, sans-serif";
 $color-font-button-secondary: $color-font-link;
 $color-font-inverse-disabled: $color-font-inverse-light;
 $color-font-inverse-base: $color-base-white;
