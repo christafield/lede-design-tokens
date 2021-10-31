@@ -3,9 +3,28 @@ font:
     name:
       value: IBM Plex Sans
     stack:
-      value: '{asset.font.plexsans.name.value}, Helvetica, sans-serif'
+      value: "{asset.font.plexsans.name.value}, Helvetica, sans-serif"
   times:
     name:
       value: Times
     stack:
-      value: '{asset.font.times.name.value}, Georgia, sans-serif'
+      value: "{asset.font.times.name.value}, Georgia, serif"
+  primary:
+    value: "{font.plexsans.stack}"
+  secondary:
+    value: "{font.times.stack}"
+  tertiary:
+    value: "{font.plexsans.stack}"
+  weight:
+    light:
+      value: 300
+    normal:
+      value: 400
+    medium:
+      value: 500
+    semibold:
+      value: 600
+    bold:
+      value: 700
+    black:
+      value: 900

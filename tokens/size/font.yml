@@ -18,3 +18,22 @@ size:
       value: 3
     default:
       value: "{size.font.base.value}"
+    heading:
+      xs:
+        value: 1.25
+      small:
+        value: 1.5
+      base:
+        value: 2
+      medium:
+        value: 2.25
+      large:
+        value: 2.5
+      xl:
+        value: 3
+      xxl:
+        value: 4
+      xxxl:
+        value: 6
+      default:
+        value: "{size.font.heading.base.value}"

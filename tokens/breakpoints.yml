@@ -1,0 +1,31 @@
+breakpoint:
+  xs:
+    min:
+      value: "(min-width: {size.screen.width.xs})"
+    max:
+      value:  "(max-width: {size.screen.width.xs})"
+  small:
+    min:
+      value: "(min-width: {size.screen.width.small})"
+    max:
+      value:  "(max-width: {size.screen.width.small})"
+  medium:
+    min:
+      value: "(min-width: {size.screen.width.medium})"
+    max:
+      value:  "(max-width: {size.screen.width.medium})"
+  large:
+    min:
+      value: "(min-width: {size.screen.width.large})"
+    max:
+      value:  "(max-width: {size.screen.width.large})"
+  xl:
+    min:
+      value: "(min-width: {size.screen.width.xl})"
+    max:
+      value:  "(max-width: {size.screen.width.xl})"
+  xxl:
+    min:
+      value: "(min-width: {size.screen.width.xxl})"
+    max:
+      value:  "(max-width: {size.screen.width.xxl})"

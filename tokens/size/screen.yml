@@ -1,0 +1,15 @@
+size:
+  screen:
+    width:
+      xs:
+        value: "30"
+      small:
+        value: "40"
+      medium:
+        value: "48"
+      large:
+        value: "64"
+      xl:
+        value: "80"
+      xxl:
+        value: "86"

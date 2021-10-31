@@ -1,0 +1,4 @@
+size:
+  layout:
+    gutter:
+      value: "{size.space.base.value}"

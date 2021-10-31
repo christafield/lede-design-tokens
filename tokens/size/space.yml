@@ -17,4 +17,8 @@ size:
     xxxl:
       value: 6
     default:
-      value: "{size.font.base.value}"
+      value: "{size.space.base.value}"
+  layout:
+    gutter:
+      value: "{size.space.base.value}"
+
