@@ -2,20 +2,47 @@ size:
   space:
     xs:
       value: 0.75
+      attributes:
+        figmaType: "spacing"
+        category: "size"
     small:
       value: 1
+      attributes:
+        figmaType: "spacing"
+        category: "size"
     base:
       value: 1.25
+      attributes:
+        figmaType: "spacing"
+        category: "size"
     medium:
       value: 1.5
+      attributes:
+        figmaType: "spacing"
+        category: "size"
     large:
       value: 2
+      attributes:
+        figmaType: "spacing"
+        category: "size"
     xl:
       value: 2.5
+      attributes:
+        figmaType: "spacing"
+        category: "size"
     xxl:
       value: 4
+      attributes:
+        figmaType: "spacing"
+        category: "size"
     xxxl:
       value: 6
+      attributes:
+        figmaType: "spacing"
+        category: "size"
     default:
       value: "{size.space.base.value}"
+      attributes:
+        figmaType: "spacing"
+        category: "size"
 

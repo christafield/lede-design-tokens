@@ -534,13 +534,18 @@
       "gray": {
         "0": {
           "value": "#FFFFFF",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#FFFFFF"
+            "value": "#FFFFFF",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "0",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -550,13 +555,18 @@
         },
         "10": {
           "value": "#e6e6e6",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#e6e6e6"
+            "value": "#e6e6e6",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "10",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -566,13 +576,18 @@
         },
         "20": {
           "value": "#cccccc",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#cccccc"
+            "value": "#cccccc",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "20",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -582,13 +597,18 @@
         },
         "30": {
           "value": "#b3b3b3",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#b3b3b3"
+            "value": "#b3b3b3",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "30",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -598,13 +618,18 @@
         },
         "35": {
           "value": "#a6a6a6",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#a6a6a6"
+            "value": "#a6a6a6",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "35",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -614,13 +639,18 @@
         },
         "70": {
           "value": "#4d4d4d",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#4d4d4d"
+            "value": "#4d4d4d",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "70",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -630,13 +660,18 @@
         },
         "75": {
           "value": "#5a5a5a",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#5a5a5a"
+            "value": "#5a5a5a",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "75",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -646,13 +681,18 @@
         },
         "80": {
           "value": "#333333",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#333333"
+            "value": "#333333",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "80",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -662,13 +702,18 @@
         },
         "90": {
           "value": "#1a1a1a",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#1a1a1a"
+            "value": "#1a1a1a",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "90",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -678,13 +723,18 @@
         },
         "100": {
           "value": "#000000",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#000000"
+            "value": "#000000",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "100",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -695,13 +745,18 @@
       },
       "white": {
         "value": "#FFFFFF",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/base.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.gray.0.value}"
+          "value": "{color.base.gray.0.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "white",
-        "attributes": {},
         "path": [
           "color",
           "base",
@@ -710,13 +765,18 @@
       },
       "black": {
         "value": "#000000",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/base.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.gray.100.value}"
+          "value": "{color.base.gray.100.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "black",
-        "attributes": {},
         "path": [
           "color",
           "base",
@@ -726,13 +786,18 @@
       "red": {
         "10": {
           "value": "#fad7d7",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#fad7d7"
+            "value": "#fad7d7",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "10",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -742,13 +807,18 @@
         },
         "20": {
           "value": "#f7c4c2",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#f7c4c2"
+            "value": "#f7c4c2",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "20",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -758,13 +828,18 @@
         },
         "90": {
           "value": "#e84d49",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#e84d49"
+            "value": "#e84d49",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "90",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -774,13 +849,18 @@
         },
         "110": {
           "value": "#ce3330",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#ce3330"
+            "value": "#ce3330",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "110",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -790,13 +870,18 @@
         },
         "base": {
           "value": "#E53935",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#E53935"
+            "value": "#E53935",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "base",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -808,13 +893,18 @@
       "orange": {
         "10": {
           "value": "#ffe2cc",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#ffe2cc"
+            "value": "#ffe2cc",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "10",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -824,13 +914,18 @@
         },
         "20": {
           "value": "#ffd3b3",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#ffd3b3"
+            "value": "#ffd3b3",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "20",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -840,13 +935,18 @@
         },
         "90": {
           "value": "#ff7c1a",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#ff7c1a"
+            "value": "#ff7c1a",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "90",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -856,13 +956,18 @@
         },
         "110": {
           "value": "#e66200",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#e66200"
+            "value": "#e66200",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "110",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -872,13 +977,18 @@
         },
         "base": {
           "value": "#FF6D00",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#FF6D00"
+            "value": "#FF6D00",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "base",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -890,13 +1000,18 @@
       "green": {
         "10": {
           "value": "#dbefdc",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#dbefdc"
+            "value": "#dbefdc",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "10",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -906,13 +1021,18 @@
         },
         "20": {
           "value": "#c9e7cb",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#c9e7cb"
+            "value": "#c9e7cb",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "20",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -922,13 +1042,18 @@
         },
         "90": {
           "value": "#5eb762",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#5eb762"
+            "value": "#5eb762",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "90",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -938,13 +1063,18 @@
         },
         "110": {
           "value": "#449e48",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#449e48"
+            "value": "#449e48",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "110",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -954,13 +1084,18 @@
         },
         "base": {
           "value": "#4CAF50",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#4CAF50"
+            "value": "#4CAF50",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "base",
-          "attributes": {},
           "path": [
             "color",
             "base",
@@ -1189,13 +1324,18 @@
       "primary": {
         "10": {
           "value": "#eee7f2",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/brand.yml",
           "isSource": true,
           "original": {
-            "value": "#eee7f2"
+            "value": "#eee7f2",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "10",
-          "attributes": {},
           "path": [
             "color",
             "brand",
@@ -1205,13 +1345,18 @@
         },
         "20": {
           "value": "#dccee5",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/brand.yml",
           "isSource": true,
           "original": {
-            "value": "#dccee5"
+            "value": "#dccee5",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "20",
-          "attributes": {},
           "path": [
             "color",
             "brand",
@@ -1221,13 +1366,18 @@
         },
         "90": {
           "value": "#62238c",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/brand.yml",
           "isSource": true,
           "original": {
-            "value": "#62238c"
+            "value": "#62238c",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "90",
-          "attributes": {},
           "path": [
             "color",
             "brand",
@@ -1237,13 +1387,18 @@
         },
         "110": {
           "value": "#490972",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/brand.yml",
           "isSource": true,
           "original": {
-            "value": "#490972"
+            "value": "#490972",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "110",
-          "attributes": {},
           "path": [
             "color",
             "brand",
@@ -1253,13 +1408,18 @@
         },
         "base": {
           "value": "#510A7F",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/brand.yml",
           "isSource": true,
           "original": {
-            "value": "#510A7F"
+            "value": "#510A7F",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "base",
-          "attributes": {},
           "path": [
             "color",
             "brand",
@@ -1271,13 +1431,18 @@
       "secondary": {
         "10": {
           "value": "#fee9ea",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/brand.yml",
           "isSource": true,
           "original": {
-            "value": "#fee9ea"
+            "value": "#fee9ea",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "10",
-          "attributes": {},
           "path": [
             "color",
             "brand",
@@ -1287,13 +1452,18 @@
         },
         "20": {
           "value": "#fdd3d5",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/brand.yml",
           "isSource": true,
           "original": {
-            "value": "#fdd3d5"
+            "value": "#fdd3d5",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "20",
-          "attributes": {},
           "path": [
             "color",
             "brand",
@@ -1303,13 +1473,18 @@
         },
         "90": {
           "value": "#f73743",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/brand.yml",
           "isSource": true,
           "original": {
-            "value": "#f73743"
+            "value": "#f73743",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "90",
-          "attributes": {},
           "path": [
             "color",
             "brand",
@@ -1319,13 +1494,18 @@
         },
         "110": {
           "value": "#dd1e29",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/brand.yml",
           "isSource": true,
           "original": {
-            "value": "#dd1e29"
+            "value": "#dd1e29",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "110",
-          "attributes": {},
           "path": [
             "color",
             "brand",
@@ -1335,13 +1515,18 @@
         },
         "base": {
           "value": "#F6212E",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/brand.yml",
           "isSource": true,
           "original": {
-            "value": "#F6212E"
+            "value": "#F6212E",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "base",
-          "attributes": {},
           "path": [
             "color",
             "brand",
@@ -1352,13 +1537,18 @@
       },
       "accent": {
         "value": "#FFDC2E",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/brand.yml",
         "isSource": true,
         "original": {
-          "value": "#FFDC2E"
+          "value": "#FFDC2E",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "accent",
-        "attributes": {},
         "path": [
           "color",
           "brand",
@@ -1965,13 +2155,20 @@
     "font": {
       "xs": {
         "value": 0.75,
+        "attributes": {
+          "figmaType": "fontSizes",
+          "category": "size"
+        },
         "filePath": "tokens/size/font.yml",
         "isSource": true,
         "original": {
-          "value": 0.75
+          "value": 0.75,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          }
         },
         "name": "xs",
-        "attributes": {},
         "path": [
           "size",
           "font",
@@ -1980,13 +2177,20 @@
       },
       "small": {
         "value": 0.875,
+        "attributes": {
+          "figmaType": "fontSizes",
+          "category": "size"
+        },
         "filePath": "tokens/size/font.yml",
         "isSource": true,
         "original": {
-          "value": 0.875
+          "value": 0.875,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          }
         },
         "name": "small",
-        "attributes": {},
         "path": [
           "size",
           "font",
@@ -1995,13 +2199,20 @@
       },
       "base": {
         "value": 1,
+        "attributes": {
+          "figmaType": "fontSizes",
+          "category": "size"
+        },
         "filePath": "tokens/size/font.yml",
         "isSource": true,
         "original": {
-          "value": 1
+          "value": 1,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          }
         },
         "name": "base",
-        "attributes": {},
         "path": [
           "size",
           "font",
@@ -2010,13 +2221,20 @@
       },
       "medium": {
         "value": 1.125,
+        "attributes": {
+          "figmaType": "fontSizes",
+          "category": "size"
+        },
         "filePath": "tokens/size/font.yml",
         "isSource": true,
         "original": {
-          "value": 1.125
+          "value": 1.125,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          }
         },
         "name": "medium",
-        "attributes": {},
         "path": [
           "size",
           "font",
@@ -2025,13 +2243,20 @@
       },
       "large": {
         "value": 1.25,
+        "attributes": {
+          "figmaType": "fontSizes",
+          "category": "size"
+        },
         "filePath": "tokens/size/font.yml",
         "isSource": true,
         "original": {
-          "value": 1.25
+          "value": 1.25,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          }
         },
         "name": "large",
-        "attributes": {},
         "path": [
           "size",
           "font",
@@ -2040,13 +2265,20 @@
       },
       "xl": {
         "value": 1.5,
+        "attributes": {
+          "figmaType": "fontSizes",
+          "category": "size"
+        },
         "filePath": "tokens/size/font.yml",
         "isSource": true,
         "original": {
-          "value": 1.5
+          "value": 1.5,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          }
         },
         "name": "xl",
-        "attributes": {},
         "path": [
           "size",
           "font",
@@ -2055,13 +2287,20 @@
       },
       "xxl": {
         "value": 2,
+        "attributes": {
+          "figmaType": "fontSizes",
+          "category": "size"
+        },
         "filePath": "tokens/size/font.yml",
         "isSource": true,
         "original": {
-          "value": 2
+          "value": 2,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          }
         },
         "name": "xxl",
-        "attributes": {},
         "path": [
           "size",
           "font",
@@ -2070,13 +2309,20 @@
       },
       "xxxl": {
         "value": 3,
+        "attributes": {
+          "figmaType": "fontSizes",
+          "category": "size"
+        },
         "filePath": "tokens/size/font.yml",
         "isSource": true,
         "original": {
-          "value": 3
+          "value": 3,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          }
         },
         "name": "xxxl",
-        "attributes": {},
         "path": [
           "size",
           "font",
@@ -2085,13 +2331,20 @@
       },
       "default": {
         "value": 1,
+        "attributes": {
+          "figmaType": "fontSizes",
+          "category": "size"
+        },
         "filePath": "tokens/size/font.yml",
         "isSource": true,
         "original": {
-          "value": "{size.font.base.value}"
+          "value": "{size.font.base.value}",
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          }
         },
         "name": "default",
-        "attributes": {},
         "path": [
           "size",
           "font",
@@ -2101,13 +2354,20 @@
       "heading": {
         "xs": {
           "value": 1.25,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          },
           "filePath": "tokens/size/font.yml",
           "isSource": true,
           "original": {
-            "value": 1.25
+            "value": 1.25,
+            "attributes": {
+              "figmaType": "fontSizes",
+              "category": "size"
+            }
           },
           "name": "xs",
-          "attributes": {},
           "path": [
             "size",
             "font",
@@ -2117,13 +2377,20 @@
         },
         "small": {
           "value": 1.5,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          },
           "filePath": "tokens/size/font.yml",
           "isSource": true,
           "original": {
-            "value": 1.5
+            "value": 1.5,
+            "attributes": {
+              "figmaType": "fontSizes",
+              "category": "size"
+            }
           },
           "name": "small",
-          "attributes": {},
           "path": [
             "size",
             "font",
@@ -2133,13 +2400,20 @@
         },
         "base": {
           "value": 2,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          },
           "filePath": "tokens/size/font.yml",
           "isSource": true,
           "original": {
-            "value": 2
+            "value": 2,
+            "attributes": {
+              "figmaType": "fontSizes",
+              "category": "size"
+            }
           },
           "name": "base",
-          "attributes": {},
           "path": [
             "size",
             "font",
@@ -2149,13 +2423,20 @@
         },
         "medium": {
           "value": 2.25,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          },
           "filePath": "tokens/size/font.yml",
           "isSource": true,
           "original": {
-            "value": 2.25
+            "value": 2.25,
+            "attributes": {
+              "figmaType": "fontSizes",
+              "category": "size"
+            }
           },
           "name": "medium",
-          "attributes": {},
           "path": [
             "size",
             "font",
@@ -2165,13 +2446,20 @@
         },
         "large": {
           "value": 2.5,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          },
           "filePath": "tokens/size/font.yml",
           "isSource": true,
           "original": {
-            "value": 2.5
+            "value": 2.5,
+            "attributes": {
+              "figmaType": "fontSizes",
+              "category": "size"
+            }
           },
           "name": "large",
-          "attributes": {},
           "path": [
             "size",
             "font",
@@ -2181,13 +2469,20 @@
         },
         "xl": {
           "value": 3,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          },
           "filePath": "tokens/size/font.yml",
           "isSource": true,
           "original": {
-            "value": 3
+            "value": 3,
+            "attributes": {
+              "figmaType": "fontSizes",
+              "category": "size"
+            }
           },
           "name": "xl",
-          "attributes": {},
           "path": [
             "size",
             "font",
@@ -2197,13 +2492,20 @@
         },
         "xxl": {
           "value": 4,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          },
           "filePath": "tokens/size/font.yml",
           "isSource": true,
           "original": {
-            "value": 4
+            "value": 4,
+            "attributes": {
+              "figmaType": "fontSizes",
+              "category": "size"
+            }
           },
           "name": "xxl",
-          "attributes": {},
           "path": [
             "size",
             "font",
@@ -2213,13 +2515,20 @@
         },
         "xxxl": {
           "value": 6,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          },
           "filePath": "tokens/size/font.yml",
           "isSource": true,
           "original": {
-            "value": 6
+            "value": 6,
+            "attributes": {
+              "figmaType": "fontSizes",
+              "category": "size"
+            }
           },
           "name": "xxxl",
-          "attributes": {},
           "path": [
             "size",
             "font",
@@ -2229,13 +2538,20 @@
         },
         "default": {
           "value": 2,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          },
           "filePath": "tokens/size/font.yml",
           "isSource": true,
           "original": {
-            "value": "{size.font.heading.base.value}"
+            "value": "{size.font.heading.base.value}",
+            "attributes": {
+              "figmaType": "fontSizes",
+              "category": "size"
+            }
           },
           "name": "default",
-          "attributes": {},
           "path": [
             "size",
             "font",
@@ -2457,13 +2773,20 @@
     "space": {
       "xs": {
         "value": 0.75,
+        "attributes": {
+          "figmaType": "spacing",
+          "category": "size"
+        },
         "filePath": "tokens/size/space.yml",
         "isSource": true,
         "original": {
-          "value": 0.75
+          "value": 0.75,
+          "attributes": {
+            "figmaType": "spacing",
+            "category": "size"
+          }
         },
         "name": "xs",
-        "attributes": {},
         "path": [
           "size",
           "space",
@@ -2472,13 +2795,20 @@
       },
       "small": {
         "value": 1,
+        "attributes": {
+          "figmaType": "spacing",
+          "category": "size"
+        },
         "filePath": "tokens/size/space.yml",
         "isSource": true,
         "original": {
-          "value": 1
+          "value": 1,
+          "attributes": {
+            "figmaType": "spacing",
+            "category": "size"
+          }
         },
         "name": "small",
-        "attributes": {},
         "path": [
           "size",
           "space",
@@ -2487,13 +2817,20 @@
       },
       "base": {
         "value": 1.25,
+        "attributes": {
+          "figmaType": "spacing",
+          "category": "size"
+        },
         "filePath": "tokens/size/space.yml",
         "isSource": true,
         "original": {
-          "value": 1.25
+          "value": 1.25,
+          "attributes": {
+            "figmaType": "spacing",
+            "category": "size"
+          }
         },
         "name": "base",
-        "attributes": {},
         "path": [
           "size",
           "space",
@@ -2502,13 +2839,20 @@
       },
       "medium": {
         "value": 1.5,
+        "attributes": {
+          "figmaType": "spacing",
+          "category": "size"
+        },
         "filePath": "tokens/size/space.yml",
         "isSource": true,
         "original": {
-          "value": 1.5
+          "value": 1.5,
+          "attributes": {
+            "figmaType": "spacing",
+            "category": "size"
+          }
         },
         "name": "medium",
-        "attributes": {},
         "path": [
           "size",
           "space",
@@ -2517,13 +2861,20 @@
       },
       "large": {
         "value": 2,
+        "attributes": {
+          "figmaType": "spacing",
+          "category": "size"
+        },
         "filePath": "tokens/size/space.yml",
         "isSource": true,
         "original": {
-          "value": 2
+          "value": 2,
+          "attributes": {
+            "figmaType": "spacing",
+            "category": "size"
+          }
         },
         "name": "large",
-        "attributes": {},
         "path": [
           "size",
           "space",
@@ -2532,13 +2883,20 @@
       },
       "xl": {
         "value": 2.5,
+        "attributes": {
+          "figmaType": "spacing",
+          "category": "size"
+        },
         "filePath": "tokens/size/space.yml",
         "isSource": true,
         "original": {
-          "value": 2.5
+          "value": 2.5,
+          "attributes": {
+            "figmaType": "spacing",
+            "category": "size"
+          }
         },
         "name": "xl",
-        "attributes": {},
         "path": [
           "size",
           "space",
@@ -2547,13 +2905,20 @@
       },
       "xxl": {
         "value": 4,
+        "attributes": {
+          "figmaType": "spacing",
+          "category": "size"
+        },
         "filePath": "tokens/size/space.yml",
         "isSource": true,
         "original": {
-          "value": 4
+          "value": 4,
+          "attributes": {
+            "figmaType": "spacing",
+            "category": "size"
+          }
         },
         "name": "xxl",
-        "attributes": {},
         "path": [
           "size",
           "space",
@@ -2562,13 +2927,20 @@
       },
       "xxxl": {
         "value": 6,
+        "attributes": {
+          "figmaType": "spacing",
+          "category": "size"
+        },
         "filePath": "tokens/size/space.yml",
         "isSource": true,
         "original": {
-          "value": 6
+          "value": 6,
+          "attributes": {
+            "figmaType": "spacing",
+            "category": "size"
+          }
         },
         "name": "xxxl",
-        "attributes": {},
         "path": [
           "size",
           "space",
@@ -2577,13 +2949,20 @@
       },
       "default": {
         "value": 1.25,
+        "attributes": {
+          "figmaType": "spacing",
+          "category": "size"
+        },
         "filePath": "tokens/size/space.yml",
         "isSource": true,
         "original": {
-          "value": "{size.space.base.value}"
+          "value": "{size.space.base.value}",
+          "attributes": {
+            "figmaType": "spacing",
+            "category": "size"
+          }
         },
         "name": "default",
-        "attributes": {},
         "path": [
           "size",
           "space",

@@ -3,58 +3,112 @@ color:
     gray:
       0:
         value: "#FFFFFF"
+        attributes:
+          figmaType: "color"
       10:
         value: "#e6e6e6"
+        attributes:
+          figmaType: "color"
       20:
         value: "#cccccc"
+        attributes:
+          figmaType: "color"
       30:
         value: "#b3b3b3"
+        attributes:
+          figmaType: "color"
       35:
         value: "#a6a6a6"
+        attributes:
+          figmaType: "color"
       75:
         value: "#5a5a5a"
+        attributes:
+          figmaType: "color"
       70:
         value: "#4d4d4d"
+        attributes:
+          figmaType: "color"
       80:
         value: "#333333"
+        attributes:
+          figmaType: "color"
       90:
         value: "#1a1a1a"
+        attributes:
+          figmaType: "color"
       100:
         value: "#000000"
+        attributes:
+          figmaType: "color"
     white:
       value: "{color.base.gray.0.value}"
+      attributes:
+        figmaType: "color"
     black:
       value: "{color.base.gray.100.value}"
+      attributes:
+        figmaType: "color"
     red:
       base:
         value: "#E53935"
+        attributes:
+          figmaType: "color"
       10:
         value: "#fad7d7"
+        attributes:
+          figmaType: "color"
       20:
         value: "#f7c4c2"
+        attributes:
+          figmaType: "color"
       90:
         value: "#e84d49"
+        attributes:
+          figmaType: "color"
       110:
         value: "#ce3330"
+        attributes:
+          figmaType: "color"
     orange:
       base:
         value: "#FF6D00"
+        attributes:
+          figmaType: "color"
       10:
         value: "#ffe2cc"
+        attributes:
+          figmaType: "color"
       20:
         value: "#ffd3b3"
+        attributes:
+          figmaType: "color"
       90:
         value: "#ff7c1a"
+        attributes:
+          figmaType: "color"
       110:
         value: "#e66200"
+        attributes:
+          figmaType: "color"
     green:
       base:
         value: "#4CAF50"
+        attributes:
+          figmaType: "color"
       10:
         value: "#dbefdc"
+        attributes:
+          figmaType: "color"
       20:
         value: "#c9e7cb"
+        attributes:
+          figmaType: "color"
       90:
         value: "#5eb762"
+        attributes:
+          figmaType: "color"
       110:
         value: "#449e48"
+        attributes:
+          figmaType: "color"

@@ -2,38 +2,92 @@ size:
   font:
     xs:
       value: 0.75
+      attributes:
+        figmaType: "fontSizes"
+        category: "size"
     small:
       value: 0.875
+      attributes:
+        figmaType: "fontSizes"
+        category: "size"
     base:
       value: 1
+      attributes:
+        figmaType: "fontSizes"
+        category: "size"
     medium:
       value: 1.125
+      attributes:
+        figmaType: "fontSizes"
+        category: "size"
     large:
       value: 1.25
+      attributes:
+        figmaType: "fontSizes"
+        category: "size"
     xl:
       value: 1.5
+      attributes:
+        figmaType: "fontSizes"
+        category: "size"
     xxl:
       value: 2
+      attributes:
+        figmaType: "fontSizes"
+        category: "size"
     xxxl:
       value: 3
+      attributes:
+        figmaType: "fontSizes"
+        category: "size"
     default:
       value: "{size.font.base.value}"
+      attributes:
+        figmaType: "fontSizes"
+        category: "size"
     heading:
       xs:
         value: 1.25
+        attributes:
+          figmaType: "fontSizes"
+          category: "size"
       small:
         value: 1.5
+        attributes:
+          figmaType: "fontSizes"
+          category: "size"
       base:
         value: 2
+        attributes:
+          figmaType: "fontSizes"
+          category: "size"
       medium:
         value: 2.25
+        attributes:
+          figmaType: "fontSizes"
+          category: "size"
       large:
         value: 2.5
+        attributes:
+          figmaType: "fontSizes"
+          category: "size"
       xl:
         value: 3
+        attributes:
+          figmaType: "fontSizes"
+          category: "size"
       xxl:
         value: 4
+        attributes:
+          figmaType: "fontSizes"
+          category: "size"
       xxxl:
         value: 6
+        attributes:
+          figmaType: "fontSizes"
+          category: "size"
       default:
         value: "{size.font.heading.base.value}"
+        attributes:
+          figmaType: "fontSizes"
+          category: "size"

@@ -1,4 +1,45 @@
 const yaml = require('yaml');
+const StyleDictionary = require('style-dictionary');
+
+StyleDictionary.registerFormat({
+  name: `json/figma-tokens`,
+  formatter: function({ dictionary }) {
+    const tokenMap = dictionary.allTokens.reduce((acc, token) => {
+      let value = JSON.stringify(token.value);
+
+      if (dictionary.usesReference(token.original.value)) {
+        const refs = dictionary.getReferences(token.original.value);
+        refs.forEach((ref) => {
+          value = value.replace(ref.value, () => `${ref.name}`);
+        });
+      }
+
+      // Only return tokens with a valid type.
+      if (token.attributes.figmaType) {
+        return {
+          ...acc,
+          [token.name]: {
+            value: token.value,
+            description: token.description || '',
+            type: token.attributes.figmaType || 'other',
+          },
+        };
+      }
+
+      return acc;
+    }, {});
+
+    return JSON.stringify(
+      {
+        values: {
+          global: tokenMap,
+        },
+      },
+      null,
+      2
+    );
+  }
+});
 
 module.exports = {
   parsers: [{
@@ -42,10 +83,11 @@ module.exports = {
     },
     figma: {
       buildPath: 'build/',
+      transforms: ['size/remToPx', 'name/cti/kebab'],
       files: [{
         destination: 'tokens.json',
-        format: 'json/nested',
-      }]
+        format: 'json/figma-tokens',
+      }],
     },
   }
 }
