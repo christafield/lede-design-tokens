@@ -3,29 +3,29 @@ breakpoint:
     min:
       value: "(min-width: {size.screen.width.xs.value})"
     max:
-      value:  "(max-width: {size.screen.width.xs.value})"
+      value: "(max-width: {size.screen.width.xs.value})"
   small:
     min:
       value: "(min-width: {size.screen.width.small.value})"
     max:
-      value:  "(max-width: {size.screen.width.small.value})"
+      value: "(max-width: {size.screen.width.small.value})"
   medium:
     min:
       value: "(min-width: {size.screen.width.medium.value})"
     max:
-      value:  "(max-width: {size.screen.width.medium.value})"
+      value: "(max-width: {size.screen.width.medium.value})"
   large:
     min:
       value: "(min-width: {size.screen.width.large.value})"
     max:
-      value:  "(max-width: {size.screen.width.large.value})"
+      value: "(max-width: {size.screen.width.large.value})"
   xl:
     min:
       value: "(min-width: {size.screen.width.xl.value})"
     max:
-      value:  "(max-width: {size.screen.width.xl.value})"
+      value: "(max-width: {size.screen.width.xl.value})"
   xxl:
     min:
       value: "(min-width: {size.screen.width.xxl.value})"
     max:
-      value:  "(max-width: {size.screen.width.xxl.value})"
+      value: "(max-width: {size.screen.width.xxl.value})"

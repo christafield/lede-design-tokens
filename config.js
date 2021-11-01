@@ -20,9 +20,6 @@ module.exports = {
       files: [{
         destination: 'variables.css',
         format: 'css/variables',
-        options: {
-          outputReferences: true,
-        }
       }]
     },
     scss: {
@@ -33,14 +30,21 @@ module.exports = {
         format: 'scss/variables',
         options: {
           outputReferences: true,
-        }
+        },
       }]
     },
-    json: {
+    schema: {
+      buildPath: 'build/',
+      files: [{
+        destination: 'schema.json',
+        format: 'json',
+      }]
+    },
+    figma: {
       buildPath: 'build/',
       files: [{
         destination: 'tokens.json',
-        format: 'json',
+        format: 'json/nested',
       }]
     },
   }
