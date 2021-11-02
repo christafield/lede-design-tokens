@@ -1954,206 +1954,6 @@
       }
     }
   },
-  "font": {
-    "plexsans": {
-      "name": {
-        "value": "IBM Plex Sans",
-        "filePath": "tokens/font.yml",
-        "isSource": true,
-        "original": {
-          "value": "IBM Plex Sans"
-        },
-        "name": "name",
-        "attributes": {},
-        "path": [
-          "font",
-          "plexsans",
-          "name"
-        ]
-      },
-      "stack": {
-        "value": "IBM Plex Sans, Helvetica, sans-serif",
-        "filePath": "tokens/font.yml",
-        "isSource": true,
-        "original": {
-          "value": "IBM Plex Sans, Helvetica, sans-serif"
-        },
-        "name": "stack",
-        "attributes": {},
-        "path": [
-          "font",
-          "plexsans",
-          "stack"
-        ]
-      }
-    },
-    "times": {
-      "name": {
-        "value": "Times",
-        "filePath": "tokens/font.yml",
-        "isSource": true,
-        "original": {
-          "value": "Times"
-        },
-        "name": "name",
-        "attributes": {},
-        "path": [
-          "font",
-          "times",
-          "name"
-        ]
-      },
-      "stack": {
-        "value": "Times, Georgia, serif",
-        "filePath": "tokens/font.yml",
-        "isSource": true,
-        "original": {
-          "value": "Times, Georgia, serif"
-        },
-        "name": "stack",
-        "attributes": {},
-        "path": [
-          "font",
-          "times",
-          "stack"
-        ]
-      }
-    },
-    "primary": {
-      "value": "IBM Plex Sans, Helvetica, sans-serif",
-      "filePath": "tokens/font.yml",
-      "isSource": true,
-      "original": {
-        "value": "{font.plexsans.stack.value}"
-      },
-      "name": "primary",
-      "attributes": {},
-      "path": [
-        "font",
-        "primary"
-      ]
-    },
-    "secondary": {
-      "value": "Times, Georgia, serif",
-      "filePath": "tokens/font.yml",
-      "isSource": true,
-      "original": {
-        "value": "{font.times.stack.value}"
-      },
-      "name": "secondary",
-      "attributes": {},
-      "path": [
-        "font",
-        "secondary"
-      ]
-    },
-    "tertiary": {
-      "value": "IBM Plex Sans, Helvetica, sans-serif",
-      "filePath": "tokens/font.yml",
-      "isSource": true,
-      "original": {
-        "value": "{font.plexsans.stack.value}"
-      },
-      "name": "tertiary",
-      "attributes": {},
-      "path": [
-        "font",
-        "tertiary"
-      ]
-    },
-    "weight": {
-      "light": {
-        "value": 300,
-        "filePath": "tokens/font.yml",
-        "isSource": true,
-        "original": {
-          "value": 300
-        },
-        "name": "light",
-        "attributes": {},
-        "path": [
-          "font",
-          "weight",
-          "light"
-        ]
-      },
-      "normal": {
-        "value": 400,
-        "filePath": "tokens/font.yml",
-        "isSource": true,
-        "original": {
-          "value": 400
-        },
-        "name": "normal",
-        "attributes": {},
-        "path": [
-          "font",
-          "weight",
-          "normal"
-        ]
-      },
-      "medium": {
-        "value": 500,
-        "filePath": "tokens/font.yml",
-        "isSource": true,
-        "original": {
-          "value": 500
-        },
-        "name": "medium",
-        "attributes": {},
-        "path": [
-          "font",
-          "weight",
-          "medium"
-        ]
-      },
-      "semibold": {
-        "value": 600,
-        "filePath": "tokens/font.yml",
-        "isSource": true,
-        "original": {
-          "value": 600
-        },
-        "name": "semibold",
-        "attributes": {},
-        "path": [
-          "font",
-          "weight",
-          "semibold"
-        ]
-      },
-      "bold": {
-        "value": 700,
-        "filePath": "tokens/font.yml",
-        "isSource": true,
-        "original": {
-          "value": 700
-        },
-        "name": "bold",
-        "attributes": {},
-        "path": [
-          "font",
-          "weight",
-          "bold"
-        ]
-      },
-      "black": {
-        "value": 900,
-        "filePath": "tokens/font.yml",
-        "isSource": true,
-        "original": {
-          "value": 900
-        },
-        "name": "black",
-        "attributes": {},
-        "path": [
-          "font",
-          "weight",
-          "black"
-        ]
-      }
-    }
-  },
   "size": {
     "font": {
       "xs": {
@@ -3012,6 +2812,520 @@
           "size",
           "space",
           "default"
+        ]
+      }
+    }
+  },
+  "typography": {
+    "family": {
+      "plexsans": {
+        "name": {
+          "value": "IBM Plex Sans",
+          "filePath": "tokens/typography/family.yml",
+          "isSource": true,
+          "original": {
+            "value": "IBM Plex Sans"
+          },
+          "name": "name",
+          "attributes": {},
+          "path": [
+            "typography",
+            "family",
+            "plexsans",
+            "name"
+          ]
+        },
+        "stack": {
+          "value": "IBM Plex Sans, Helvetica, sans-serif",
+          "filePath": "tokens/typography/family.yml",
+          "isSource": true,
+          "original": {
+            "value": "IBM Plex Sans, Helvetica, sans-serif"
+          },
+          "name": "stack",
+          "attributes": {},
+          "path": [
+            "typography",
+            "family",
+            "plexsans",
+            "stack"
+          ]
+        }
+      },
+      "times": {
+        "name": {
+          "value": "Times",
+          "filePath": "tokens/typography/family.yml",
+          "isSource": true,
+          "original": {
+            "value": "Times"
+          },
+          "name": "name",
+          "attributes": {},
+          "path": [
+            "typography",
+            "family",
+            "times",
+            "name"
+          ]
+        },
+        "stack": {
+          "value": "Times, Georgia, serif",
+          "filePath": "tokens/typography/family.yml",
+          "isSource": true,
+          "original": {
+            "value": "Times, Georgia, serif"
+          },
+          "name": "stack",
+          "attributes": {},
+          "path": [
+            "typography",
+            "family",
+            "times",
+            "stack"
+          ]
+        }
+      },
+      "primary": {
+        "value": "IBM Plex Sans, Helvetica, sans-serif",
+        "attributes": {
+          "figmaType": "fontFamilies"
+        },
+        "filePath": "tokens/typography/family.yml",
+        "isSource": true,
+        "original": {
+          "value": "{typography.family.plexsans.stack.value}",
+          "attributes": {
+            "figmaType": "fontFamilies"
+          }
+        },
+        "name": "primary",
+        "path": [
+          "typography",
+          "family",
+          "primary"
+        ]
+      },
+      "secondary": {
+        "value": "Times, Georgia, serif",
+        "attributes": {
+          "figmaType": "fontFamilies"
+        },
+        "filePath": "tokens/typography/family.yml",
+        "isSource": true,
+        "original": {
+          "value": "{typography.family.times.stack.value}",
+          "attributes": {
+            "figmaType": "fontFamilies"
+          }
+        },
+        "name": "secondary",
+        "path": [
+          "typography",
+          "family",
+          "secondary"
+        ]
+      },
+      "tertiary": {
+        "value": "IBM Plex Sans, Helvetica, sans-serif",
+        "filePath": "tokens/typography/family.yml",
+        "isSource": true,
+        "original": {
+          "value": "{typography.family.plexsans.stack.value}"
+        },
+        "name": "tertiary",
+        "attributes": {},
+        "path": [
+          "typography",
+          "family",
+          "tertiary"
+        ]
+      }
+    },
+    "letterSpacing": {
+      "compress": {
+        "value": "-2%",
+        "attributes": {
+          "figmaType": "letterSpacing"
+        },
+        "filePath": "tokens/typography/letterSpacing.yml",
+        "isSource": true,
+        "original": {
+          "value": "-2%",
+          "attributes": {
+            "figmaType": "letterSpacing"
+          }
+        },
+        "name": "compress",
+        "path": [
+          "typography",
+          "letterSpacing",
+          "compress"
+        ]
+      },
+      "expand": {
+        "value": "5%",
+        "attributes": {
+          "figmaType": "letterSpacing"
+        },
+        "filePath": "tokens/typography/letterSpacing.yml",
+        "isSource": true,
+        "original": {
+          "value": "5%",
+          "attributes": {
+            "figmaType": "letterSpacing"
+          }
+        },
+        "name": "expand",
+        "path": [
+          "typography",
+          "letterSpacing",
+          "expand"
+        ]
+      }
+    },
+    "lineHeight": {
+      "xs": {
+        "value": 1.2,
+        "attributes": {
+          "figmaType": "lineHeights"
+        },
+        "filePath": "tokens/typography/lineHeight.yml",
+        "isSource": true,
+        "original": {
+          "value": 1.2,
+          "attributes": {
+            "figmaType": "lineHeights"
+          }
+        },
+        "name": "xs",
+        "path": [
+          "typography",
+          "lineHeight",
+          "xs"
+        ]
+      },
+      "small": {
+        "value": 1.3,
+        "attributes": {
+          "figmaType": "lineHeights"
+        },
+        "filePath": "tokens/typography/lineHeight.yml",
+        "isSource": true,
+        "original": {
+          "value": 1.3,
+          "attributes": {
+            "figmaType": "lineHeights"
+          }
+        },
+        "name": "small",
+        "path": [
+          "typography",
+          "lineHeight",
+          "small"
+        ]
+      },
+      "medium": {
+        "value": 1.4,
+        "attributes": {
+          "figmaType": "lineHeights"
+        },
+        "filePath": "tokens/typography/lineHeight.yml",
+        "isSource": true,
+        "original": {
+          "value": 1.4,
+          "attributes": {
+            "figmaType": "lineHeights"
+          }
+        },
+        "name": "medium",
+        "path": [
+          "typography",
+          "lineHeight",
+          "medium"
+        ]
+      },
+      "large": {
+        "value": 1.55,
+        "attributes": {
+          "figmaType": "lineHeights"
+        },
+        "filePath": "tokens/typography/lineHeight.yml",
+        "isSource": true,
+        "original": {
+          "value": 1.55,
+          "attributes": {
+            "figmaType": "lineHeights"
+          }
+        },
+        "name": "large",
+        "path": [
+          "typography",
+          "lineHeight",
+          "large"
+        ]
+      },
+      "xl": {
+        "value": 1.65,
+        "attributes": {
+          "figmaType": "lineHeights"
+        },
+        "filePath": "tokens/typography/lineHeight.yml",
+        "isSource": true,
+        "original": {
+          "value": 1.65,
+          "attributes": {
+            "figmaType": "lineHeights"
+          }
+        },
+        "name": "xl",
+        "path": [
+          "typography",
+          "lineHeight",
+          "xl"
+        ]
+      }
+    },
+    "paragraphSpacing": {
+      "small": {
+        "value": 1,
+        "attributes": {
+          "figmaType": "paragraphSpacing"
+        },
+        "filePath": "tokens/typography/paragraphSpacing.yml",
+        "isSource": true,
+        "original": {
+          "value": "{size.space.small.value}",
+          "attributes": {
+            "figmaType": "paragraphSpacing"
+          }
+        },
+        "name": "small",
+        "path": [
+          "typography",
+          "paragraphSpacing",
+          "small"
+        ]
+      },
+      "medium": {
+        "value": 1.5,
+        "attributes": {
+          "figmaType": "paragraphSpacing"
+        },
+        "filePath": "tokens/typography/paragraphSpacing.yml",
+        "isSource": true,
+        "original": {
+          "value": "{size.space.medium.value}",
+          "attributes": {
+            "figmaType": "paragraphSpacing"
+          }
+        },
+        "name": "medium",
+        "path": [
+          "typography",
+          "paragraphSpacing",
+          "medium"
+        ]
+      },
+      "large": {
+        "value": 2.5,
+        "attributes": {
+          "figmaType": "paragraphSpacing"
+        },
+        "filePath": "tokens/typography/paragraphSpacing.yml",
+        "isSource": true,
+        "original": {
+          "value": "{size.space.xl.value}",
+          "attributes": {
+            "figmaType": "paragraphSpacing"
+          }
+        },
+        "name": "large",
+        "path": [
+          "typography",
+          "paragraphSpacing",
+          "large"
+        ]
+      }
+    },
+    "sets": {
+      "body": {
+        "value": {
+          "fontFamily": "IBM Plex Sans, Helvetica, sans-serif",
+          "fontSize": 1.125,
+          "lineHeight": 1.65,
+          "paragraphSpacing": 1.5
+        },
+        "filePath": "tokens/typography/sets.yml",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "{typography.family.primary.value}",
+            "fontSize": "{size.font.medium.value}",
+            "lineHeight": "{typography.lineHeight.xl.value}",
+            "paragraphSpacing": "{typography.paragraphSpacing.medium.value}"
+          }
+        },
+        "name": "body",
+        "attributes": {},
+        "path": [
+          "typography",
+          "sets",
+          "body"
+        ]
+      },
+      "heading": {
+        "feature": {
+          "value": {
+            "fontFamily": "Times, Georgia, serif",
+            "fontSize": 2,
+            "fontWeight": 700,
+            "lineHeight": 1.3,
+            "letterSpacing": "-2%",
+            "paragraphSpacing": 1.5
+          },
+          "filePath": "tokens/typography/sets.yml",
+          "isSource": true,
+          "original": {
+            "value": {
+              "fontFamily": "{typography.family.secondary.value}",
+              "fontSize": "{size.font.xxl.value}",
+              "fontWeight": "{typography.weight.bold.value}",
+              "lineHeight": "{typography.lineHeight.small.value}",
+              "letterSpacing": "{typography.letterSpacing.compress.value}",
+              "paragraphSpacing": "{typography.paragraphSpacing.medium.value}"
+            }
+          },
+          "name": "feature",
+          "attributes": {},
+          "path": [
+            "typography",
+            "sets",
+            "heading",
+            "feature"
+          ]
+        }
+      }
+    },
+    "weight": {
+      "light": {
+        "value": 300,
+        "attributes": {
+          "figmaType": "fontWeights"
+        },
+        "filePath": "tokens/typography/weight.yml",
+        "isSource": true,
+        "original": {
+          "value": 300,
+          "attributes": {
+            "figmaType": "fontWeights"
+          }
+        },
+        "name": "light",
+        "path": [
+          "typography",
+          "weight",
+          "light"
+        ]
+      },
+      "normal": {
+        "value": 400,
+        "attributes": {
+          "figmaType": "fontWeights"
+        },
+        "filePath": "tokens/typography/weight.yml",
+        "isSource": true,
+        "original": {
+          "value": 400,
+          "attributes": {
+            "figmaType": "fontWeights"
+          }
+        },
+        "name": "normal",
+        "path": [
+          "typography",
+          "weight",
+          "normal"
+        ]
+      },
+      "medium": {
+        "value": 500,
+        "attributes": {
+          "figmaType": "fontWeights"
+        },
+        "filePath": "tokens/typography/weight.yml",
+        "isSource": true,
+        "original": {
+          "value": 500,
+          "attributes": {
+            "figmaType": "fontWeights"
+          }
+        },
+        "name": "medium",
+        "path": [
+          "typography",
+          "weight",
+          "medium"
+        ]
+      },
+      "semibold": {
+        "value": 600,
+        "attributes": {
+          "figmaType": "fontWeights"
+        },
+        "filePath": "tokens/typography/weight.yml",
+        "isSource": true,
+        "original": {
+          "value": 600,
+          "attributes": {
+            "figmaType": "fontWeights"
+          }
+        },
+        "name": "semibold",
+        "path": [
+          "typography",
+          "weight",
+          "semibold"
+        ]
+      },
+      "bold": {
+        "value": 700,
+        "attributes": {
+          "figmaType": "fontWeights"
+        },
+        "filePath": "tokens/typography/weight.yml",
+        "isSource": true,
+        "original": {
+          "value": 700,
+          "attributes": {
+            "figmaType": "fontWeights"
+          }
+        },
+        "name": "bold",
+        "path": [
+          "typography",
+          "weight",
+          "bold"
+        ]
+      },
+      "black": {
+        "value": 900,
+        "attributes": {
+          "figmaType": "fontWeights"
+        },
+        "filePath": "tokens/typography/weight.yml",
+        "isSource": true,
+        "original": {
+          "value": 900,
+          "attributes": {
+            "figmaType": "fontWeights"
+          }
+        },
+        "name": "black",
+        "path": [
+          "typography",
+          "weight",
+          "black"
         ]
       }
     }

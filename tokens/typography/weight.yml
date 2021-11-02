@@ -1,0 +1,26 @@
+typography:
+  weight:
+    light:
+      value: 300
+      attributes:
+        figmaType: "fontWeights"
+    normal:
+      value: 400
+      attributes:
+        figmaType: "fontWeights"
+    medium:
+      value: 500
+      attributes:
+        figmaType: "fontWeights"
+    semibold:
+      value: 600
+      attributes:
+        figmaType: "fontWeights"
+    bold:
+      value: 700
+      attributes:
+        figmaType: "fontWeights"
+    black:
+      value: 900
+      attributes:
+        figmaType: "fontWeights"

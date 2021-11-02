@@ -1,0 +1,17 @@
+typography:
+  sets:
+    body:
+      value:
+        fontFamily: "{typography.family.primary.value}"
+        fontSize: "{size.font.medium.value}"
+        lineHeight: "{typography.lineHeight.xl.value}"
+        paragraphSpacing: "{typography.paragraphSpacing.medium.value}"
+    heading:
+      feature:
+        value:
+          fontFamily: "{typography.family.secondary.value}"
+          fontSize: "{size.font.xxl.value}"
+          fontWeight: "{typography.weight.bold.value}"
+          lineHeight: "{typography.lineHeight.small.value}"
+          letterSpacing: "{typography.letterSpacing.compress.value}"
+          paragraphSpacing: "{typography.paragraphSpacing.medium.value}"

@@ -1,0 +1,14 @@
+typography:
+  paragraphSpacing:
+    small:
+      value: "{size.space.small.value}"
+      attributes:
+        figmaType: "paragraphSpacing"
+    medium:
+      value: "{size.space.medium.value}"
+      attributes:
+        figmaType: "paragraphSpacing"
+    large:
+      value: "{size.space.xl.value}"
+      attributes:
+        figmaType: "paragraphSpacing"

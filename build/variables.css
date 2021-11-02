@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 02 Nov 2021 03:13:28 GMT
+ * Generated on Tue, 02 Nov 2021 13:22:05 GMT
  */
 
 :root {
@@ -112,19 +112,6 @@
   --color-social-pinterest: #e60023;
   --color-social-reddit: #ff4500;
   --color-social-twitter: #1da1f2;
-  --font-plexsans-name: IBM Plex Sans;
-  --font-plexsans-stack: IBM Plex Sans, Helvetica, sans-serif;
-  --font-times-name: Times;
-  --font-times-stack: Times, Georgia, serif;
-  --font-primary: IBM Plex Sans, Helvetica, sans-serif;
-  --font-secondary: Times, Georgia, serif;
-  --font-tertiary: IBM Plex Sans, Helvetica, sans-serif;
-  --font-weight-light: 300;
-  --font-weight-normal: 400;
-  --font-weight-medium: 500;
-  --font-weight-semibold: 600;
-  --font-weight-bold: 700;
-  --font-weight-black: 900;
   --size-font-xs: 0.75rem;
   --size-font-small: 0.875rem;
   --size-font-base: 1rem;
@@ -165,4 +152,29 @@
   --size-space-xxl: 4rem;
   --size-space-xxxl: 6rem;
   --size-space-default: 1.25rem;
+  --typography-family-plexsans-name: IBM Plex Sans;
+  --typography-family-plexsans-stack: IBM Plex Sans, Helvetica, sans-serif;
+  --typography-family-times-name: Times;
+  --typography-family-times-stack: Times, Georgia, serif;
+  --typography-family-primary: IBM Plex Sans, Helvetica, sans-serif;
+  --typography-family-secondary: Times, Georgia, serif;
+  --typography-family-tertiary: IBM Plex Sans, Helvetica, sans-serif;
+  --typography-letter-spacing-compress: -2%;
+  --typography-letter-spacing-expand: 5%;
+  --typography-line-height-xs: 1.2;
+  --typography-line-height-small: 1.3;
+  --typography-line-height-medium: 1.4;
+  --typography-line-height-large: 1.55;
+  --typography-line-height-xl: 1.65;
+  --typography-paragraph-spacing-small: 1rem;
+  --typography-paragraph-spacing-medium: 1.5rem;
+  --typography-paragraph-spacing-large: 2.5rem;
+  --typography-sets-body: [object Object];
+  --typography-sets-heading-feature: [object Object];
+  --typography-weight-light: 300;
+  --typography-weight-normal: 400;
+  --typography-weight-medium: 500;
+  --typography-weight-semibold: 600;
+  --typography-weight-bold: 700;
+  --typography-weight-black: 900;
 }

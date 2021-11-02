@@ -1,0 +1,10 @@
+typography:
+  letterSpacing:
+    compress:
+      value: "-2%"
+      attributes:
+        figmaType: "letterSpacing"
+    expand:
+      value: "5%"
+      attributes:
+        figmaType: "letterSpacing"

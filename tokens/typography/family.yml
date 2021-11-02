@@ -1,0 +1,22 @@
+typography:
+  family:
+    plexsans:
+      name:
+        value: "IBM Plex Sans"
+      stack:
+        value: "IBM Plex Sans, Helvetica, sans-serif"
+    times:
+      name:
+        value: "Times"
+      stack:
+        value: "Times, Georgia, serif"
+    primary:
+      value: "{typography.family.plexsans.stack.value}"
+      attributes:
+        figmaType: "fontFamilies"
+    secondary:
+      value: "{typography.family.times.stack.value}"
+      attributes:
+        figmaType: "fontFamilies"
+    tertiary:
+      value: "{typography.family.plexsans.stack.value}"
