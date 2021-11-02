@@ -3150,6 +3150,9 @@
     },
     "sets": {
       "body": {
+        "attributes": {
+          "figmaType": "typography"
+        },
         "value": {
           "fontFamily": "IBM Plex Sans, Helvetica, sans-serif",
           "fontSize": 1.125,
@@ -3159,6 +3162,9 @@
         "filePath": "tokens/typography/sets.yml",
         "isSource": true,
         "original": {
+          "attributes": {
+            "figmaType": "typography"
+          },
           "value": {
             "fontFamily": "{typography.family.primary.value}",
             "fontSize": "{size.font.medium.value}",
@@ -3167,7 +3173,6 @@
           }
         },
         "name": "body",
-        "attributes": {},
         "path": [
           "typography",
           "sets",
@@ -3176,6 +3181,9 @@
       },
       "heading": {
         "feature": {
+          "attributes": {
+            "figmaType": "typography"
+          },
           "value": {
             "fontFamily": "Times, Georgia, serif",
             "fontSize": 2,
@@ -3187,6 +3195,9 @@
           "filePath": "tokens/typography/sets.yml",
           "isSource": true,
           "original": {
+            "attributes": {
+              "figmaType": "typography"
+            },
             "value": {
               "fontFamily": "{typography.family.secondary.value}",
               "fontSize": "{size.font.xxl.value}",
@@ -3197,7 +3208,6 @@
             }
           },
           "name": "feature",
-          "attributes": {},
           "path": [
             "typography",
             "sets",

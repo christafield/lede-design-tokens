@@ -1,6 +1,8 @@
 typography:
   sets:
     body:
+      attributes:
+        figmaType: "typography"
       value:
         fontFamily: "{typography.family.primary.value}"
         fontSize: "{size.font.medium.value}"
@@ -8,6 +10,8 @@ typography:
         paragraphSpacing: "{typography.paragraphSpacing.medium.value}"
     heading:
       feature:
+        attributes:
+          figmaType: "typography"
         value:
           fontFamily: "{typography.family.secondary.value}"
           fontSize: "{size.font.xxl.value}"
