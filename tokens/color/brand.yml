@@ -43,6 +43,7 @@ color:
         attributes:
           figmaType: "color"
     accent:
-      value: "#FFDC2E"
-      attributes:
-          figmaType: "color"
+      base:
+        value: "#FFDC2E"
+        attributes:
+            figmaType: "color"

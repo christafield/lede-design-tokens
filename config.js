@@ -2,10 +2,6 @@ const yaml = require('yaml');
 const StyleDictionary = require('style-dictionary');
 
 const constructRecursive = (tokenObj) => {
-  if (typeof tokenObj !== 'object' || Array.isArray(tokenObj)) {
-    return tokenObj;
-  }
-
   if (tokenObj.value) {
     if (tokenObj.attributes.figmaType) {
       return {
@@ -20,7 +16,6 @@ const constructRecursive = (tokenObj) => {
     const returnObj = Object.keys(tokenObj).reduce((acc, name) => {
       if (tokenObj[name]) {
         const nextVal = constructRecursive(tokenObj[name]);
-        console.log(nextVal);
 
         if (nextVal) {
           return {

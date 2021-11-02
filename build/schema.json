@@ -1536,24 +1536,27 @@
         }
       },
       "accent": {
-        "value": "#FFDC2E",
-        "attributes": {
-          "figmaType": "color"
-        },
-        "filePath": "tokens/color/brand.yml",
-        "isSource": true,
-        "original": {
+        "base": {
           "value": "#FFDC2E",
           "attributes": {
             "figmaType": "color"
-          }
-        },
-        "name": "accent",
-        "path": [
-          "color",
-          "brand",
-          "accent"
-        ]
+          },
+          "filePath": "tokens/color/brand.yml",
+          "isSource": true,
+          "original": {
+            "value": "#FFDC2E",
+            "attributes": {
+              "figmaType": "color"
+            }
+          },
+          "name": "base",
+          "path": [
+            "color",
+            "brand",
+            "accent",
+            "base"
+          ]
+        }
       }
     },
     "font": {
@@ -2564,13 +2567,20 @@
     "icon": {
       "xs": {
         "value": 1,
+        "attributes": {
+          "figmaType": "sizing",
+          "category": "size"
+        },
         "filePath": "tokens/size/icon.yml",
         "isSource": true,
         "original": {
-          "value": 1
+          "value": 1,
+          "attributes": {
+            "figmaType": "sizing",
+            "category": "size"
+          }
         },
         "name": "xs",
-        "attributes": {},
         "path": [
           "size",
           "icon",
@@ -2579,13 +2589,20 @@
       },
       "small": {
         "value": 2,
+        "attributes": {
+          "figmaType": "sizing",
+          "category": "size"
+        },
         "filePath": "tokens/size/icon.yml",
         "isSource": true,
         "original": {
-          "value": 2
+          "value": 2,
+          "attributes": {
+            "figmaType": "sizing",
+            "category": "size"
+          }
         },
         "name": "small",
-        "attributes": {},
         "path": [
           "size",
           "icon",
@@ -2594,13 +2611,20 @@
       },
       "base": {
         "value": 2.5,
+        "attributes": {
+          "figmaType": "sizing",
+          "category": "size"
+        },
         "filePath": "tokens/size/icon.yml",
         "isSource": true,
         "original": {
-          "value": 2.5
+          "value": 2.5,
+          "attributes": {
+            "figmaType": "sizing",
+            "category": "size"
+          }
         },
         "name": "base",
-        "attributes": {},
         "path": [
           "size",
           "icon",
@@ -2609,13 +2633,20 @@
       },
       "large": {
         "value": 3,
+        "attributes": {
+          "figmaType": "sizing",
+          "category": "size"
+        },
         "filePath": "tokens/size/icon.yml",
         "isSource": true,
         "original": {
-          "value": 3
+          "value": 3,
+          "attributes": {
+            "figmaType": "sizing",
+            "category": "size"
+          }
         },
         "name": "large",
-        "attributes": {},
         "path": [
           "size",
           "icon",
@@ -2624,13 +2655,20 @@
       },
       "xl": {
         "value": 4,
+        "attributes": {
+          "figmaType": "sizing",
+          "category": "size"
+        },
         "filePath": "tokens/size/icon.yml",
         "isSource": true,
         "original": {
-          "value": 4
+          "value": 4,
+          "attributes": {
+            "figmaType": "sizing",
+            "category": "size"
+          }
         },
         "name": "xl",
-        "attributes": {},
         "path": [
           "size",
           "icon",
@@ -2639,13 +2677,20 @@
       },
       "xxl": {
         "value": 5,
+        "attributes": {
+          "figmaType": "sizing",
+          "category": "size"
+        },
         "filePath": "tokens/size/icon.yml",
         "isSource": true,
         "original": {
-          "value": 5
+          "value": 5,
+          "attributes": {
+            "figmaType": "sizing",
+            "category": "size"
+          }
         },
         "name": "xxl",
-        "attributes": {},
         "path": [
           "size",
           "icon",

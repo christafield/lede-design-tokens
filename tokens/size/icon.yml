@@ -2,13 +2,31 @@ size:
   icon:
     xs:
       value: 1
+      attributes:
+        figmaType: "sizing"
+        category: "size"
     small:
       value: 2
+      attributes:
+        figmaType: "sizing"
+        category: "size"
     base:
       value: 2.5
+      attributes:
+        figmaType: "sizing"
+        category: "size"
     large:
       value: 3
+      attributes:
+        figmaType: "sizing"
+        category: "size"
     xl:
       value: 4
+      attributes:
+        figmaType: "sizing"
+        category: "size"
     xxl:
       value: 5
+      attributes:
+        figmaType: "sizing"
+        category: "size"
