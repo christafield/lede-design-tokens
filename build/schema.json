@@ -1982,6 +1982,7 @@
       },
       "small": {
         "value": 0.875,
+        "comment": "Font size for small things",
         "attributes": {
           "figmaType": "fontSizes",
           "category": "size"
@@ -1990,6 +1991,7 @@
         "isSource": true,
         "original": {
           "value": 0.875,
+          "comment": "Font size for small things",
           "attributes": {
             "figmaType": "fontSizes",
             "category": "size"
