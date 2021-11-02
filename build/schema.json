@@ -373,7 +373,7 @@
         ]
       },
       "low-priority": {
-        "value": "#5a5a5a",
+        "value": "#4d4d4d",
         "filePath": "tokens/color/background.yml",
         "isSource": true,
         "original": {
@@ -638,14 +638,14 @@
           ]
         },
         "70": {
-          "value": "#4d4d4d",
+          "value": "#5a5a5a",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#4d4d4d",
+            "value": "#5a5a5a",
             "attributes": {
               "figmaType": "color"
             }
@@ -659,14 +659,14 @@
           ]
         },
         "75": {
-          "value": "#5a5a5a",
+          "value": "#4d4d4d",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/base.yml",
           "isSource": true,
           "original": {
-            "value": "#5a5a5a",
+            "value": "#4d4d4d",
             "attributes": {
               "figmaType": "color"
             }
@@ -1591,7 +1591,7 @@
         ]
       },
       "light": {
-        "value": "#5a5a5a",
+        "value": "#4d4d4d",
         "filePath": "tokens/color/font.yml",
         "isSource": true,
         "original": {
@@ -1681,7 +1681,7 @@
         ]
       },
       "disabled": {
-        "value": "#5a5a5a",
+        "value": "#4d4d4d",
         "filePath": "tokens/color/font.yml",
         "isSource": true,
         "original": {
@@ -1958,6 +1958,7 @@
     "font": {
       "xs": {
         "value": 0.75,
+        "comment": "The smallest of font sizes",
         "attributes": {
           "figmaType": "fontSizes",
           "category": "size"
@@ -1966,6 +1967,7 @@
         "isSource": true,
         "original": {
           "value": 0.75,
+          "comment": "The smallest of font sizes",
           "attributes": {
             "figmaType": "fontSizes",
             "category": "size"

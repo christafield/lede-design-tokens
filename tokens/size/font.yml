@@ -2,6 +2,7 @@ size:
   font:
     xs:
       value: 0.75
+      comment: "The smallest of font sizes"
       attributes:
         figmaType: "fontSizes"
         category: "size"
