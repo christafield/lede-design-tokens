@@ -1,22 +1,22 @@
 typography:
   lineHeight:
     xs:
-      value: 1.2
+      value: "120%"
       attributes:
         figmaType: "lineHeights"
     small:
-      value: 1.3
+      value: "130%"
       attributes:
         figmaType: "lineHeights"
     medium:
-      value: 1.4
+      value: "140%"
       attributes:
         figmaType: "lineHeights"
     large:
-      value: 1.55
+      value: "155%"
       attributes:
         figmaType: "lineHeights"
     xl:
-      value: 1.65
+      value: "165%"
       attributes:
         figmaType: "lineHeights"

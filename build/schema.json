@@ -2986,14 +2986,14 @@
     },
     "lineHeight": {
       "xs": {
-        "value": 1.2,
+        "value": "120%",
         "attributes": {
           "figmaType": "lineHeights"
         },
         "filePath": "tokens/typography/lineHeight.yml",
         "isSource": true,
         "original": {
-          "value": 1.2,
+          "value": "120%",
           "attributes": {
             "figmaType": "lineHeights"
           }
@@ -3006,14 +3006,14 @@
         ]
       },
       "small": {
-        "value": 1.3,
+        "value": "130%",
         "attributes": {
           "figmaType": "lineHeights"
         },
         "filePath": "tokens/typography/lineHeight.yml",
         "isSource": true,
         "original": {
-          "value": 1.3,
+          "value": "130%",
           "attributes": {
             "figmaType": "lineHeights"
           }
@@ -3026,14 +3026,14 @@
         ]
       },
       "medium": {
-        "value": 1.4,
+        "value": "140%",
         "attributes": {
           "figmaType": "lineHeights"
         },
         "filePath": "tokens/typography/lineHeight.yml",
         "isSource": true,
         "original": {
-          "value": 1.4,
+          "value": "140%",
           "attributes": {
             "figmaType": "lineHeights"
           }
@@ -3046,14 +3046,14 @@
         ]
       },
       "large": {
-        "value": 1.55,
+        "value": "155%",
         "attributes": {
           "figmaType": "lineHeights"
         },
         "filePath": "tokens/typography/lineHeight.yml",
         "isSource": true,
         "original": {
-          "value": 1.55,
+          "value": "155%",
           "attributes": {
             "figmaType": "lineHeights"
           }
@@ -3066,14 +3066,14 @@
         ]
       },
       "xl": {
-        "value": 1.65,
+        "value": "165%",
         "attributes": {
           "figmaType": "lineHeights"
         },
         "filePath": "tokens/typography/lineHeight.yml",
         "isSource": true,
         "original": {
-          "value": 1.65,
+          "value": "165%",
           "attributes": {
             "figmaType": "lineHeights"
           }
@@ -3156,8 +3156,8 @@
         "value": {
           "fontFamily": "IBM Plex Sans",
           "fontSize": 1.125,
-          "fontWeight": "Regular",
-          "lineHeight": 1.65,
+          "fontWeight": 400,
+          "lineHeight": "165%",
           "paragraphSpacing": 1.5
         },
         "filePath": "tokens/typography/sets.yml",
@@ -3189,8 +3189,8 @@
           "value": {
             "fontFamily": "Times",
             "fontSize": 2,
-            "fontWeight": "Bold",
-            "lineHeight": 1.3,
+            "fontWeight": 700,
+            "lineHeight": "130%",
             "letterSpacing": "-2%",
             "paragraphSpacing": 1.5
           },
@@ -3222,13 +3222,105 @@
     "weight": {
       "light": {
         "value": 300,
+        "filePath": "tokens/typography/weight.yml",
+        "isSource": true,
+        "original": {
+          "value": 300
+        },
+        "name": "light",
+        "attributes": {},
+        "path": [
+          "typography",
+          "weight",
+          "light"
+        ]
+      },
+      "normal": {
+        "value": 400,
+        "filePath": "tokens/typography/weight.yml",
+        "isSource": true,
+        "original": {
+          "value": 400
+        },
+        "name": "normal",
+        "attributes": {},
+        "path": [
+          "typography",
+          "weight",
+          "normal"
+        ]
+      },
+      "medium": {
+        "value": 500,
+        "filePath": "tokens/typography/weight.yml",
+        "isSource": true,
+        "original": {
+          "value": 500
+        },
+        "name": "medium",
+        "attributes": {},
+        "path": [
+          "typography",
+          "weight",
+          "medium"
+        ]
+      },
+      "semibold": {
+        "value": 600,
+        "filePath": "tokens/typography/weight.yml",
+        "isSource": true,
+        "original": {
+          "value": 600
+        },
+        "name": "semibold",
+        "attributes": {},
+        "path": [
+          "typography",
+          "weight",
+          "semibold"
+        ]
+      },
+      "bold": {
+        "value": 700,
+        "filePath": "tokens/typography/weight.yml",
+        "isSource": true,
+        "original": {
+          "value": 700
+        },
+        "name": "bold",
+        "attributes": {},
+        "path": [
+          "typography",
+          "weight",
+          "bold"
+        ]
+      },
+      "black": {
+        "value": 900,
+        "filePath": "tokens/typography/weight.yml",
+        "isSource": true,
+        "original": {
+          "value": 900
+        },
+        "name": "black",
+        "attributes": {},
+        "path": [
+          "typography",
+          "weight",
+          "black"
+        ]
+      }
+    },
+    "figmaWeight": {
+      "light": {
+        "value": "Light",
         "attributes": {
           "figmaType": "fontWeights"
         },
         "filePath": "tokens/typography/weight.yml",
         "isSource": true,
         "original": {
-          "value": 300,
+          "value": "Light",
           "attributes": {
             "figmaType": "fontWeights"
           }
@@ -3236,7 +3328,7 @@
         "name": "light",
         "path": [
           "typography",
-          "weight",
+          "figmaWeight",
           "light"
         ]
       },
@@ -3256,19 +3348,19 @@
         "name": "normal",
         "path": [
           "typography",
-          "weight",
+          "figmaWeight",
           "normal"
         ]
       },
       "medium": {
-        "value": 500,
+        "value": "Medium",
         "attributes": {
           "figmaType": "fontWeights"
         },
         "filePath": "tokens/typography/weight.yml",
         "isSource": true,
         "original": {
-          "value": 500,
+          "value": "Medium",
           "attributes": {
             "figmaType": "fontWeights"
           }
@@ -3276,19 +3368,19 @@
         "name": "medium",
         "path": [
           "typography",
-          "weight",
+          "figmaWeight",
           "medium"
         ]
       },
       "semibold": {
-        "value": 600,
+        "value": "Semibold",
         "attributes": {
           "figmaType": "fontWeights"
         },
         "filePath": "tokens/typography/weight.yml",
         "isSource": true,
         "original": {
-          "value": 600,
+          "value": "Semibold",
           "attributes": {
             "figmaType": "fontWeights"
           }
@@ -3296,7 +3388,7 @@
         "name": "semibold",
         "path": [
           "typography",
-          "weight",
+          "figmaWeight",
           "semibold"
         ]
       },
@@ -3316,19 +3408,19 @@
         "name": "bold",
         "path": [
           "typography",
-          "weight",
+          "figmaWeight",
           "bold"
         ]
       },
       "black": {
-        "value": 900,
+        "value": "Black",
         "attributes": {
           "figmaType": "fontWeights"
         },
         "filePath": "tokens/typography/weight.yml",
         "isSource": true,
         "original": {
-          "value": 900,
+          "value": "Black",
           "attributes": {
             "figmaType": "fontWeights"
           }
@@ -3336,7 +3428,7 @@
         "name": "black",
         "path": [
           "typography",
-          "weight",
+          "figmaWeight",
           "black"
         ]
       }
