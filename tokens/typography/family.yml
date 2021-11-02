@@ -4,12 +4,12 @@ typography:
       name:
         value: "IBM Plex Sans"
       stack:
-        value: "IBM Plex Sans, Helvetica, sans-serif"
+        value: "IBM Plex Sans"
     times:
       name:
         value: "Times"
       stack:
-        value: "Times, Georgia, serif"
+        value: "Times"
     primary:
       value: "{typography.family.plexsans.stack.value}"
       attributes:

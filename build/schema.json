@@ -2836,11 +2836,11 @@
           ]
         },
         "stack": {
-          "value": "IBM Plex Sans, Helvetica, sans-serif",
+          "value": "IBM Plex Sans",
           "filePath": "tokens/typography/family.yml",
           "isSource": true,
           "original": {
-            "value": "IBM Plex Sans, Helvetica, sans-serif"
+            "value": "IBM Plex Sans"
           },
           "name": "stack",
           "attributes": {},
@@ -2870,11 +2870,11 @@
           ]
         },
         "stack": {
-          "value": "Times, Georgia, serif",
+          "value": "Times",
           "filePath": "tokens/typography/family.yml",
           "isSource": true,
           "original": {
-            "value": "Times, Georgia, serif"
+            "value": "Times"
           },
           "name": "stack",
           "attributes": {},
@@ -2887,7 +2887,7 @@
         }
       },
       "primary": {
-        "value": "IBM Plex Sans, Helvetica, sans-serif",
+        "value": "IBM Plex Sans",
         "attributes": {
           "figmaType": "fontFamilies"
         },
@@ -2907,7 +2907,7 @@
         ]
       },
       "secondary": {
-        "value": "Times, Georgia, serif",
+        "value": "Times",
         "attributes": {
           "figmaType": "fontFamilies"
         },
@@ -2927,7 +2927,7 @@
         ]
       },
       "tertiary": {
-        "value": "IBM Plex Sans, Helvetica, sans-serif",
+        "value": "IBM Plex Sans",
         "filePath": "tokens/typography/family.yml",
         "isSource": true,
         "original": {
@@ -3154,8 +3154,9 @@
           "figmaType": "typography"
         },
         "value": {
-          "fontFamily": "IBM Plex Sans, Helvetica, sans-serif",
+          "fontFamily": "IBM Plex Sans",
           "fontSize": 1.125,
+          "fontWeight": 400,
           "lineHeight": 1.65,
           "paragraphSpacing": 1.5
         },
@@ -3168,6 +3169,7 @@
           "value": {
             "fontFamily": "{typography.family.primary.value}",
             "fontSize": "{size.font.medium.value}",
+            "fontWeight": "{typography.weight.normal.value}",
             "lineHeight": "{typography.lineHeight.xl.value}",
             "paragraphSpacing": "{typography.paragraphSpacing.medium.value}"
           }
@@ -3185,7 +3187,7 @@
             "figmaType": "typography"
           },
           "value": {
-            "fontFamily": "Times, Georgia, serif",
+            "fontFamily": "Times",
             "fontSize": 2,
             "fontWeight": 700,
             "lineHeight": 1.3,

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 02 Nov 2021 13:23:12 GMT
+ * Generated on Tue, 02 Nov 2021 13:26:02 GMT
  */
 
 :root {
@@ -153,12 +153,12 @@
   --size-space-xxxl: 6rem;
   --size-space-default: 1.25rem;
   --typography-family-plexsans-name: IBM Plex Sans;
-  --typography-family-plexsans-stack: IBM Plex Sans, Helvetica, sans-serif;
+  --typography-family-plexsans-stack: IBM Plex Sans;
   --typography-family-times-name: Times;
-  --typography-family-times-stack: Times, Georgia, serif;
-  --typography-family-primary: IBM Plex Sans, Helvetica, sans-serif;
-  --typography-family-secondary: Times, Georgia, serif;
-  --typography-family-tertiary: IBM Plex Sans, Helvetica, sans-serif;
+  --typography-family-times-stack: Times;
+  --typography-family-primary: IBM Plex Sans;
+  --typography-family-secondary: Times;
+  --typography-family-tertiary: IBM Plex Sans;
   --typography-letter-spacing-compress: -2%;
   --typography-letter-spacing-expand: 5%;
   --typography-line-height-xs: 1.2;

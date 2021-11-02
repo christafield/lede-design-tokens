@@ -6,6 +6,7 @@ typography:
       value:
         fontFamily: "{typography.family.primary.value}"
         fontSize: "{size.font.medium.value}"
+        fontWeight: "{typography.weight.normal.value}"
         lineHeight: "{typography.lineHeight.xl.value}"
         paragraphSpacing: "{typography.paragraphSpacing.medium.value}"
     heading:
