@@ -18,11 +18,12 @@ Design tokens are output in several format for different purposes. You can run `
 * `variables.scss` - Tokens represented as SCSS variables.
 
 ## Contributing
-Any contribution to this repository should go through one of two Github workflows. For working locally:
-* Make a feature branch for your work based on `main`.
+Any contribution to this repository should go through one of two workflows. For working locally:
+* Use the command line or a git GUI to make a feature branch for your work based on `main`.
 * Do your work and commit it.
-* Push your branch to the Github remote and create a pull request.
+* Push your branch to our Github remote and create a pull request.
 * Get a Code Review from one of your peers.
+* Merge away!
 
 Or you can work directly in Github:
 * Find the file you want to edit within github (generally this will be a file in the `tokens` directory)
@@ -32,6 +33,7 @@ Or you can work directly in Github:
 * Select `Create a new branch for this commit and start a pull request`.
 * Edit the branch name if necessary
 * Click `Propose changes` and get a code review from one of your peers.
+* Merge away!
 
 Because we are in the early stages of Lede development and we'll be working quickly, the last stage (code review) is not completely necessary, but definitely recommended. The most important thing is that we are version controlling our Design Tokens.
 
