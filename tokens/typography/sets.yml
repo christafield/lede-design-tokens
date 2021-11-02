@@ -6,7 +6,7 @@ typography:
       value:
         fontFamily: "{typography.family.primary.value}"
         fontSize: "{size.font.medium.value}"
-        fontWeight: "{typography.weight.normal.value}"
+        fontWeight: "{typography.figmaWeight.normal.value}"
         lineHeight: "{typography.lineHeight.xl.value}"
         paragraphSpacing: "{typography.paragraphSpacing.medium.value}"
     heading:
@@ -16,7 +16,7 @@ typography:
         value:
           fontFamily: "{typography.family.secondary.value}"
           fontSize: "{size.font.xxl.value}"
-          fontWeight: "{typography.weight.bold.value}"
+          fontWeight: "{typography.figmaWeight.bold.value}"
           lineHeight: "{typography.lineHeight.small.value}"
           letterSpacing: "{typography.letterSpacing.compress.value}"
           paragraphSpacing: "{typography.paragraphSpacing.medium.value}"

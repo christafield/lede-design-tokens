@@ -3156,7 +3156,7 @@
         "value": {
           "fontFamily": "IBM Plex Sans",
           "fontSize": 1.125,
-          "fontWeight": 400,
+          "fontWeight": "Regular",
           "lineHeight": "165%",
           "paragraphSpacing": 1.5
         },
@@ -3169,7 +3169,7 @@
           "value": {
             "fontFamily": "{typography.family.primary.value}",
             "fontSize": "{size.font.medium.value}",
-            "fontWeight": "{typography.weight.normal.value}",
+            "fontWeight": "{typography.figmaWeight.normal.value}",
             "lineHeight": "{typography.lineHeight.xl.value}",
             "paragraphSpacing": "{typography.paragraphSpacing.medium.value}"
           }
@@ -3189,7 +3189,7 @@
           "value": {
             "fontFamily": "Times",
             "fontSize": 2,
-            "fontWeight": 700,
+            "fontWeight": "Bold",
             "lineHeight": "130%",
             "letterSpacing": "-2%",
             "paragraphSpacing": 1.5
@@ -3203,7 +3203,7 @@
             "value": {
               "fontFamily": "{typography.family.secondary.value}",
               "fontSize": "{size.font.xxl.value}",
-              "fontWeight": "{typography.weight.bold.value}",
+              "fontWeight": "{typography.figmaWeight.bold.value}",
               "lineHeight": "{typography.lineHeight.small.value}",
               "letterSpacing": "{typography.letterSpacing.compress.value}",
               "paragraphSpacing": "{typography.paragraphSpacing.medium.value}"
