@@ -2064,13 +2064,18 @@
     "weight": {
       "light": {
         "value": 300,
+        "attributes": {
+          "figmaType": "fontSizes"
+        },
         "filePath": "tokens/font.yml",
         "isSource": true,
         "original": {
-          "value": 300
+          "value": 300,
+          "attributes": {
+            "figmaType": "fontSizes"
+          }
         },
         "name": "light",
-        "attributes": {},
         "path": [
           "font",
           "weight",
@@ -2079,13 +2084,18 @@
       },
       "normal": {
         "value": 400,
+        "attributes": {
+          "figmaType": "fontSizes"
+        },
         "filePath": "tokens/font.yml",
         "isSource": true,
         "original": {
-          "value": 400
+          "value": 400,
+          "attributes": {
+            "figmaType": "fontSizes"
+          }
         },
         "name": "normal",
-        "attributes": {},
         "path": [
           "font",
           "weight",
@@ -2094,13 +2104,18 @@
       },
       "medium": {
         "value": 500,
+        "attributes": {
+          "figmaType": "fontSizes"
+        },
         "filePath": "tokens/font.yml",
         "isSource": true,
         "original": {
-          "value": 500
+          "value": 500,
+          "attributes": {
+            "figmaType": "fontSizes"
+          }
         },
         "name": "medium",
-        "attributes": {},
         "path": [
           "font",
           "weight",
@@ -2109,13 +2124,18 @@
       },
       "semibold": {
         "value": 600,
+        "attributes": {
+          "figmaType": "fontSizes"
+        },
         "filePath": "tokens/font.yml",
         "isSource": true,
         "original": {
-          "value": 600
+          "value": 600,
+          "attributes": {
+            "figmaType": "fontSizes"
+          }
         },
         "name": "semibold",
-        "attributes": {},
         "path": [
           "font",
           "weight",
@@ -2124,13 +2144,18 @@
       },
       "bold": {
         "value": 700,
+        "attributes": {
+          "figmaType": "fontSizes"
+        },
         "filePath": "tokens/font.yml",
         "isSource": true,
         "original": {
-          "value": 700
+          "value": 700,
+          "attributes": {
+            "figmaType": "fontSizes"
+          }
         },
         "name": "bold",
-        "attributes": {},
         "path": [
           "font",
           "weight",
@@ -2139,13 +2164,18 @@
       },
       "black": {
         "value": 900,
+        "attributes": {
+          "figmaType": "fontSizes"
+        },
         "filePath": "tokens/font.yml",
         "isSource": true,
         "original": {
-          "value": 900
+          "value": 900,
+          "attributes": {
+            "figmaType": "fontSizes"
+          }
         },
         "name": "black",
-        "attributes": {},
         "path": [
           "font",
           "weight",
