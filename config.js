@@ -42,6 +42,7 @@ module.exports = {
     },
     schema: {
       buildPath: 'build/',
+      transforms: ['name/cti/kebab'],
       files: [{
         destination: 'schema.json',
         format: 'json',
