@@ -5,7 +5,7 @@ typography:
       attributes:
         figmaType: "fontWeights"
     normal:
-      value: 400
+      value: "Regular"
       attributes:
         figmaType: "fontWeights"
     medium:
@@ -17,7 +17,7 @@ typography:
       attributes:
         figmaType: "fontWeights"
     bold:
-      value: 700
+      value: "Bold"
       attributes:
         figmaType: "fontWeights"
     black:
