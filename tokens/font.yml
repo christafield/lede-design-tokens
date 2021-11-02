@@ -19,24 +19,24 @@ font:
     light:
       value: 300
       attributes:
-        figmaType: "fontSizes"
+        figmaType: "fontWeights"
     normal:
       value: 400
       attributes:
-        figmaType: "fontSizes"
+        figmaType: "fontWeights"
     medium:
       value: 500
       attributes:
-        figmaType: "fontSizes"
+        figmaType: "fontWeights"
     semibold:
       value: 600
       attributes:
-        figmaType: "fontSizes"
+        figmaType: "fontWeights"
     bold:
       value: 700
       attributes:
-        figmaType: "fontSizes"
+        figmaType: "fontWeights"
     black:
       value: 900
       attributes:
-        figmaType: "fontSizes"
+        figmaType: "fontWeights"
