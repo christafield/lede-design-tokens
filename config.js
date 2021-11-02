@@ -1,81 +1,10 @@
 const yaml = require('yaml');
 const StyleDictionary = require('style-dictionary');
-
-const constructRecursive = (tokenObj) => {
-  if (tokenObj.value) {
-    if (tokenObj.attributes.figmaType) {
-      return {
-        value: tokenObj.value,
-        description: tokenObj.description || '',
-        type: tokenObj.attributes.figmaType || 'other',
-      };
-    } else {
-      return null;
-    }
-  } else {
-    const returnObj = Object.keys(tokenObj).reduce((acc, name) => {
-      if (tokenObj[name]) {
-        const nextVal = constructRecursive(tokenObj[name]);
-
-        if (nextVal) {
-          return {
-            ...acc,
-            [name]: nextVal,
-          };
-        }
-
-        return acc;
-      }
-    }, {});
-
-    if (Object.keys(returnObj).length) {
-      return returnObj;
-    }
-
-    return null;
-  }
-}
+const figmaTokens = require('./formats/figmaTokens');
 
 StyleDictionary.registerFormat({
   name: `json/figma-tokens`,
-  formatter: function({ dictionary }) {
-    // const tokenMap = dictionary.allTokens.reduce((acc, token) => {
-    //   let value = JSON.stringify(token.value);
-
-    //   if (dictionary.usesReference(token.original.value)) {
-    //     const refs = dictionary.getReferences(token.original.value);
-    //     refs.forEach((ref) => {
-    //       value = value.replace(ref.value, () => `${ref.name}`);
-    //     });
-    //   }
-
-    //   // Only return tokens with a valid type.
-    //   if (token.attributes.figmaType) {
-    //     return {
-    //       ...acc,
-    //       [token.name]: {
-    //         value: token.value,
-    //         description: token.description || '',
-    //         type: token.attributes.figmaType || 'other',
-    //       },
-    //     };
-    //   }
-
-    //   return acc;
-    // }, {});
-
-    const tokenMap = constructRecursive(dictionary.tokens);
-
-    return JSON.stringify(
-      {
-        values: {
-          global: tokenMap,
-        },
-      },
-      null,
-      2
-    );
-  }
+  formatter: figmaTokens
 });
 
 module.exports = {
