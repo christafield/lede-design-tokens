@@ -2,7 +2,7 @@ color:
   brand:
     primary:
       base:
-        value: "#00FF00"
+        value: "#510A7F"
         attributes:
           figmaType: "color"
       10:
