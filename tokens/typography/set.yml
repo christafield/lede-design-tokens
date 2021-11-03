@@ -1,0 +1,31 @@
+typography:
+  set:
+    body:
+      attributes:
+        figmaType: "typography"
+      fontFamily:
+        value: "{typography.family.primary.value}"
+      fontSize:
+        value: "{size.font.medium.value}"
+      fontWeight:
+        value: "{typography.figmaWeight.normal.value}"
+      lineHeight:
+        value: "{typography.lineHeight.xl.value}"
+      paragraphSpacing:
+        value: "{typography.paragraphSpacing.medium.value}"
+    heading:
+      feature:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.secondary.value}"
+        fontSize:
+          value: "{size.font.xxl.value}"
+        fontWeight:
+          value: "{typography.figmaWeight.bold.value}"
+        lineHeight:
+          value: "{typography.lineHeight.small.value}"
+        letterSpacing:
+          value: "{typography.letterSpacing.compress.value}"
+        paragraphSpacing:
+          value: "{typography.paragraphSpacing.medium.value}"

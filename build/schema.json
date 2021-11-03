@@ -3152,74 +3152,199 @@
         ]
       }
     },
-    "sets": {
+    "set": {
       "body": {
         "attributes": {
           "figmaType": "typography"
         },
-        "value": {
-          "fontFamily": "IBM Plex Sans",
-          "fontSize": 1.125,
-          "fontWeight": "Regular",
-          "lineHeight": "165%",
-          "paragraphSpacing": 1.5
-        },
-        "filePath": "tokens/typography/sets.yml",
-        "isSource": true,
-        "original": {
-          "attributes": {
-            "figmaType": "typography"
+        "fontFamily": {
+          "value": "IBM Plex Sans",
+          "filePath": "tokens/typography/set.yml",
+          "isSource": true,
+          "original": {
+            "value": "{typography.family.primary.value}"
           },
-          "value": {
-            "fontFamily": "{typography.family.primary.value}",
-            "fontSize": "{size.font.medium.value}",
-            "fontWeight": "{typography.figmaWeight.normal.value}",
-            "lineHeight": "{typography.lineHeight.xl.value}",
-            "paragraphSpacing": "{typography.paragraphSpacing.medium.value}"
-          }
+          "name": "typography-set-body-font-family",
+          "attributes": {},
+          "path": [
+            "typography",
+            "set",
+            "body",
+            "fontFamily"
+          ]
         },
-        "name": "typography-sets-body",
-        "path": [
-          "typography",
-          "sets",
-          "body"
-        ]
+        "fontSize": {
+          "value": 1.125,
+          "filePath": "tokens/typography/set.yml",
+          "isSource": true,
+          "original": {
+            "value": "{size.font.medium.value}"
+          },
+          "name": "typography-set-body-font-size",
+          "attributes": {},
+          "path": [
+            "typography",
+            "set",
+            "body",
+            "fontSize"
+          ]
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "filePath": "tokens/typography/set.yml",
+          "isSource": true,
+          "original": {
+            "value": "{typography.figmaWeight.normal.value}"
+          },
+          "name": "typography-set-body-font-weight",
+          "attributes": {},
+          "path": [
+            "typography",
+            "set",
+            "body",
+            "fontWeight"
+          ]
+        },
+        "lineHeight": {
+          "value": "165%",
+          "filePath": "tokens/typography/set.yml",
+          "isSource": true,
+          "original": {
+            "value": "{typography.lineHeight.xl.value}"
+          },
+          "name": "typography-set-body-line-height",
+          "attributes": {},
+          "path": [
+            "typography",
+            "set",
+            "body",
+            "lineHeight"
+          ]
+        },
+        "paragraphSpacing": {
+          "value": 1.5,
+          "filePath": "tokens/typography/set.yml",
+          "isSource": true,
+          "original": {
+            "value": "{typography.paragraphSpacing.medium.value}"
+          },
+          "name": "typography-set-body-paragraph-spacing",
+          "attributes": {},
+          "path": [
+            "typography",
+            "set",
+            "body",
+            "paragraphSpacing"
+          ]
+        }
       },
       "heading": {
         "feature": {
           "attributes": {
             "figmaType": "typography"
           },
-          "value": {
-            "fontFamily": "Times",
-            "fontSize": 2,
-            "fontWeight": "Bold",
-            "lineHeight": "130%",
-            "letterSpacing": "-2%",
-            "paragraphSpacing": 1.5
-          },
-          "filePath": "tokens/typography/sets.yml",
-          "isSource": true,
-          "original": {
-            "attributes": {
-              "figmaType": "typography"
+          "fontFamily": {
+            "value": "Times",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.family.secondary.value}"
             },
-            "value": {
-              "fontFamily": "{typography.family.secondary.value}",
-              "fontSize": "{size.font.xxl.value}",
-              "fontWeight": "{typography.figmaWeight.bold.value}",
-              "lineHeight": "{typography.lineHeight.small.value}",
-              "letterSpacing": "{typography.letterSpacing.compress.value}",
-              "paragraphSpacing": "{typography.paragraphSpacing.medium.value}"
-            }
+            "name": "typography-set-heading-feature-font-family",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "heading",
+              "feature",
+              "fontFamily"
+            ]
           },
-          "name": "typography-sets-heading-feature",
-          "path": [
-            "typography",
-            "sets",
-            "heading",
-            "feature"
-          ]
+          "fontSize": {
+            "value": 2,
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{size.font.xxl.value}"
+            },
+            "name": "typography-set-heading-feature-font-size",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "heading",
+              "feature",
+              "fontSize"
+            ]
+          },
+          "fontWeight": {
+            "value": "Bold",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.figmaWeight.bold.value}"
+            },
+            "name": "typography-set-heading-feature-font-weight",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "heading",
+              "feature",
+              "fontWeight"
+            ]
+          },
+          "lineHeight": {
+            "value": "130%",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.lineHeight.small.value}"
+            },
+            "name": "typography-set-heading-feature-line-height",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "heading",
+              "feature",
+              "lineHeight"
+            ]
+          },
+          "letterSpacing": {
+            "value": "-2%",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.letterSpacing.compress.value}"
+            },
+            "name": "typography-set-heading-feature-letter-spacing",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "heading",
+              "feature",
+              "letterSpacing"
+            ]
+          },
+          "paragraphSpacing": {
+            "value": 1.5,
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.paragraphSpacing.medium.value}"
+            },
+            "name": "typography-set-heading-feature-paragraph-spacing",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "heading",
+              "feature",
+              "paragraphSpacing"
+            ]
+          }
         }
       }
     },

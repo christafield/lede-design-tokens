@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 03 Nov 2021 13:22:36 GMT
+// Generated on Wed, 03 Nov 2021 17:22:50 GMT
 
 $typography-figma-weight-black: Black;
 $typography-figma-weight-bold: Bold;
@@ -108,6 +108,13 @@ $asset-font-times-stack: "Times, Georgia, sans-serif";
 $asset-font-times-name: "Times";
 $asset-font-plexsans-stack: "IBM Plex Sans, Helvetica, sans-serif";
 $asset-font-plexsans-name: "IBM Plex Sans";
+$typography-set-heading-feature-letter-spacing: $typography-letter-spacing-compress;
+$typography-set-heading-feature-line-height: $typography-line-height-small;
+$typography-set-heading-feature-font-weight: $typography-figma-weight-bold;
+$typography-set-heading-feature-font-size: $size-font-xxl;
+$typography-set-body-line-height: $typography-line-height-xl;
+$typography-set-body-font-weight: $typography-figma-weight-normal;
+$typography-set-body-font-size: $size-font-medium;
 $typography-paragraph-spacing-large: $size-space-xl;
 $typography-paragraph-spacing-medium: $size-space-medium;
 $typography-paragraph-spacing-small: $size-space-small;
@@ -169,8 +176,10 @@ $breakpoint-small-max: (max-width: $size-screen-width-small);
 $breakpoint-small-min: (min-width: $size-screen-width-small);
 $breakpoint-xs-max: (max-width: $size-screen-width-xs);
 $breakpoint-xs-min: (min-width: $size-screen-width-xs);
-$typography-sets-heading-feature: [object Object];
-$typography-sets-body: [object Object];
+$typography-set-heading-feature-paragraph-spacing: $typography-paragraph-spacing-medium;
+$typography-set-heading-feature-font-family: $typography-family-secondary;
+$typography-set-body-paragraph-spacing: $typography-paragraph-spacing-medium;
+$typography-set-body-font-family: $typography-family-primary;
 $color-font-button-secondary: $color-font-link;
 $color-font-inverse-disabled: $color-font-inverse-light;
 $color-font-inverse-base: $color-base-white;

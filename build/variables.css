@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 03 Nov 2021 13:22:36 GMT
+ * Generated on Wed, 03 Nov 2021 17:22:50 GMT
  */
 
 :root {
@@ -169,8 +169,17 @@
   --typography-paragraph-spacing-small: 1rem;
   --typography-paragraph-spacing-medium: 1.5rem;
   --typography-paragraph-spacing-large: 2.5rem;
-  --typography-sets-body: [object Object];
-  --typography-sets-heading-feature: [object Object];
+  --typography-set-body-font-family: IBM Plex Sans;
+  --typography-set-body-font-size: 1.125rem;
+  --typography-set-body-font-weight: Regular;
+  --typography-set-body-line-height: 165%;
+  --typography-set-body-paragraph-spacing: 1.5rem;
+  --typography-set-heading-feature-font-family: Times;
+  --typography-set-heading-feature-font-size: 2rem;
+  --typography-set-heading-feature-font-weight: Bold;
+  --typography-set-heading-feature-line-height: 130%;
+  --typography-set-heading-feature-letter-spacing: -2%;
+  --typography-set-heading-feature-paragraph-spacing: 1.5rem;
   --typography-weight-light: 300;
   --typography-weight-normal: 400;
   --typography-weight-medium: 500;
