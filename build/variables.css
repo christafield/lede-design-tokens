@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 02 Nov 2021 20:56:55 GMT
+ * Generated on Wed, 03 Nov 2021 13:22:36 GMT
  */
 
 :root {
@@ -28,7 +28,7 @@
   --color-background-error: #e53935;
   --color-background-warning: #ff6d00;
   --color-background-low-priority: #4d4d4d;
-  --color-background-button-primary-base: #00ff00;
+  --color-background-button-primary-base: #510a7f;
   --color-background-button-primary-disabled: #dccee5;
   --color-background-button-primary-active: #490972;
   --color-background-button-secondary-base: #f6212e;
@@ -66,7 +66,7 @@
   --color-border-light: #cccccc;
   --color-border-base: #b3b3b3;
   --color-border-dark: #a6a6a6;
-  --color-border-focus: #00ff00;
+  --color-border-focus: #510a7f;
   --color-border-error: #e53935;
   --color-border-warning: #ff6d00;
   --color-border-success: #4caf50;
@@ -80,7 +80,7 @@
   --color-brand-primary-20: #dccee5;
   --color-brand-primary-90: #62238c;
   --color-brand-primary-110: #490972;
-  --color-brand-primary-base: #00ff00;
+  --color-brand-primary-base: #510a7f;
   --color-brand-secondary-10: #fee9ea;
   --color-brand-secondary-20: #fdd3d5;
   --color-brand-secondary-90: #f73743;
@@ -90,7 +90,7 @@
   --color-font-base: #1a1a1a;
   --color-font-medium: #333333;
   --color-font-light: #4d4d4d;
-  --color-font-link: #00ff00;
+  --color-font-link: #510a7f;
   --color-font-active: #490972;
   --color-font-error: #e53935;
   --color-font-warning: #ff6d00;
@@ -106,7 +106,7 @@
   --color-font-inverse-success: #c9e7cb;
   --color-font-inverse-disabled: #cccccc;
   --color-font-button-primary: #ffffff;
-  --color-font-button-secondary: #00ff00;
+  --color-font-button-secondary: #510a7f;
   --color-social-comment: #101010;
   --color-social-facebook: #3b5998;
   --color-social-pinterest: #e60023;

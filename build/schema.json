@@ -390,7 +390,7 @@
       "button": {
         "primary": {
           "base": {
-            "value": "#00FF00",
+            "value": "#510A7F",
             "filePath": "tokens/color/background.yml",
             "isSource": true,
             "original": {
@@ -1152,7 +1152,7 @@
         ]
       },
       "focus": {
-        "value": "#00FF00",
+        "value": "#510A7F",
         "filePath": "tokens/color/border.yml",
         "isSource": true,
         "original": {
@@ -1407,14 +1407,14 @@
           ]
         },
         "base": {
-          "value": "#00FF00",
+          "value": "#510A7F",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.yml",
           "isSource": true,
           "original": {
-            "value": "#00FF00",
+            "value": "#510A7F",
             "attributes": {
               "figmaType": "color"
             }
@@ -1606,7 +1606,7 @@
         ]
       },
       "link": {
-        "value": "#00FF00",
+        "value": "#510A7F",
         "filePath": "tokens/color/font.yml",
         "isSource": true,
         "original": {
@@ -1859,7 +1859,7 @@
           ]
         },
         "secondary": {
-          "value": "#00FF00",
+          "value": "#510A7F",
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
