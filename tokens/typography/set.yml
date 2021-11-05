@@ -40,7 +40,7 @@ typography:
         fontFamily:
           value: "{typography.family.primary.value}"
         fontSize:
-          value: "{size.font.medium.value}"
+          value: "{size.font.small.value}"
         lineHeight:
           value: "{typography.lineHeight.small.value}"
     heading:
