@@ -3,7 +3,7 @@ color:
     light:
       value: "{color.base.gray.20.value}"
     base:
-      value: "{color.base.gray.30.value}"
+      value: "{color.base.gray.25.value}"
     dark:
       value: "{color.base.gray.35.value}"
     focus:

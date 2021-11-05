@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 03 Nov 2021 17:22:50 GMT
+ * Generated on Fri, 05 Nov 2021 18:37:39 GMT
  */
 
 :root {
@@ -18,8 +18,8 @@
   --breakpoint-large-max: (max-width: 64rem);
   --breakpoint-xl-min: (min-width: 80rem);
   --breakpoint-xl-max: (max-width: 80rem);
-  --breakpoint-xxl-min: (min-width: 86rem);
-  --breakpoint-xxl-max: (max-width: 86rem);
+  --breakpoint-xxl-min: (min-width: 90rem);
+  --breakpoint-xxl-max: (max-width: 90rem);
   --color-background-base: #ffffff;
   --color-background-alt: #e6e6e6;
   --color-background-disabled: #cccccc;
@@ -39,10 +39,10 @@
   --color-base-gray-0: #ffffff;
   --color-base-gray-10: #e6e6e6;
   --color-base-gray-20: #cccccc;
-  --color-base-gray-30: #b3b3b3;
+  --color-base-gray-25: #b3b3b3;
   --color-base-gray-35: #a6a6a6;
-  --color-base-gray-70: #5a5a5a;
-  --color-base-gray-75: #4d4d4d;
+  --color-base-gray-65: #5a5a5a;
+  --color-base-gray-70: #4d4d4d;
   --color-base-gray-80: #333333;
   --color-base-gray-90: #1a1a1a;
   --color-base-gray-100: #000000;
@@ -142,7 +142,7 @@
   --size-screen-width-medium: 48rem;
   --size-screen-width-large: 64rem;
   --size-screen-width-xl: 80rem;
-  --size-screen-width-xxl: 86rem;
+  --size-screen-width-xxl: 90rem;
   --size-space-xs: 0.75rem;
   --size-space-small: 1rem;
   --size-space-base: 1.25rem;
@@ -160,6 +160,7 @@
   --typography-family-secondary: Times;
   --typography-family-tertiary: IBM Plex Sans;
   --typography-letter-spacing-compress: -2%;
+  --typography-letter-spacing-default: 0%;
   --typography-letter-spacing-expand: 5%;
   --typography-line-height-xs: 120%;
   --typography-line-height-small: 130%;
@@ -169,17 +170,51 @@
   --typography-paragraph-spacing-small: 1rem;
   --typography-paragraph-spacing-medium: 1.5rem;
   --typography-paragraph-spacing-large: 2.5rem;
-  --typography-set-body-font-family: IBM Plex Sans;
-  --typography-set-body-font-size: 1.125rem;
-  --typography-set-body-font-weight: Regular;
-  --typography-set-body-line-height: 165%;
-  --typography-set-body-paragraph-spacing: 1.5rem;
-  --typography-set-heading-feature-font-family: Times;
-  --typography-set-heading-feature-font-size: 2rem;
-  --typography-set-heading-feature-font-weight: Bold;
-  --typography-set-heading-feature-line-height: 130%;
-  --typography-set-heading-feature-letter-spacing: -2%;
-  --typography-set-heading-feature-paragraph-spacing: 1.5rem;
+  --typography-set-body-text-font-family: IBM Plex Sans;
+  --typography-set-body-text-font-size: 1rem;
+  --typography-set-body-text-line-height: 165%;
+  --typography-set-body-text-paragraph-spacing: 1.5rem;
+  --typography-set-body-caption-font-family: IBM Plex Sans;
+  --typography-set-body-caption-font-size: 0.875rem;
+  --typography-set-body-caption-line-height: 165%;
+  --typography-set-body-caption-paragraph-spacing: 1.5rem;
+  --typography-set-body-timestamp-font-family: IBM Plex Sans;
+  --typography-set-body-timestamp-font-size: 0.875rem;
+  --typography-set-body-timestamp-line-height: 165%;
+  --typography-set-body-timestamp-paragraph-spacing: 1.5rem;
+  --typography-set-body-menu-font-family: IBM Plex Sans;
+  --typography-set-body-menu-font-size: 1.125rem;
+  --typography-set-body-menu-line-height: 130%;
+  --typography-set-heading-h1-font-family: Times;
+  --typography-set-heading-h1-font-size: 3rem;
+  --typography-set-heading-h1-line-height: 130%;
+  --typography-set-heading-h1-letter-spacing: 0%;
+  --typography-set-heading-h1-paragraph-spacing: 1.5rem;
+  --typography-set-heading-h2-font-family: Times;
+  --typography-set-heading-h2-font-size: 2.5rem;
+  --typography-set-heading-h2-line-height: 130%;
+  --typography-set-heading-h2-letter-spacing: 0%;
+  --typography-set-heading-h2-paragraph-spacing: 1.5rem;
+  --typography-set-heading-h3-font-family: Times;
+  --typography-set-heading-h3-font-size: 2.25rem;
+  --typography-set-heading-h3-line-height: 140%;
+  --typography-set-heading-h3-letter-spacing: 0%;
+  --typography-set-heading-h3-paragraph-spacing: 1.5rem;
+  --typography-set-heading-h4-font-family: Times;
+  --typography-set-heading-h4-font-size: 2rem;
+  --typography-set-heading-h4-line-height: 140%;
+  --typography-set-heading-h4-letter-spacing: 0%;
+  --typography-set-heading-h4-paragraph-spacing: 1rem;
+  --typography-set-heading-h5-font-family: Times;
+  --typography-set-heading-h5-font-size: 1.5rem;
+  --typography-set-heading-h5-line-height: 155%;
+  --typography-set-heading-h5-letter-spacing: 0%;
+  --typography-set-heading-h5-paragraph-spacing: 1rem;
+  --typography-set-heading-h6-font-family: Times;
+  --typography-set-heading-h6-font-size: 1.25rem;
+  --typography-set-heading-h6-line-height: 155%;
+  --typography-set-heading-h6-letter-spacing: 0%;
+  --typography-set-heading-h6-paragraph-spacing: 1rem;
   --typography-weight-light: 300;
   --typography-weight-normal: 400;
   --typography-weight-medium: 500;

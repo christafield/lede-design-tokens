@@ -4,6 +4,10 @@ typography:
       value: "-2%"
       attributes:
         figmaType: "letterSpacing"
+    default:
+      value: "0%"
+      attributes:
+        figmaType: "letterSpacing"
     expand:
       value: "5%"
       attributes:

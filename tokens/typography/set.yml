@@ -1,31 +1,124 @@
 typography:
   set:
     body:
-      attributes:
-        figmaType: "typography"
-      fontFamily:
-        value: "{typography.family.primary.value}"
-      fontSize:
-        value: "{size.font.medium.value}"
-      fontWeight:
-        value: "{typography.figmaWeight.normal.value}"
-      lineHeight:
-        value: "{typography.lineHeight.xl.value}"
-      paragraphSpacing:
-        value: "{typography.paragraphSpacing.medium.value}"
+      text:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.base.value}"
+        lineHeight:
+          value: "{typography.lineHeight.xl.value}"
+        paragraphSpacing:
+          value: "{typography.paragraphSpacing.medium.value}"
+      caption:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.small.value}"
+        lineHeight:
+          value: "{typography.lineHeight.xl.value}"
+        paragraphSpacing:
+          value: "{typography.paragraphSpacing.medium.value}"
+      timestamp:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.small.value}"
+        lineHeight:
+          value: "{typography.lineHeight.xl.value}"
+        paragraphSpacing:
+          value: "{typography.paragraphSpacing.medium.value}"
+      menu:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.medium.value}"
+        lineHeight:
+          value: "{typography.lineHeight.small.value}"
     heading:
-      feature:
+      h1:
         attributes:
           figmaType: "typography"
         fontFamily:
           value: "{typography.family.secondary.value}"
         fontSize:
-          value: "{size.font.xxl.value}"
-        fontWeight:
-          value: "{typography.figmaWeight.bold.value}"
+          value: "{size.font.heading.xl.value}"
         lineHeight:
           value: "{typography.lineHeight.small.value}"
         letterSpacing:
-          value: "{typography.letterSpacing.compress.value}"
+          value: "{typography.letterSpacing.default.value}"
         paragraphSpacing:
           value: "{typography.paragraphSpacing.medium.value}"
+      h2:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.secondary.value}"
+        fontSize:
+          value: "{size.font.heading.large.value}"
+        lineHeight:
+          value: "{typography.lineHeight.small.value}"
+        letterSpacing:
+          value: "{typography.letterSpacing.default.value}"
+        paragraphSpacing:
+          value: "{typography.paragraphSpacing.medium.value}"
+      h3:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.secondary.value}"
+        fontSize:
+          value: "{size.font.heading.medium.value}"
+        lineHeight:
+          value: "{typography.lineHeight.medium.value}"
+        letterSpacing:
+          value: "{typography.letterSpacing.default.value}"
+        paragraphSpacing:
+          value: "{typography.paragraphSpacing.medium.value}"
+      h4:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.secondary.value}"
+        fontSize:
+          value: "{size.font.heading.base.value}"
+        lineHeight:
+          value: "{typography.lineHeight.medium.value}"
+        letterSpacing:
+          value: "{typography.letterSpacing.default.value}"
+        paragraphSpacing:
+          value: "{typography.paragraphSpacing.small.value}"
+      h5:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.secondary.value}"
+        fontSize:
+          value: "{size.font.heading.small.value}"
+        lineHeight:
+          value: "{typography.lineHeight.large.value}"
+        letterSpacing:
+          value: "{typography.letterSpacing.default.value}"
+        paragraphSpacing:
+          value: "{typography.paragraphSpacing.small.value}"
+      h6:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.secondary.value}"
+        fontSize:
+          value: "{size.font.heading.xs.value}"
+        lineHeight:
+          value: "{typography.lineHeight.large.value}"
+        letterSpacing:
+          value: "{typography.letterSpacing.default.value}"
+        paragraphSpacing:
+          value: "{typography.paragraphSpacing.small.value}"

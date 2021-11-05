@@ -5,7 +5,7 @@ color:
     medium:
       value: "{color.base.gray.80.value}"
     light:
-      value: "{color.base.gray.75.value}"
+      value: "{color.base.gray.70.value}"
     link:
       value: "{color.brand.primary.base.value}"
     active:
