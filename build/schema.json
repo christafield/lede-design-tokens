@@ -3415,11 +3415,11 @@
             ]
           },
           "fontSize": {
-            "value": 1.125,
+            "value": 0.875,
             "filePath": "tokens/typography/set.yml",
             "isSource": true,
             "original": {
-              "value": "{size.font.medium.value}"
+              "value": "{size.font.small.value}"
             },
             "name": "typography-set-body-menu-font-size",
             "attributes": {},
