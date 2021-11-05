@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 05 Nov 2021 18:38:19 GMT
+ * Generated on Fri, 05 Nov 2021 19:21:41 GMT
  */
 
 :root {
@@ -121,6 +121,10 @@
   --size-font-xxl: 2rem;
   --size-font-xxxl: 3rem;
   --size-font-default: 1rem;
+  --size-font-button-small: 0.875rem; /* Font size for small things */
+  --size-font-button-base: 1rem;
+  --size-font-button-medium: 1.25rem;
+  --size-font-button-large: 1.5rem;
   --size-font-heading-xs: 1.25rem;
   --size-font-heading-small: 1.5rem;
   --size-font-heading-base: 2rem;
@@ -182,9 +186,21 @@
   --typography-set-body-timestamp-font-size: 0.875rem;
   --typography-set-body-timestamp-line-height: 165%;
   --typography-set-body-timestamp-paragraph-spacing: 1.5rem;
-  --typography-set-body-menu-font-family: IBM Plex Sans;
-  --typography-set-body-menu-font-size: 1.125rem;
-  --typography-set-body-menu-line-height: 130%;
+  --typography-set-body-nav-menu-font-family: IBM Plex Sans;
+  --typography-set-body-nav-menu-font-size: 0.875rem;
+  --typography-set-body-nav-menu-line-height: 130%;
+  --typography-set-button-small-font-family: IBM Plex Sans;
+  --typography-set-button-small-font-size: 0.875rem;
+  --typography-set-button-small-line-height: 100%;
+  --typography-set-button-base-font-family: IBM Plex Sans;
+  --typography-set-button-base-font-size: 1rem;
+  --typography-set-button-base-line-height: 100%;
+  --typography-set-button-medium-font-family: IBM Plex Sans;
+  --typography-set-button-medium-font-size: 1.25rem;
+  --typography-set-button-medium-line-height: 100%;
+  --typography-set-button-large-font-family: IBM Plex Sans;
+  --typography-set-button-large-font-size: 1.5rem;
+  --typography-set-button-large-line-height: 100%;
   --typography-set-heading-h1-font-family: Times;
   --typography-set-heading-h1-font-size: 3rem;
   --typography-set-heading-h1-line-height: 130%;

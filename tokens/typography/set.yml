@@ -34,7 +34,7 @@ typography:
           value: "{typography.lineHeight.xl.value}"
         paragraphSpacing:
           value: "{typography.paragraphSpacing.medium.value}"
-      menu:
+      navMenu:
         attributes:
           figmaType: "typography"
         fontFamily:
@@ -43,6 +43,43 @@ typography:
           value: "{size.font.small.value}"
         lineHeight:
           value: "{typography.lineHeight.small.value}"
+    button:
+      small:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.button.small.value}"
+        lineHeight:
+          value: "100%"
+      base:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.button.base.value}"
+        lineHeight:
+          value: "100%"
+      medium:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.button.medium.value}"
+        lineHeight:
+          value: "100%"
+      large:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.button.large.value}"
+        lineHeight:
+          value: "100%"
     heading:
       h1:
         attributes:

@@ -2158,6 +2158,102 @@
           "default"
         ]
       },
+      "button": {
+        "small": {
+          "value": 0.875,
+          "comment": "Font size for small things",
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          },
+          "filePath": "tokens/size/font.yml",
+          "isSource": true,
+          "original": {
+            "value": "{size.font.small.value}",
+            "comment": "Font size for small things",
+            "attributes": {
+              "figmaType": "fontSizes",
+              "category": "size"
+            }
+          },
+          "name": "size-font-button-small",
+          "path": [
+            "size",
+            "font",
+            "button",
+            "small"
+          ]
+        },
+        "base": {
+          "value": 1,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          },
+          "filePath": "tokens/size/font.yml",
+          "isSource": true,
+          "original": {
+            "value": "{size.font.base.value}",
+            "attributes": {
+              "figmaType": "fontSizes",
+              "category": "size"
+            }
+          },
+          "name": "size-font-button-base",
+          "path": [
+            "size",
+            "font",
+            "button",
+            "base"
+          ]
+        },
+        "medium": {
+          "value": 1.25,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          },
+          "filePath": "tokens/size/font.yml",
+          "isSource": true,
+          "original": {
+            "value": "{size.font.large.value}",
+            "attributes": {
+              "figmaType": "fontSizes",
+              "category": "size"
+            }
+          },
+          "name": "size-font-button-medium",
+          "path": [
+            "size",
+            "font",
+            "button",
+            "medium"
+          ]
+        },
+        "large": {
+          "value": 1.5,
+          "attributes": {
+            "figmaType": "fontSizes",
+            "category": "size"
+          },
+          "filePath": "tokens/size/font.yml",
+          "isSource": true,
+          "original": {
+            "value": "{size.font.xl.value}",
+            "attributes": {
+              "figmaType": "fontSizes",
+              "category": "size"
+            }
+          },
+          "name": "size-font-button-large",
+          "path": [
+            "size",
+            "font",
+            "button",
+            "large"
+          ]
+        }
+      },
       "heading": {
         "xs": {
           "value": 1.25,
@@ -3393,7 +3489,7 @@
             ]
           }
         },
-        "menu": {
+        "navMenu": {
           "attributes": {
             "figmaType": "typography"
           },
@@ -3404,30 +3500,30 @@
             "original": {
               "value": "{typography.family.primary.value}"
             },
-            "name": "typography-set-body-menu-font-family",
+            "name": "typography-set-body-nav-menu-font-family",
             "attributes": {},
             "path": [
               "typography",
               "set",
               "body",
-              "menu",
+              "navMenu",
               "fontFamily"
             ]
           },
           "fontSize": {
-            "value": 1.125,
+            "value": 0.875,
             "filePath": "tokens/typography/set.yml",
             "isSource": true,
             "original": {
-              "value": "{size.font.medium.value}"
+              "value": "{size.font.small.value}"
             },
-            "name": "typography-set-body-menu-font-size",
+            "name": "typography-set-body-nav-menu-font-size",
             "attributes": {},
             "path": [
               "typography",
               "set",
               "body",
-              "menu",
+              "navMenu",
               "fontSize"
             ]
           },
@@ -3438,13 +3534,239 @@
             "original": {
               "value": "{typography.lineHeight.small.value}"
             },
-            "name": "typography-set-body-menu-line-height",
+            "name": "typography-set-body-nav-menu-line-height",
             "attributes": {},
             "path": [
               "typography",
               "set",
               "body",
-              "menu",
+              "navMenu",
+              "lineHeight"
+            ]
+          }
+        }
+      },
+      "button": {
+        "small": {
+          "attributes": {
+            "figmaType": "typography"
+          },
+          "fontFamily": {
+            "value": "IBM Plex Sans",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.family.primary.value}"
+            },
+            "name": "typography-set-button-small-font-family",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "button",
+              "small",
+              "fontFamily"
+            ]
+          },
+          "fontSize": {
+            "value": 0.875,
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{size.font.button.small.value}"
+            },
+            "name": "typography-set-button-small-font-size",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "button",
+              "small",
+              "fontSize"
+            ]
+          },
+          "lineHeight": {
+            "value": "100%",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "100%"
+            },
+            "name": "typography-set-button-small-line-height",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "button",
+              "small",
+              "lineHeight"
+            ]
+          }
+        },
+        "base": {
+          "attributes": {
+            "figmaType": "typography"
+          },
+          "fontFamily": {
+            "value": "IBM Plex Sans",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.family.primary.value}"
+            },
+            "name": "typography-set-button-base-font-family",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "button",
+              "base",
+              "fontFamily"
+            ]
+          },
+          "fontSize": {
+            "value": 1,
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{size.font.button.base.value}"
+            },
+            "name": "typography-set-button-base-font-size",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "button",
+              "base",
+              "fontSize"
+            ]
+          },
+          "lineHeight": {
+            "value": "100%",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "100%"
+            },
+            "name": "typography-set-button-base-line-height",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "button",
+              "base",
+              "lineHeight"
+            ]
+          }
+        },
+        "medium": {
+          "attributes": {
+            "figmaType": "typography"
+          },
+          "fontFamily": {
+            "value": "IBM Plex Sans",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.family.primary.value}"
+            },
+            "name": "typography-set-button-medium-font-family",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "button",
+              "medium",
+              "fontFamily"
+            ]
+          },
+          "fontSize": {
+            "value": 1.25,
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{size.font.button.medium.value}"
+            },
+            "name": "typography-set-button-medium-font-size",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "button",
+              "medium",
+              "fontSize"
+            ]
+          },
+          "lineHeight": {
+            "value": "100%",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "100%"
+            },
+            "name": "typography-set-button-medium-line-height",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "button",
+              "medium",
+              "lineHeight"
+            ]
+          }
+        },
+        "large": {
+          "attributes": {
+            "figmaType": "typography"
+          },
+          "fontFamily": {
+            "value": "IBM Plex Sans",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.family.primary.value}"
+            },
+            "name": "typography-set-button-large-font-family",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "button",
+              "large",
+              "fontFamily"
+            ]
+          },
+          "fontSize": {
+            "value": 1.5,
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{size.font.button.large.value}"
+            },
+            "name": "typography-set-button-large-font-size",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "button",
+              "large",
+              "fontSize"
+            ]
+          },
+          "lineHeight": {
+            "value": "100%",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "100%"
+            },
+            "name": "typography-set-button-large-line-height",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "button",
+              "large",
               "lineHeight"
             ]
           }

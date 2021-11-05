@@ -47,6 +47,28 @@ size:
       attributes:
         figmaType: "fontSizes"
         category: "size"
+    button:
+      small:
+        value: "{size.font.small.value}"
+        comment: "Font size for small things"
+        attributes:
+          figmaType: "fontSizes"
+          category: "size"
+      base:
+        value: "{size.font.base.value}"
+        attributes:
+          figmaType: "fontSizes"
+          category: "size"
+      medium:
+        value: "{size.font.large.value}"
+        attributes:
+          figmaType: "fontSizes"
+          category: "size"
+      large:
+        value: "{size.font.xl.value}"
+        attributes:
+          figmaType: "fontSizes"
+          category: "size"
     heading:
       xs:
         value: 1.25
