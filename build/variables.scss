@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Fri, 05 Nov 2021 19:22:21 GMT
+// Generated on Sun, 07 Nov 2021 22:07:45 GMT
 
 $typography-figma-weight-black: Black;
 $typography-figma-weight-bold: Bold;
@@ -14,6 +14,7 @@ $typography-weight-semibold: 600;
 $typography-weight-medium: 500;
 $typography-weight-normal: 400;
 $typography-weight-light: 300;
+$typography-set-input-base-line-height: 100%;
 $typography-set-button-large-line-height: 100%;
 $typography-set-button-medium-line-height: 100%;
 $typography-set-button-base-line-height: 100%;
@@ -23,6 +24,7 @@ $typography-line-height-large: 155%;
 $typography-line-height-medium: 140%;
 $typography-line-height-small: 130%;
 $typography-line-height-xs: 120%;
+$typography-line-height-oneline: 100%;
 $typography-letter-spacing-expand: 5%;
 $typography-letter-spacing-default: 0%;
 $typography-letter-spacing-compress: -2%;
@@ -131,8 +133,13 @@ $typography-set-heading-h2-font-size: $size-font-heading-large;
 $typography-set-heading-h1-letter-spacing: $typography-letter-spacing-default;
 $typography-set-heading-h1-line-height: $typography-line-height-small;
 $typography-set-heading-h1-font-size: $size-font-heading-xl;
-$typography-set-body-nav-menu-line-height: $typography-line-height-small;
-$typography-set-body-nav-menu-font-size: $size-font-small;
+$typography-set-button-large-font-size: $size-font-base;
+$typography-set-body-menu-large-line-height: $typography-line-height-medium;
+$typography-set-body-menu-large-font-size: $size-font-xl;
+$typography-set-body-menu-medium-line-height: $typography-line-height-small;
+$typography-set-body-menu-medium-font-size: $size-font-medium;
+$typography-set-body-menu-small-line-height: $typography-line-height-small;
+$typography-set-body-menu-small-font-size: $size-font-small;
 $typography-set-body-timestamp-line-height: $typography-line-height-xl;
 $typography-set-body-timestamp-font-size: $size-font-small;
 $typography-set-body-caption-line-height: $typography-line-height-xl;
@@ -216,7 +223,8 @@ $typography-set-heading-h2-paragraph-spacing: $typography-paragraph-spacing-medi
 $typography-set-heading-h2-font-family: $typography-family-secondary;
 $typography-set-heading-h1-paragraph-spacing: $typography-paragraph-spacing-medium;
 $typography-set-heading-h1-font-family: $typography-family-secondary;
-$typography-set-button-large-font-size: $size-font-button-large;
+$typography-set-input-base-font-size: $size-font-button-small;
+$typography-set-input-base-font-family: $typography-family-primary;
 $typography-set-button-large-font-family: $typography-family-primary;
 $typography-set-button-medium-font-size: $size-font-button-medium;
 $typography-set-button-medium-font-family: $typography-family-primary;
@@ -224,7 +232,9 @@ $typography-set-button-base-font-size: $size-font-button-base;
 $typography-set-button-base-font-family: $typography-family-primary;
 $typography-set-button-small-font-size: $size-font-button-small;
 $typography-set-button-small-font-family: $typography-family-primary;
-$typography-set-body-nav-menu-font-family: $typography-family-primary;
+$typography-set-body-menu-large-font-family: $typography-family-primary;
+$typography-set-body-menu-medium-font-family: $typography-family-primary;
+$typography-set-body-menu-small-font-family: $typography-family-primary;
 $typography-set-body-timestamp-paragraph-spacing: $typography-paragraph-spacing-medium;
 $typography-set-body-timestamp-font-family: $typography-family-primary;
 $typography-set-body-caption-paragraph-spacing: $typography-paragraph-spacing-medium;

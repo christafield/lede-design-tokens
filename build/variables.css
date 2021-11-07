@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 05 Nov 2021 19:22:21 GMT
+ * Generated on Sun, 07 Nov 2021 22:07:45 GMT
  */
 
 :root {
@@ -166,6 +166,7 @@
   --typography-letter-spacing-compress: -2%;
   --typography-letter-spacing-default: 0%;
   --typography-letter-spacing-expand: 5%;
+  --typography-line-height-oneline: 100%;
   --typography-line-height-xs: 120%;
   --typography-line-height-small: 130%;
   --typography-line-height-medium: 140%;
@@ -186,9 +187,15 @@
   --typography-set-body-timestamp-font-size: 0.875rem;
   --typography-set-body-timestamp-line-height: 165%;
   --typography-set-body-timestamp-paragraph-spacing: 1.5rem;
-  --typography-set-body-nav-menu-font-family: IBM Plex Sans;
-  --typography-set-body-nav-menu-font-size: 0.875rem;
-  --typography-set-body-nav-menu-line-height: 130%;
+  --typography-set-body-menu-small-font-family: IBM Plex Sans;
+  --typography-set-body-menu-small-font-size: 0.875rem;
+  --typography-set-body-menu-small-line-height: 130%;
+  --typography-set-body-menu-medium-font-family: IBM Plex Sans;
+  --typography-set-body-menu-medium-font-size: 1.125rem;
+  --typography-set-body-menu-medium-line-height: 130%;
+  --typography-set-body-menu-large-font-family: IBM Plex Sans;
+  --typography-set-body-menu-large-font-size: 1.5rem;
+  --typography-set-body-menu-large-line-height: 140%;
   --typography-set-button-small-font-family: IBM Plex Sans;
   --typography-set-button-small-font-size: 0.875rem;
   --typography-set-button-small-line-height: 100%;
@@ -199,8 +206,11 @@
   --typography-set-button-medium-font-size: 1.25rem;
   --typography-set-button-medium-line-height: 100%;
   --typography-set-button-large-font-family: IBM Plex Sans;
-  --typography-set-button-large-font-size: 1.5rem;
+  --typography-set-button-large-font-size: 1rem;
   --typography-set-button-large-line-height: 100%;
+  --typography-set-input-base-font-family: IBM Plex Sans;
+  --typography-set-input-base-font-size: 0.875rem;
+  --typography-set-input-base-line-height: 100%;
   --typography-set-heading-h1-font-family: Times;
   --typography-set-heading-h1-font-size: 3rem;
   --typography-set-heading-h1-line-height: 130%;
