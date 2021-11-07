@@ -1,5 +1,9 @@
 typography:
   lineHeight:
+    oneline:
+      value: "100%"
+      attributes:
+        figmaType: "lineHeights"
     xs:
       value: "120%"
       attributes:
