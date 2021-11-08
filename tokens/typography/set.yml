@@ -34,34 +34,34 @@ typography:
           value: "{typography.lineHeight.xl.value}"
         paragraphSpacing:
           value: "{typography.paragraphSpacing.medium.value}"
-      menu:
-        small:
-          attributes:
-            figmaType: "typography"
-          fontFamily:
-            value: "{typography.family.primary.value}"
-          fontSize:
-            value: "{size.font.small.value}"
-          lineHeight:
-            value: "{typography.lineHeight.small.value}"
-        medium:
-          attributes:
-            figmaType: "typography"
-          fontFamily:
-            value: "{typography.family.primary.value}"
-          fontSize:
-            value: "{size.font.medium.value}"
-          lineHeight:
-            value: "{typography.lineHeight.small.value}"
-        large:
-          attributes:
-            figmaType: "typography"
-          fontFamily:
-            value: "{typography.family.primary.value}"
-          fontSize:
-            value: "{size.font.xl.value}"
-          lineHeight:
-            value: "{typography.lineHeight.medium.value}"
+    menu:
+      small:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.small.value}"
+        lineHeight:
+          value: "{typography.lineHeight.small.value}"
+      medium:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.medium.value}"
+        lineHeight:
+          value: "{typography.lineHeight.small.value}"
+      large:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.xl.value}"
+        lineHeight:
+          value: "{typography.lineHeight.medium.value}"
     button:
       small:
         attributes:
