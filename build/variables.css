@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 07 Nov 2021 22:07:45 GMT
+ * Generated on Mon, 08 Nov 2021 16:12:41 GMT
  */
 
 :root {
@@ -187,15 +187,15 @@
   --typography-set-body-timestamp-font-size: 0.875rem;
   --typography-set-body-timestamp-line-height: 165%;
   --typography-set-body-timestamp-paragraph-spacing: 1.5rem;
-  --typography-set-body-menu-small-font-family: IBM Plex Sans;
-  --typography-set-body-menu-small-font-size: 0.875rem;
-  --typography-set-body-menu-small-line-height: 130%;
-  --typography-set-body-menu-medium-font-family: IBM Plex Sans;
-  --typography-set-body-menu-medium-font-size: 1.125rem;
-  --typography-set-body-menu-medium-line-height: 130%;
-  --typography-set-body-menu-large-font-family: IBM Plex Sans;
-  --typography-set-body-menu-large-font-size: 1.5rem;
-  --typography-set-body-menu-large-line-height: 140%;
+  --typography-set-menu-small-font-family: IBM Plex Sans;
+  --typography-set-menu-small-font-size: 0.875rem;
+  --typography-set-menu-small-line-height: 130%;
+  --typography-set-menu-medium-font-family: IBM Plex Sans;
+  --typography-set-menu-medium-font-size: 1.125rem;
+  --typography-set-menu-medium-line-height: 130%;
+  --typography-set-menu-large-font-family: IBM Plex Sans;
+  --typography-set-menu-large-font-size: 1.5rem;
+  --typography-set-menu-large-line-height: 140%;
   --typography-set-button-small-font-family: IBM Plex Sans;
   --typography-set-button-small-font-size: 0.875rem;
   --typography-set-button-small-line-height: 100%;

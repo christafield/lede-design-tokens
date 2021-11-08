@@ -3508,184 +3508,175 @@
               "paragraphSpacing"
             ]
           }
+        }
+      },
+      "menu": {
+        "small": {
+          "attributes": {
+            "figmaType": "typography"
+          },
+          "fontFamily": {
+            "value": "IBM Plex Sans",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.family.primary.value}"
+            },
+            "name": "typography-set-menu-small-font-family",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "menu",
+              "small",
+              "fontFamily"
+            ]
+          },
+          "fontSize": {
+            "value": 0.875,
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{size.font.small.value}"
+            },
+            "name": "typography-set-menu-small-font-size",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "menu",
+              "small",
+              "fontSize"
+            ]
+          },
+          "lineHeight": {
+            "value": "130%",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.lineHeight.small.value}"
+            },
+            "name": "typography-set-menu-small-line-height",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "menu",
+              "small",
+              "lineHeight"
+            ]
+          }
         },
-        "menu": {
-          "small": {
-            "attributes": {
-              "figmaType": "typography"
-            },
-            "fontFamily": {
-              "value": "IBM Plex Sans",
-              "filePath": "tokens/typography/set.yml",
-              "isSource": true,
-              "original": {
-                "value": "{typography.family.primary.value}"
-              },
-              "name": "typography-set-body-menu-small-font-family",
-              "attributes": {},
-              "path": [
-                "typography",
-                "set",
-                "body",
-                "menu",
-                "small",
-                "fontFamily"
-              ]
-            },
-            "fontSize": {
-              "value": 0.875,
-              "filePath": "tokens/typography/set.yml",
-              "isSource": true,
-              "original": {
-                "value": "{size.font.small.value}"
-              },
-              "name": "typography-set-body-menu-small-font-size",
-              "attributes": {},
-              "path": [
-                "typography",
-                "set",
-                "body",
-                "menu",
-                "small",
-                "fontSize"
-              ]
-            },
-            "lineHeight": {
-              "value": "130%",
-              "filePath": "tokens/typography/set.yml",
-              "isSource": true,
-              "original": {
-                "value": "{typography.lineHeight.small.value}"
-              },
-              "name": "typography-set-body-menu-small-line-height",
-              "attributes": {},
-              "path": [
-                "typography",
-                "set",
-                "body",
-                "menu",
-                "small",
-                "lineHeight"
-              ]
-            }
+        "medium": {
+          "attributes": {
+            "figmaType": "typography"
           },
-          "medium": {
-            "attributes": {
-              "figmaType": "typography"
+          "fontFamily": {
+            "value": "IBM Plex Sans",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.family.primary.value}"
             },
-            "fontFamily": {
-              "value": "IBM Plex Sans",
-              "filePath": "tokens/typography/set.yml",
-              "isSource": true,
-              "original": {
-                "value": "{typography.family.primary.value}"
-              },
-              "name": "typography-set-body-menu-medium-font-family",
-              "attributes": {},
-              "path": [
-                "typography",
-                "set",
-                "body",
-                "menu",
-                "medium",
-                "fontFamily"
-              ]
-            },
-            "fontSize": {
-              "value": 1.125,
-              "filePath": "tokens/typography/set.yml",
-              "isSource": true,
-              "original": {
-                "value": "{size.font.medium.value}"
-              },
-              "name": "typography-set-body-menu-medium-font-size",
-              "attributes": {},
-              "path": [
-                "typography",
-                "set",
-                "body",
-                "menu",
-                "medium",
-                "fontSize"
-              ]
-            },
-            "lineHeight": {
-              "value": "130%",
-              "filePath": "tokens/typography/set.yml",
-              "isSource": true,
-              "original": {
-                "value": "{typography.lineHeight.small.value}"
-              },
-              "name": "typography-set-body-menu-medium-line-height",
-              "attributes": {},
-              "path": [
-                "typography",
-                "set",
-                "body",
-                "menu",
-                "medium",
-                "lineHeight"
-              ]
-            }
+            "name": "typography-set-menu-medium-font-family",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "menu",
+              "medium",
+              "fontFamily"
+            ]
           },
-          "large": {
-            "attributes": {
-              "figmaType": "typography"
+          "fontSize": {
+            "value": 1.125,
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{size.font.medium.value}"
             },
-            "fontFamily": {
-              "value": "IBM Plex Sans",
-              "filePath": "tokens/typography/set.yml",
-              "isSource": true,
-              "original": {
-                "value": "{typography.family.primary.value}"
-              },
-              "name": "typography-set-body-menu-large-font-family",
-              "attributes": {},
-              "path": [
-                "typography",
-                "set",
-                "body",
-                "menu",
-                "large",
-                "fontFamily"
-              ]
+            "name": "typography-set-menu-medium-font-size",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "menu",
+              "medium",
+              "fontSize"
+            ]
+          },
+          "lineHeight": {
+            "value": "130%",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.lineHeight.small.value}"
             },
-            "fontSize": {
-              "value": 1.5,
-              "filePath": "tokens/typography/set.yml",
-              "isSource": true,
-              "original": {
-                "value": "{size.font.xl.value}"
-              },
-              "name": "typography-set-body-menu-large-font-size",
-              "attributes": {},
-              "path": [
-                "typography",
-                "set",
-                "body",
-                "menu",
-                "large",
-                "fontSize"
-              ]
+            "name": "typography-set-menu-medium-line-height",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "menu",
+              "medium",
+              "lineHeight"
+            ]
+          }
+        },
+        "large": {
+          "attributes": {
+            "figmaType": "typography"
+          },
+          "fontFamily": {
+            "value": "IBM Plex Sans",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.family.primary.value}"
             },
-            "lineHeight": {
-              "value": "140%",
-              "filePath": "tokens/typography/set.yml",
-              "isSource": true,
-              "original": {
-                "value": "{typography.lineHeight.medium.value}"
-              },
-              "name": "typography-set-body-menu-large-line-height",
-              "attributes": {},
-              "path": [
-                "typography",
-                "set",
-                "body",
-                "menu",
-                "large",
-                "lineHeight"
-              ]
-            }
+            "name": "typography-set-menu-large-font-family",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "menu",
+              "large",
+              "fontFamily"
+            ]
+          },
+          "fontSize": {
+            "value": 1.5,
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{size.font.xl.value}"
+            },
+            "name": "typography-set-menu-large-font-size",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "menu",
+              "large",
+              "fontSize"
+            ]
+          },
+          "lineHeight": {
+            "value": "140%",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.lineHeight.medium.value}"
+            },
+            "name": "typography-set-menu-large-line-height",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "menu",
+              "large",
+              "lineHeight"
+            ]
           }
         }
       },
