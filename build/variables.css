@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Nov 2021 23:13:00 GMT
+ * Generated on Tue, 09 Nov 2021 23:18:26 GMT
  */
 
 :root {
@@ -44,22 +44,22 @@
   --color-border-warning: #ffe2cc;
   --color-border-success: #dbefdc;
   --color-button-primary-background-base: #510a7f;
-  --color-button-primary-background-disabled: #150320;
-  --color-button-primary-background-active: #000000;
+  --color-button-primary-background-disabled: #ffd6ff;
+  --color-button-primary-background-active: #150320;
   --color-button-primary-text: #ffffff;
-  --color-button-secondary-background-base: #fee9ea;
-  --color-button-secondary-background-disabled: #fa878d;
-  --color-button-secondary-background-active: #000000;
+  --color-button-secondary-background-base: #f6212e;
+  --color-button-secondary-background-disabled: #ffedfa;
+  --color-button-secondary-background-active: #aa0711;
   --color-button-secondary-text: #ffffff;
-  --color-button-grayscale-background-base: #fee9ea;
-  --color-button-grayscale-background-disabled: #fa878d;
-  --color-button-grayscale-background-active: #000000;
+  --color-button-grayscale-background-base: #f6212e;
+  --color-button-grayscale-background-disabled: #ffedfa;
+  --color-button-grayscale-background-active: #aa0711;
   --color-button-grayscale-text: #ffffff;
   --color-font-base: #191919;
   --color-font-medium: #333333;
   --color-font-light: #4d4d4d;
   --color-font-link: #510a7f;
-  --color-font-active: #000000;
+  --color-font-active: #150320;
   --color-font-error: #fad7d7;
   --color-font-warning: #ffe2cc;
   --color-font-success: #dbefdc;
@@ -67,8 +67,8 @@
   --color-font-inverse-base: #ffffff;
   --color-font-inverse-medium: #e6e6e6;
   --color-font-inverse-light: #cccccc;
-  --color-font-inverse-link: #330650;
-  --color-font-inverse-active: #150320;
+  --color-font-inverse-link: #ffefff;
+  --color-font-inverse-active: #ffd6ff;
   --color-font-inverse-error: #ef7c7c;
   --color-font-inverse-warning: #ffa866;
   --color-font-inverse-success: #94d097;
@@ -105,20 +105,20 @@
   --color-base-green-80: #0f2310;
   --color-base-green-120: #000000;
   --color-base-green-base: #dbefdc;
-  --color-brand-primary-10: #330650;
-  --color-brand-primary-20: #150320;
-  --color-brand-primary-80: #000000;
-  --color-brand-primary-120: #000000;
+  --color-brand-primary-10: #ffefff;
+  --color-brand-primary-20: #ffd6ff;
+  --color-brand-primary-80: #843db2;
+  --color-brand-primary-120: #150320;
   --color-brand-primary-base: #510a7f;
-  --color-brand-secondary-10: #fcb8bb;
-  --color-brand-secondary-20: #fa878d;
-  --color-brand-secondary-80: #4c0307;
-  --color-brand-secondary-120: #000000;
-  --color-brand-secondary-base: #fee9ea;
-  --color-brand-accent-10: #fad000;
-  --color-brand-accent-20: #c7a600;
-  --color-brand-accent-80: #000000;
-  --color-brand-accent-120: #000000;
+  --color-brand-secondary-10: #ffffff;
+  --color-brand-secondary-20: #ffedfa;
+  --color-brand-secondary-80: #ff5461;
+  --color-brand-secondary-120: #aa0711;
+  --color-brand-secondary-base: #f6212e;
+  --color-brand-accent-10: #ffffff;
+  --color-brand-accent-20: #fffffa;
+  --color-brand-accent-80: #ffff61;
+  --color-brand-accent-120: #c7a600;
   --color-brand-accent-base: #ffdc2e;
   --opacity-base: 100%;
   --opacity-low: 10%;
