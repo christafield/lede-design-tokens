@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 08 Nov 2021 16:12:41 GMT
+ * Generated on Tue, 09 Nov 2021 17:44:19 GMT
  */
 
 :root {
@@ -23,11 +23,17 @@
   --color-background-base: #ffffff;
   --color-background-alt: #e6e6e6;
   --color-background-disabled: #cccccc;
-  --color-background-inverse: #1a1a1a;
   --color-background-success: #4caf50;
   --color-background-error: #e53935;
   --color-background-warning: #ff6d00;
   --color-background-low-priority: #4d4d4d;
+  --color-background-inverse-base: #1a1a1a;
+  --color-background-inverse-alt: #333333;
+  --color-background-inverse-disabled: #cccccc;
+  --color-background-inverse-success: #c9e7cb;
+  --color-background-inverse-error: #f7c4c2;
+  --color-background-inverse-warning: #ffd3b3;
+  --color-background-inverse-low-priority: #b3b3b3;
   --color-background-button-primary-base: #510a7f;
   --color-background-button-primary-disabled: #dccee5;
   --color-background-button-primary-active: #490972;
@@ -39,7 +45,7 @@
   --color-base-gray-0: #ffffff;
   --color-base-gray-10: #e6e6e6;
   --color-base-gray-20: #cccccc;
-  --color-base-gray-25: #b3b3b3;
+  --color-base-gray-30: #b3b3b3;
   --color-base-gray-35: #a6a6a6;
   --color-base-gray-65: #5a5a5a;
   --color-base-gray-70: #4d4d4d;
@@ -70,11 +76,11 @@
   --color-border-error: #e53935;
   --color-border-warning: #ff6d00;
   --color-border-success: #4caf50;
-  --color-border-button-primary-base: #b3b3b3;
-  --color-border-button-primary-active: #490972;
+  --color-border-button-primary-base: #510a7f;
+  --color-border-button-primary-active: #62238c;
   --color-border-button-primary-disabled: #cccccc;
-  --color-border-button-secondary-base: #b3b3b3;
-  --color-border-button-secondary-active: #490972;
+  --color-border-button-secondary-base: #f6212e;
+  --color-border-button-secondary-active: #f73743;
   --color-border-button-secondary-disabled: #cccccc;
   --color-brand-primary-10: #eee7f2;
   --color-brand-primary-20: #dccee5;
@@ -106,12 +112,25 @@
   --color-font-inverse-success: #c9e7cb;
   --color-font-inverse-disabled: #cccccc;
   --color-font-button-primary: #ffffff;
-  --color-font-button-secondary: #510a7f;
+  --color-font-button-secondary: #ffffff;
   --color-social-comment: #101010;
   --color-social-facebook: #3b5998;
   --color-social-pinterest: #e60023;
   --color-social-reddit: #ff4500;
   --color-social-twitter: #1da1f2;
+  --opacity-base: 100%;
+  --opacity-low: 10%;
+  --opacity-medium: 50%;
+  --opacity-high: 90%;
+  --size-border-radius-base: 0rem;
+  --size-border-radius-small: 5rem;
+  --size-border-radius-medium: 10rem;
+  --size-border-radius-large: 20rem;
+  --size-border-width-none: 0rem;
+  --size-border-width-xs: 1rem;
+  --size-border-width-sm: 2rem;
+  --size-border-width-md: 4rem;
+  --size-border-width-lg: 8rem;
   --size-font-xs: 0.75rem; /* The smallest of font sizes */
   --size-font-small: 0.875rem; /* Font size for small things */
   --size-font-base: 1rem;

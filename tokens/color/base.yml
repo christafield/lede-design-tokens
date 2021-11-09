@@ -13,7 +13,7 @@ color:
         value: "#cccccc"
         attributes:
           figmaType: "color"
-      25:
+      30:
         value: "#b3b3b3"
         attributes:
           figmaType: "color"

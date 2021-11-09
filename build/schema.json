@@ -269,13 +269,18 @@
     "background": {
       "base": {
         "value": "#FFFFFF",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/background.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.white.value}"
+          "value": "{color.base.white.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-background-base",
-        "attributes": {},
         "path": [
           "color",
           "background",
@@ -284,13 +289,18 @@
       },
       "alt": {
         "value": "#e6e6e6",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/background.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.gray.10.value}"
+          "value": "{color.base.gray.10.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-background-alt",
-        "attributes": {},
         "path": [
           "color",
           "background",
@@ -299,43 +309,38 @@
       },
       "disabled": {
         "value": "#cccccc",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/background.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.gray.20.value}"
+          "value": "{color.base.gray.20.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-background-disabled",
-        "attributes": {},
         "path": [
           "color",
           "background",
           "disabled"
         ]
       },
-      "inverse": {
-        "value": "#1a1a1a",
-        "filePath": "tokens/color/background.yml",
-        "isSource": true,
-        "original": {
-          "value": "{color.base.gray.90.value}"
-        },
-        "name": "color-background-inverse",
-        "attributes": {},
-        "path": [
-          "color",
-          "background",
-          "inverse"
-        ]
-      },
       "success": {
         "value": "#4CAF50",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/background.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.green.base.value}"
+          "value": "{color.base.green.base.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-background-success",
-        "attributes": {},
         "path": [
           "color",
           "background",
@@ -344,13 +349,18 @@
       },
       "error": {
         "value": "#E53935",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/background.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.red.base.value}"
+          "value": "{color.base.red.base.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-background-error",
-        "attributes": {},
         "path": [
           "color",
           "background",
@@ -359,13 +369,18 @@
       },
       "warning": {
         "value": "#FF6D00",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/background.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.orange.base.value}"
+          "value": "{color.base.orange.base.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-background-warning",
-        "attributes": {},
         "path": [
           "color",
           "background",
@@ -374,30 +389,189 @@
       },
       "low-priority": {
         "value": "#4d4d4d",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/background.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.gray.70.value}"
+          "value": "{color.base.gray.70.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-background-low-priority",
-        "attributes": {},
         "path": [
           "color",
           "background",
           "low-priority"
         ]
       },
+      "inverse": {
+        "base": {
+          "value": "#1a1a1a",
+          "attributes": {
+            "figmaType": "color"
+          },
+          "filePath": "tokens/color/background.yml",
+          "isSource": true,
+          "original": {
+            "value": "{color.base.gray.90.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
+          },
+          "name": "color-background-inverse-base",
+          "path": [
+            "color",
+            "background",
+            "inverse",
+            "base"
+          ]
+        },
+        "alt": {
+          "value": "#333333",
+          "attributes": {
+            "figmaType": "color"
+          },
+          "filePath": "tokens/color/background.yml",
+          "isSource": true,
+          "original": {
+            "value": "{color.base.gray.80.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
+          },
+          "name": "color-background-inverse-alt",
+          "path": [
+            "color",
+            "background",
+            "inverse",
+            "alt"
+          ]
+        },
+        "disabled": {
+          "value": "#cccccc",
+          "attributes": {
+            "figmaType": "color"
+          },
+          "filePath": "tokens/color/background.yml",
+          "isSource": true,
+          "original": {
+            "value": "{color.base.gray.20.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
+          },
+          "name": "color-background-inverse-disabled",
+          "path": [
+            "color",
+            "background",
+            "inverse",
+            "disabled"
+          ]
+        },
+        "success": {
+          "value": "#c9e7cb",
+          "attributes": {
+            "figmaType": "color"
+          },
+          "filePath": "tokens/color/background.yml",
+          "isSource": true,
+          "original": {
+            "value": "{color.base.green.20.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
+          },
+          "name": "color-background-inverse-success",
+          "path": [
+            "color",
+            "background",
+            "inverse",
+            "success"
+          ]
+        },
+        "error": {
+          "value": "#f7c4c2",
+          "attributes": {
+            "figmaType": "color"
+          },
+          "filePath": "tokens/color/background.yml",
+          "isSource": true,
+          "original": {
+            "value": "{color.base.red.20.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
+          },
+          "name": "color-background-inverse-error",
+          "path": [
+            "color",
+            "background",
+            "inverse",
+            "error"
+          ]
+        },
+        "warning": {
+          "value": "#ffd3b3",
+          "attributes": {
+            "figmaType": "color"
+          },
+          "filePath": "tokens/color/background.yml",
+          "isSource": true,
+          "original": {
+            "value": "{color.base.orange.20.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
+          },
+          "name": "color-background-inverse-warning",
+          "path": [
+            "color",
+            "background",
+            "inverse",
+            "warning"
+          ]
+        },
+        "low-priority": {
+          "value": "#b3b3b3",
+          "attributes": {
+            "figmaType": "color"
+          },
+          "filePath": "tokens/color/background.yml",
+          "isSource": true,
+          "original": {
+            "value": "{color.base.gray.30.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
+          },
+          "name": "color-background-inverse-low-priority",
+          "path": [
+            "color",
+            "background",
+            "inverse",
+            "low-priority"
+          ]
+        }
+      },
       "button": {
         "primary": {
           "base": {
             "value": "#510A7F",
+            "attributes": {
+              "figmaType": "color"
+            },
             "filePath": "tokens/color/background.yml",
             "isSource": true,
             "original": {
-              "value": "{color.brand.primary.base.value}"
+              "value": "{color.brand.primary.base.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
             },
             "name": "color-background-button-primary-base",
-            "attributes": {},
             "path": [
               "color",
               "background",
@@ -408,13 +582,18 @@
           },
           "disabled": {
             "value": "#dccee5",
+            "attributes": {
+              "figmaType": "color"
+            },
             "filePath": "tokens/color/background.yml",
             "isSource": true,
             "original": {
-              "value": "{color.brand.primary.20.value}"
+              "value": "{color.brand.primary.20.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
             },
             "name": "color-background-button-primary-disabled",
-            "attributes": {},
             "path": [
               "color",
               "background",
@@ -425,13 +604,18 @@
           },
           "active": {
             "value": "#490972",
+            "attributes": {
+              "figmaType": "color"
+            },
             "filePath": "tokens/color/background.yml",
             "isSource": true,
             "original": {
-              "value": "{color.brand.primary.110.value}"
+              "value": "{color.brand.primary.110.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
             },
             "name": "color-background-button-primary-active",
-            "attributes": {},
             "path": [
               "color",
               "background",
@@ -444,13 +628,18 @@
         "secondary": {
           "base": {
             "value": "#F6212E",
+            "attributes": {
+              "figmaType": "color"
+            },
             "filePath": "tokens/color/background.yml",
             "isSource": true,
             "original": {
-              "value": "{color.brand.secondary.base.value}"
+              "value": "{color.brand.secondary.base.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
             },
             "name": "color-background-button-secondary-base",
-            "attributes": {},
             "path": [
               "color",
               "background",
@@ -461,13 +650,18 @@
           },
           "disabled": {
             "value": "#fdd3d5",
+            "attributes": {
+              "figmaType": "color"
+            },
             "filePath": "tokens/color/background.yml",
             "isSource": true,
             "original": {
-              "value": "{color.brand.secondary.20.value}"
+              "value": "{color.brand.secondary.20.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
             },
             "name": "color-background-button-secondary-disabled",
-            "attributes": {},
             "path": [
               "color",
               "background",
@@ -478,13 +672,18 @@
           },
           "active": {
             "value": "#dd1e29",
+            "attributes": {
+              "figmaType": "color"
+            },
             "filePath": "tokens/color/background.yml",
             "isSource": true,
             "original": {
-              "value": "{color.brand.secondary.110.value}"
+              "value": "{color.brand.secondary.110.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
             },
             "name": "color-background-button-secondary-active",
-            "attributes": {},
             "path": [
               "color",
               "background",
@@ -498,13 +697,18 @@
       "overlay": {
         "light": {
           "value": "#FFFFFFCC",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/background.yml",
           "isSource": true,
           "original": {
-            "value": "#FFFFFFCC"
+            "value": "#FFFFFFCC",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "color-background-overlay-light",
-          "attributes": {},
           "path": [
             "color",
             "background",
@@ -514,13 +718,18 @@
         },
         "dark": {
           "value": "#00000044",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/background.yml",
           "isSource": true,
           "original": {
-            "value": "#00000044"
+            "value": "#00000044",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "color-background-overlay-dark",
-          "attributes": {},
           "path": [
             "color",
             "background",
@@ -595,7 +804,7 @@
             "20"
           ]
         },
-        "25": {
+        "30": {
           "value": "#b3b3b3",
           "attributes": {
             "figmaType": "color"
@@ -608,12 +817,12 @@
               "figmaType": "color"
             }
           },
-          "name": "color-base-gray-25",
+          "name": "color-base-gray-30",
           "path": [
             "color",
             "base",
             "gray",
-            "25"
+            "30"
           ]
         },
         "35": {
@@ -1108,13 +1317,18 @@
     "border": {
       "light": {
         "value": "#cccccc",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/border.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.gray.20.value}"
+          "value": "{color.base.gray.20.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-border-light",
-        "attributes": {},
         "path": [
           "color",
           "border",
@@ -1123,13 +1337,18 @@
       },
       "base": {
         "value": "#b3b3b3",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/border.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.gray.25.value}"
+          "value": "{color.base.gray.30.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-border-base",
-        "attributes": {},
         "path": [
           "color",
           "border",
@@ -1138,13 +1357,18 @@
       },
       "dark": {
         "value": "#a6a6a6",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/border.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.gray.35.value}"
+          "value": "{color.base.gray.35.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-border-dark",
-        "attributes": {},
         "path": [
           "color",
           "border",
@@ -1153,13 +1377,18 @@
       },
       "focus": {
         "value": "#510A7F",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/border.yml",
         "isSource": true,
         "original": {
-          "value": "{color.brand.primary.base.value}"
+          "value": "{color.brand.primary.base.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-border-focus",
-        "attributes": {},
         "path": [
           "color",
           "border",
@@ -1168,13 +1397,18 @@
       },
       "error": {
         "value": "#E53935",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/border.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.red.base.value}"
+          "value": "{color.base.red.base.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-border-error",
-        "attributes": {},
         "path": [
           "color",
           "border",
@@ -1183,13 +1417,18 @@
       },
       "warning": {
         "value": "#FF6D00",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/border.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.orange.base.value}"
+          "value": "{color.base.orange.base.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-border-warning",
-        "attributes": {},
         "path": [
           "color",
           "border",
@@ -1198,13 +1437,18 @@
       },
       "success": {
         "value": "#4CAF50",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/border.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.green.base.value}"
+          "value": "{color.base.green.base.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-border-success",
-        "attributes": {},
         "path": [
           "color",
           "border",
@@ -1214,14 +1458,19 @@
       "button": {
         "primary": {
           "base": {
-            "value": "#b3b3b3",
+            "value": "#510A7F",
+            "attributes": {
+              "figmaType": "color"
+            },
             "filePath": "tokens/color/border.yml",
             "isSource": true,
             "original": {
-              "value": "{color.border.base.value}"
+              "value": "{color.brand.primary.base.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
             },
             "name": "color-border-button-primary-base",
-            "attributes": {},
             "path": [
               "color",
               "border",
@@ -1231,14 +1480,19 @@
             ]
           },
           "active": {
-            "value": "#490972",
+            "value": "#62238c",
+            "attributes": {
+              "figmaType": "color"
+            },
             "filePath": "tokens/color/border.yml",
             "isSource": true,
             "original": {
-              "value": "{color.brand.primary.110.value}"
+              "value": "{color.brand.primary.90.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
             },
             "name": "color-border-button-primary-active",
-            "attributes": {},
             "path": [
               "color",
               "border",
@@ -1249,13 +1503,18 @@
           },
           "disabled": {
             "value": "#cccccc",
+            "attributes": {
+              "figmaType": "color"
+            },
             "filePath": "tokens/color/border.yml",
             "isSource": true,
             "original": {
-              "value": "{color.border.light.value}"
+              "value": "{color.border.light.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
             },
             "name": "color-border-button-primary-disabled",
-            "attributes": {},
             "path": [
               "color",
               "border",
@@ -1267,14 +1526,19 @@
         },
         "secondary": {
           "base": {
-            "value": "#b3b3b3",
+            "value": "#F6212E",
+            "attributes": {
+              "figmaType": "color"
+            },
             "filePath": "tokens/color/border.yml",
             "isSource": true,
             "original": {
-              "value": "{color.border.base.value}"
+              "value": "{color.brand.secondary.base.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
             },
             "name": "color-border-button-secondary-base",
-            "attributes": {},
             "path": [
               "color",
               "border",
@@ -1284,14 +1548,19 @@
             ]
           },
           "active": {
-            "value": "#490972",
+            "value": "#f73743",
+            "attributes": {
+              "figmaType": "color"
+            },
             "filePath": "tokens/color/border.yml",
             "isSource": true,
             "original": {
-              "value": "{color.brand.primary.110.value}"
+              "value": "{color.brand.secondary.90.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
             },
             "name": "color-border-button-secondary-active",
-            "attributes": {},
             "path": [
               "color",
               "border",
@@ -1302,13 +1571,18 @@
           },
           "disabled": {
             "value": "#cccccc",
+            "attributes": {
+              "figmaType": "color"
+            },
             "filePath": "tokens/color/border.yml",
             "isSource": true,
             "original": {
-              "value": "{color.border.light.value}"
+              "value": "{color.border.light.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
             },
             "name": "color-border-button-secondary-disabled",
-            "attributes": {},
             "path": [
               "color",
               "border",
@@ -1562,13 +1836,18 @@
     "font": {
       "base": {
         "value": "#1a1a1a",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/font.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.gray.90.value}"
+          "value": "{color.base.gray.90.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-font-base",
-        "attributes": {},
         "path": [
           "color",
           "font",
@@ -1577,13 +1856,18 @@
       },
       "medium": {
         "value": "#333333",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/font.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.gray.80.value}"
+          "value": "{color.base.gray.80.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-font-medium",
-        "attributes": {},
         "path": [
           "color",
           "font",
@@ -1592,13 +1876,18 @@
       },
       "light": {
         "value": "#4d4d4d",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/font.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.gray.70.value}"
+          "value": "{color.base.gray.70.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-font-light",
-        "attributes": {},
         "path": [
           "color",
           "font",
@@ -1607,13 +1896,18 @@
       },
       "link": {
         "value": "#510A7F",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/font.yml",
         "isSource": true,
         "original": {
-          "value": "{color.brand.primary.base.value}"
+          "value": "{color.brand.primary.base.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-font-link",
-        "attributes": {},
         "path": [
           "color",
           "font",
@@ -1622,13 +1916,18 @@
       },
       "active": {
         "value": "#490972",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/font.yml",
         "isSource": true,
         "original": {
-          "value": "{color.brand.primary.110.value}"
+          "value": "{color.brand.primary.110.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-font-active",
-        "attributes": {},
         "path": [
           "color",
           "font",
@@ -1637,13 +1936,18 @@
       },
       "error": {
         "value": "#E53935",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/font.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.red.base.value}"
+          "value": "{color.base.red.base.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-font-error",
-        "attributes": {},
         "path": [
           "color",
           "font",
@@ -1652,13 +1956,18 @@
       },
       "warning": {
         "value": "#FF6D00",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/font.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.orange.base.value}"
+          "value": "{color.base.orange.base.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-font-warning",
-        "attributes": {},
         "path": [
           "color",
           "font",
@@ -1667,13 +1976,18 @@
       },
       "success": {
         "value": "#4CAF50",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/font.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.green.base.value}"
+          "value": "{color.base.green.base.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-font-success",
-        "attributes": {},
         "path": [
           "color",
           "font",
@@ -1682,13 +1996,18 @@
       },
       "disabled": {
         "value": "#4d4d4d",
+        "attributes": {
+          "figmaType": "color"
+        },
         "filePath": "tokens/color/font.yml",
         "isSource": true,
         "original": {
-          "value": "{color.font.light.value}"
+          "value": "{color.font.light.value}",
+          "attributes": {
+            "figmaType": "color"
+          }
         },
         "name": "color-font-disabled",
-        "attributes": {},
         "path": [
           "color",
           "font",
@@ -1698,13 +2017,18 @@
       "inverse": {
         "base": {
           "value": "#FFFFFF",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
-            "value": "{color.base.white.value}"
+            "value": "{color.base.white.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "color-font-inverse-base",
-          "attributes": {},
           "path": [
             "color",
             "font",
@@ -1714,13 +2038,18 @@
         },
         "medium": {
           "value": "#e6e6e6",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
-            "value": "{color.base.gray.10.value}"
+            "value": "{color.base.gray.10.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "color-font-inverse-medium",
-          "attributes": {},
           "path": [
             "color",
             "font",
@@ -1730,13 +2059,18 @@
         },
         "light": {
           "value": "#cccccc",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
-            "value": "{color.base.gray.20.value}"
+            "value": "{color.base.gray.20.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "color-font-inverse-light",
-          "attributes": {},
           "path": [
             "color",
             "font",
@@ -1746,13 +2080,18 @@
         },
         "link": {
           "value": "#eee7f2",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
-            "value": "{color.brand.primary.10.value}"
+            "value": "{color.brand.primary.10.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "color-font-inverse-link",
-          "attributes": {},
           "path": [
             "color",
             "font",
@@ -1762,13 +2101,18 @@
         },
         "active": {
           "value": "#dccee5",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
-            "value": "{color.brand.primary.20.value}"
+            "value": "{color.brand.primary.20.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "color-font-inverse-active",
-          "attributes": {},
           "path": [
             "color",
             "font",
@@ -1778,13 +2122,18 @@
         },
         "error": {
           "value": "#f7c4c2",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
-            "value": "{color.base.red.20.value}"
+            "value": "{color.base.red.20.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "color-font-inverse-error",
-          "attributes": {},
           "path": [
             "color",
             "font",
@@ -1794,13 +2143,18 @@
         },
         "warning": {
           "value": "#ffd3b3",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
-            "value": "{color.base.orange.20.value}"
+            "value": "{color.base.orange.20.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "color-font-inverse-warning",
-          "attributes": {},
           "path": [
             "color",
             "font",
@@ -1810,13 +2164,18 @@
         },
         "success": {
           "value": "#c9e7cb",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
-            "value": "{color.base.green.20.value}"
+            "value": "{color.base.green.20.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "color-font-inverse-success",
-          "attributes": {},
           "path": [
             "color",
             "font",
@@ -1826,13 +2185,18 @@
         },
         "disabled": {
           "value": "#cccccc",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
-            "value": "{color.font.inverse.light.value}"
+            "value": "{color.font.inverse.light.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "color-font-inverse-disabled",
-          "attributes": {},
           "path": [
             "color",
             "font",
@@ -1844,13 +2208,18 @@
       "button": {
         "primary": {
           "value": "#FFFFFF",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
-            "value": "{color.font.inverse.base.value}"
+            "value": "{color.font.inverse.base.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "color-font-button-primary",
-          "attributes": {},
           "path": [
             "color",
             "font",
@@ -1859,14 +2228,19 @@
           ]
         },
         "secondary": {
-          "value": "#510A7F",
+          "value": "#FFFFFF",
+          "attributes": {
+            "figmaType": "color"
+          },
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
-            "value": "{color.font.link.value}"
+            "value": "{color.font.inverse.base.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
           },
           "name": "color-font-button-secondary",
-          "attributes": {},
           "path": [
             "color",
             "font",
@@ -1954,7 +2328,280 @@
       }
     }
   },
+  "opacity": {
+    "base": {
+      "value": "100%",
+      "attributes": {
+        "figmaType": "opacity"
+      },
+      "filePath": "tokens/opacity.yml",
+      "isSource": true,
+      "original": {
+        "value": "100%",
+        "attributes": {
+          "figmaType": "opacity"
+        }
+      },
+      "name": "opacity-base",
+      "path": [
+        "opacity",
+        "base"
+      ]
+    },
+    "low": {
+      "value": "10%",
+      "attributes": {
+        "figmaType": "opacity"
+      },
+      "filePath": "tokens/opacity.yml",
+      "isSource": true,
+      "original": {
+        "value": "10%",
+        "attributes": {
+          "figmaType": "opacity"
+        }
+      },
+      "name": "opacity-low",
+      "path": [
+        "opacity",
+        "low"
+      ]
+    },
+    "medium": {
+      "value": "50%",
+      "attributes": {
+        "figmaType": "opacity"
+      },
+      "filePath": "tokens/opacity.yml",
+      "isSource": true,
+      "original": {
+        "value": "50%",
+        "attributes": {
+          "figmaType": "opacity"
+        }
+      },
+      "name": "opacity-medium",
+      "path": [
+        "opacity",
+        "medium"
+      ]
+    },
+    "high": {
+      "value": "90%",
+      "attributes": {
+        "figmaType": "opacity"
+      },
+      "filePath": "tokens/opacity.yml",
+      "isSource": true,
+      "original": {
+        "value": "90%",
+        "attributes": {
+          "figmaType": "opacity"
+        }
+      },
+      "name": "opacity-high",
+      "path": [
+        "opacity",
+        "high"
+      ]
+    }
+  },
   "size": {
+    "border": {
+      "radius": {
+        "base": {
+          "value": "0",
+          "attributes": {
+            "figmaType": "borderRadius"
+          },
+          "filePath": "tokens/size/border.yml",
+          "isSource": true,
+          "original": {
+            "value": "0",
+            "attributes": {
+              "figmaType": "borderRadius"
+            }
+          },
+          "name": "size-border-radius-base",
+          "path": [
+            "size",
+            "border",
+            "radius",
+            "base"
+          ]
+        },
+        "small": {
+          "value": "5",
+          "attributes": {
+            "figmaType": "borderRadius"
+          },
+          "filePath": "tokens/size/border.yml",
+          "isSource": true,
+          "original": {
+            "value": "5",
+            "attributes": {
+              "figmaType": "borderRadius"
+            }
+          },
+          "name": "size-border-radius-small",
+          "path": [
+            "size",
+            "border",
+            "radius",
+            "small"
+          ]
+        },
+        "medium": {
+          "value": "10",
+          "attributes": {
+            "figmaType": "borderRadius"
+          },
+          "filePath": "tokens/size/border.yml",
+          "isSource": true,
+          "original": {
+            "value": "10",
+            "attributes": {
+              "figmaType": "borderRadius"
+            }
+          },
+          "name": "size-border-radius-medium",
+          "path": [
+            "size",
+            "border",
+            "radius",
+            "medium"
+          ]
+        },
+        "large": {
+          "value": "20",
+          "attributes": {
+            "figmaType": "borderRadius"
+          },
+          "filePath": "tokens/size/border.yml",
+          "isSource": true,
+          "original": {
+            "value": "20",
+            "attributes": {
+              "figmaType": "borderRadius"
+            }
+          },
+          "name": "size-border-radius-large",
+          "path": [
+            "size",
+            "border",
+            "radius",
+            "large"
+          ]
+        }
+      },
+      "width": {
+        "none": {
+          "value": "0",
+          "attributes": {
+            "figmaType": "borderWidth"
+          },
+          "filePath": "tokens/size/border.yml",
+          "isSource": true,
+          "original": {
+            "value": "0",
+            "attributes": {
+              "figmaType": "borderWidth"
+            }
+          },
+          "name": "size-border-width-none",
+          "path": [
+            "size",
+            "border",
+            "width",
+            "none"
+          ]
+        },
+        "xs": {
+          "value": "1",
+          "attributes": {
+            "figmaType": "borderWidth"
+          },
+          "filePath": "tokens/size/border.yml",
+          "isSource": true,
+          "original": {
+            "value": "1",
+            "attributes": {
+              "figmaType": "borderWidth"
+            }
+          },
+          "name": "size-border-width-xs",
+          "path": [
+            "size",
+            "border",
+            "width",
+            "xs"
+          ]
+        },
+        "sm": {
+          "value": "2",
+          "attributes": {
+            "figmaType": "borderWidth"
+          },
+          "filePath": "tokens/size/border.yml",
+          "isSource": true,
+          "original": {
+            "value": "2",
+            "attributes": {
+              "figmaType": "borderWidth"
+            }
+          },
+          "name": "size-border-width-sm",
+          "path": [
+            "size",
+            "border",
+            "width",
+            "sm"
+          ]
+        },
+        "md": {
+          "value": "4",
+          "attributes": {
+            "figmaType": "borderWidth"
+          },
+          "filePath": "tokens/size/border.yml",
+          "isSource": true,
+          "original": {
+            "value": "4",
+            "attributes": {
+              "figmaType": "borderWidth"
+            }
+          },
+          "name": "size-border-width-md",
+          "path": [
+            "size",
+            "border",
+            "width",
+            "md"
+          ]
+        },
+        "lg": {
+          "value": "8",
+          "attributes": {
+            "figmaType": "borderWidth"
+          },
+          "filePath": "tokens/size/border.yml",
+          "isSource": true,
+          "original": {
+            "value": "8",
+            "attributes": {
+              "figmaType": "borderWidth"
+            }
+          },
+          "name": "size-border-width-lg",
+          "path": [
+            "size",
+            "border",
+            "width",
+            "lg"
+          ]
+        }
+      }
+    },
     "font": {
       "xs": {
         "value": 0.75,
