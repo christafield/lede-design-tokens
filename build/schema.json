@@ -769,7 +769,7 @@
             ]
           },
           "disabled": {
-            "value": "#ffffff",
+            "value": "#ba62f3",
             "attributes": {
               "figmaType": "color"
             },
@@ -1264,7 +1264,7 @@
           ]
         },
         "link": {
-          "value": "#ffffff",
+          "value": "#cf92f6",
           "attributes": {
             "figmaType": "color"
           },
@@ -1285,7 +1285,7 @@
           ]
         },
         "active": {
-          "value": "#ffffff",
+          "value": "#ba62f3",
           "attributes": {
             "figmaType": "color"
           },
@@ -2046,14 +2046,14 @@
     "brand": {
       "primary": {
         "10": {
-          "value": "#ffffff",
+          "value": "#cf92f6",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#ffffff",
+            "value": "#cf92f6",
             "attributes": {
               "figmaType": "color"
             }
@@ -2067,14 +2067,14 @@
           ]
         },
         "20": {
-          "value": "#ffffff",
+          "value": "#ba62f3",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#ffffff",
+            "value": "#ba62f3",
             "attributes": {
               "figmaType": "color"
             }
