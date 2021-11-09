@@ -12,13 +12,13 @@ module.exports = {
     brand: {
       primary: {
         10: {
-          value: tinycolor(baseColors.primary).lighten(90).toHexString(),
+          value: tinycolor(baseColors.primary).lighten(50).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
         20: {
-          value: tinycolor(baseColors.primary).lighten(80).toHexString(),
+          value: tinycolor(baseColors.primary).lighten(40).toHexString(),
           attributes: {
             figmaType: 'color'
           }
