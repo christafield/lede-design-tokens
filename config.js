@@ -19,7 +19,10 @@ module.exports = {
     // The function is expected to return a plain object.
     parse: ({contents, filePath}) => yaml.parse(contents)
   }],
-  source: [`tokens/**/*.yml`],
+  source: [
+    'tokens/**/*.yml',
+    'tokens/**/*.js',
+  ],
   platforms: {
     css: {
       transformGroup: 'css',

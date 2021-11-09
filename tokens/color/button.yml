@@ -1,19 +1,6 @@
 color:
   button:
     primary:
-      border:
-        base:
-          value: "{color.brand.primary.base.value}"
-          attributes:
-            figmaType: "color"
-        active:
-          value: "{color.brand.primary.90.value}"
-          attributes:
-            figmaType: "color"
-        disabled:
-          value: "{color.border.light.value}"
-          attributes:
-            figmaType: "color"
       background:
         base:
           value: "{color.brand.primary.base.value}"
@@ -24,7 +11,7 @@ color:
           attributes:
             figmaType: "color"
         active:
-          value: "{color.brand.primary.110.value}"
+          value: "{color.brand.primary.120.value}"
           attributes:
             figmaType: "color"
       text:
@@ -32,19 +19,6 @@ color:
         attributes:
           figmaType: "color"
     secondary:
-      border:
-        base:
-          value: "{color.brand.secondary.base.value}"
-          attributes:
-            figmaType: "color"
-        active:
-          value: "{color.brand.secondary.90.value}"
-          attributes:
-            figmaType: "color"
-        disabled:
-          value: "{color.border.light.value}"
-          attributes:
-            figmaType: "color"
       background:
         base:
           value: "{color.brand.secondary.base.value}"
@@ -55,7 +29,25 @@ color:
           attributes:
             figmaType: "color"
         active:
-          value: "{color.brand.secondary.110.value}"
+          value: "{color.brand.secondary.120.value}"
+          attributes:
+            figmaType: "color"
+      text:
+        value: "{color.font.inverse.base.value}"
+        attributes:
+          figmaType: "color"
+    grayscale:
+      background:
+        base:
+          value: "{color.brand.secondary.base.value}"
+          attributes:
+            figmaType: "color"
+        disabled:
+          value: "{color.brand.secondary.20.value}"
+          attributes:
+            figmaType: "color"
+        active:
+          value: "{color.brand.secondary.120.value}"
           attributes:
             figmaType: "color"
       text:
