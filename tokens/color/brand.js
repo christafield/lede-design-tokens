@@ -12,19 +12,19 @@ module.exports = {
     brand: {
       primary: {
         50: {
-          value: tinycolor(baseColors.primary).lighten(50).toHexString(),
+          value: tinycolor(baseColors.primary).brighten(50).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
         60: {
-          value: tinycolor(baseColors.primary).lighten(40).toHexString(),
+          value: tinycolor(baseColors.primary).brighten(40).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
         90: {
-          value: tinycolor(baseColors.primary).lighten(10).toHexString(),
+          value: tinycolor(baseColors.primary).brighten(10).toHexString(),
           attributes: {
             figmaType: 'color'
           }
@@ -44,19 +44,19 @@ module.exports = {
       },
       secondary: {
         50: {
-          value: tinycolor(baseColors.secondary).lighten(50).toHexString(),
+          value: tinycolor(baseColors.secondary).brighten(50).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
         60: {
-          value: tinycolor(baseColors.secondary).lighten(40).toHexString(),
+          value: tinycolor(baseColors.secondary).brighten(40).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
         90: {
-          value: tinycolor(baseColors.secondary).lighten(10).toHexString(),
+          value: tinycolor(baseColors.secondary).brighten(10).toHexString(),
           attributes: {
             figmaType: 'color'
           }
@@ -76,19 +76,19 @@ module.exports = {
       },
       accent: {
         50: {
-          value: tinycolor(baseColors.accent).lighten(50).toHexString(),
+          value: tinycolor(baseColors.accent).brighten(50).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
         60: {
-          value: tinycolor(baseColors.accent).lighten(40).toHexString(),
+          value: tinycolor(baseColors.accent).brighten(40).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
         90: {
-          value: tinycolor(baseColors.accent).lighten(10).toHexString(),
+          value: tinycolor(baseColors.accent).brighten(10).toHexString(),
           attributes: {
             figmaType: 'color'
           }
