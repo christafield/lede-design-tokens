@@ -42,15 +42,15 @@ color:
         attributes:
           figmaType: "color"
       success:
-        value: "{color.base.green.20.value}"
+        value: "{color.base.green.60.value}"
         attributes:
           figmaType: "color"
       error:
-        value: "{color.base.red.20.value}"
+        value: "{color.base.red.60.value}"
         attributes:
           figmaType: "color"
       warning:
-        value: "{color.base.orange.20.value}"
+        value: "{color.base.orange.60.value}"
         attributes:
           figmaType: "color"
       low-priority:

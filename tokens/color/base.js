@@ -86,20 +86,20 @@ module.exports = {
         }
       },
       red: {
-        10: {
-          value: tinycolor(baseColors.red).brighten(90).toHexString(),
+        50: {
+          value: tinycolor(baseColors.red).lighten(50).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
-        20: {
-          value: tinycolor(baseColors.red).brighten(80).toHexString(),
+        60: {
+          value: tinycolor(baseColors.red).lighten(40).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
         90: {
-          value: tinycolor(baseColors.red).brighten(10).toHexString(),
+          value: tinycolor(baseColors.red).lighten(10).toHexString(),
           attributes: {
             figmaType: 'color'
           }
@@ -118,20 +118,20 @@ module.exports = {
         }
       },
       orange: {
-        10: {
-          value: tinycolor(baseColors.orange).brighten(90).toHexString(),
+        50: {
+          value: tinycolor(baseColors.orange).lighten(50).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
-        20: {
-          value: tinycolor(baseColors.orange).brighten(80).toHexString(),
+        60: {
+          value: tinycolor(baseColors.orange).lighten(40).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
         90: {
-          value: tinycolor(baseColors.orange).brighten(10).toHexString(),
+          value: tinycolor(baseColors.orange).lighten(10).toHexString(),
           attributes: {
             figmaType: 'color'
           }
@@ -150,20 +150,20 @@ module.exports = {
         }
       },
       green: {
-        10: {
-          value: tinycolor(baseColors.green).brighten(90).toHexString(),
+        50: {
+          value: tinycolor(baseColors.green).lighten(50).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
-        20: {
-          value: tinycolor(baseColors.green).brighten(80).toHexString(),
+        60: {
+          value: tinycolor(baseColors.green).lighten(40).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
         90: {
-          value: tinycolor(baseColors.green).brighten(10).toHexString(),
+          value: tinycolor(baseColors.green).lighten(10).toHexString(),
           attributes: {
             figmaType: 'color'
           }

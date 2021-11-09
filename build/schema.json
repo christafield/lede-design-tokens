@@ -472,14 +472,14 @@
           ]
         },
         "success": {
-          "value": "#ffffff",
+          "value": "#d9eeda",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/background.yml",
           "isSource": true,
           "original": {
-            "value": "{color.base.green.20.value}",
+            "value": "{color.base.green.60.value}",
             "attributes": {
               "figmaType": "color"
             }
@@ -493,14 +493,14 @@
           ]
         },
         "error": {
-          "value": "#ffffff",
+          "value": "#fceaea",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/background.yml",
           "isSource": true,
           "original": {
-            "value": "{color.base.red.20.value}",
+            "value": "{color.base.red.60.value}",
             "attributes": {
               "figmaType": "color"
             }
@@ -514,14 +514,14 @@
           ]
         },
         "warning": {
-          "value": "#ffffcc",
+          "value": "#ffe2cc",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/background.yml",
           "isSource": true,
           "original": {
-            "value": "{color.base.orange.20.value}",
+            "value": "{color.base.orange.60.value}",
             "attributes": {
               "figmaType": "color"
             }
@@ -1264,7 +1264,7 @@
           ]
         },
         "link": {
-          "value": "#d089fe",
+          "value": "#cf92f6",
           "attributes": {
             "figmaType": "color"
           },
@@ -1285,7 +1285,7 @@
           ]
         },
         "active": {
-          "value": "#6a2398",
+          "value": "#6f0eae",
           "attributes": {
             "figmaType": "color"
           },
@@ -1306,14 +1306,14 @@
           ]
         },
         "error": {
-          "value": "#ffffff",
+          "value": "#fceaea",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
-            "value": "{color.base.red.20.value}",
+            "value": "{color.base.red.60.value}",
             "attributes": {
               "figmaType": "color"
             }
@@ -1327,14 +1327,14 @@
           ]
         },
         "warning": {
-          "value": "#ffffcc",
+          "value": "#ffe2cc",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
-            "value": "{color.base.orange.20.value}",
+            "value": "{color.base.orange.60.value}",
             "attributes": {
               "figmaType": "color"
             }
@@ -1348,14 +1348,14 @@
           ]
         },
         "success": {
-          "value": "#ffffff",
+          "value": "#d9eeda",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
-            "value": "{color.base.green.20.value}",
+            "value": "{color.base.green.60.value}",
             "attributes": {
               "figmaType": "color"
             }
@@ -1722,7 +1722,7 @@
         ]
       },
       "red": {
-        "10": {
+        "50": {
           "value": "#ffffff",
           "attributes": {
             "figmaType": "color"
@@ -1735,44 +1735,44 @@
               "figmaType": "color"
             }
           },
-          "name": "color-base-red-10",
+          "name": "color-base-red-50",
           "path": [
             "color",
             "base",
             "red",
-            "10"
+            "50"
           ]
         },
-        "20": {
-          "value": "#ffffff",
+        "60": {
+          "value": "#fceaea",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/base.js",
           "isSource": true,
           "original": {
-            "value": "#ffffff",
+            "value": "#fceaea",
             "attributes": {
               "figmaType": "color"
             }
           },
-          "name": "color-base-red-20",
+          "name": "color-base-red-60",
           "path": [
             "color",
             "base",
             "red",
-            "20"
+            "60"
           ]
         },
         "90": {
-          "value": "#fe524e",
+          "value": "#eb6562",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/base.js",
           "isSource": true,
           "original": {
-            "value": "#fe524e",
+            "value": "#eb6562",
             "attributes": {
               "figmaType": "color"
             }
@@ -1829,57 +1829,57 @@
         }
       },
       "orange": {
-        "10": {
-          "value": "#ffffe5",
+        "50": {
+          "value": "#ffffff",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/base.js",
           "isSource": true,
           "original": {
-            "value": "#ffffe5",
+            "value": "#ffffff",
             "attributes": {
               "figmaType": "color"
             }
           },
-          "name": "color-base-orange-10",
+          "name": "color-base-orange-50",
           "path": [
             "color",
             "base",
             "orange",
-            "10"
+            "50"
           ]
         },
-        "20": {
-          "value": "#ffffcc",
+        "60": {
+          "value": "#ffe2cc",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/base.js",
           "isSource": true,
           "original": {
-            "value": "#ffffcc",
+            "value": "#ffe2cc",
             "attributes": {
               "figmaType": "color"
             }
           },
-          "name": "color-base-orange-20",
+          "name": "color-base-orange-60",
           "path": [
             "color",
             "base",
             "orange",
-            "20"
+            "60"
           ]
         },
         "90": {
-          "value": "#ff8619",
+          "value": "#ff8a33",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/base.js",
           "isSource": true,
           "original": {
-            "value": "#ff8619",
+            "value": "#ff8a33",
             "attributes": {
               "figmaType": "color"
             }
@@ -1936,57 +1936,57 @@
         }
       },
       "green": {
-        "10": {
-          "value": "#ffffff",
+        "50": {
+          "value": "#fcfefc",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/base.js",
           "isSource": true,
           "original": {
-            "value": "#ffffff",
+            "value": "#fcfefc",
             "attributes": {
               "figmaType": "color"
             }
           },
-          "name": "color-base-green-10",
+          "name": "color-base-green-50",
           "path": [
             "color",
             "base",
             "green",
-            "10"
+            "50"
           ]
         },
-        "20": {
-          "value": "#ffffff",
+        "60": {
+          "value": "#d9eeda",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/base.js",
           "isSource": true,
           "original": {
-            "value": "#ffffff",
+            "value": "#d9eeda",
             "attributes": {
               "figmaType": "color"
             }
           },
-          "name": "color-base-green-20",
+          "name": "color-base-green-60",
           "path": [
             "color",
             "base",
             "green",
-            "20"
+            "60"
           ]
         },
         "90": {
-          "value": "#65c869",
+          "value": "#6ec071",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/base.js",
           "isSource": true,
           "original": {
-            "value": "#65c869",
+            "value": "#6ec071",
             "attributes": {
               "figmaType": "color"
             }
@@ -2046,14 +2046,14 @@
     "brand": {
       "primary": {
         "50": {
-          "value": "#d089fe",
+          "value": "#cf92f6",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#d089fe",
+            "value": "#cf92f6",
             "attributes": {
               "figmaType": "color"
             }
@@ -2067,14 +2067,14 @@
           ]
         },
         "60": {
-          "value": "#b770e5",
+          "value": "#ba62f3",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#b770e5",
+            "value": "#ba62f3",
             "attributes": {
               "figmaType": "color"
             }
@@ -2088,14 +2088,14 @@
           ]
         },
         "90": {
-          "value": "#6a2398",
+          "value": "#6f0eae",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#6a2398",
+            "value": "#6f0eae",
             "attributes": {
               "figmaType": "color"
             }
@@ -2153,14 +2153,14 @@
       },
       "secondary": {
         "50": {
-          "value": "#ffa0ad",
+          "value": "#ffffff",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#ffa0ad",
+            "value": "#ffffff",
             "attributes": {
               "figmaType": "color"
             }
@@ -2174,14 +2174,14 @@
           ]
         },
         "60": {
-          "value": "#ff8794",
+          "value": "#fee5e7",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#ff8794",
+            "value": "#fee5e7",
             "attributes": {
               "figmaType": "color"
             }
@@ -2195,14 +2195,14 @@
           ]
         },
         "90": {
-          "value": "#ff3a47",
+          "value": "#f8525c",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#ff3a47",
+            "value": "#f8525c",
             "attributes": {
               "figmaType": "color"
             }
@@ -2260,14 +2260,14 @@
       },
       "accent": {
         "50": {
-          "value": "#ffffad",
+          "value": "#ffffff",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#ffffad",
+            "value": "#ffffff",
             "attributes": {
               "figmaType": "color"
             }
@@ -2281,14 +2281,14 @@
           ]
         },
         "60": {
-          "value": "#ffff94",
+          "value": "#fffefa",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#ffff94",
+            "value": "#fffefa",
             "attributes": {
               "figmaType": "color"
             }
@@ -2302,14 +2302,14 @@
           ]
         },
         "90": {
-          "value": "#fff547",
+          "value": "#ffe561",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#fff547",
+            "value": "#ffe561",
             "attributes": {
               "figmaType": "color"
             }
