@@ -11,13 +11,13 @@ module.exports = {
   color: {
     brand: {
       primary: {
-        10: {
+        50: {
           value: tinycolor(baseColors.primary).lighten(50).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
-        20: {
+        60: {
           value: tinycolor(baseColors.primary).lighten(40).toHexString(),
           attributes: {
             figmaType: 'color'
@@ -43,14 +43,14 @@ module.exports = {
         }
       },
       secondary: {
-        10: {
-          value: tinycolor(baseColors.secondary).lighten(90).toHexString(),
+        50: {
+          value: tinycolor(baseColors.secondary).lighten(50).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
-        20: {
-          value: tinycolor(baseColors.secondary).lighten(80).toHexString(),
+        60: {
+          value: tinycolor(baseColors.secondary).lighten(40).toHexString(),
           attributes: {
             figmaType: 'color'
           }
@@ -75,14 +75,14 @@ module.exports = {
         }
       },
       accent: {
-        10: {
-          value: tinycolor(baseColors.accent).lighten(90).toHexString(),
+        50: {
+          value: tinycolor(baseColors.accent).lighten(50).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
-        20: {
-          value: tinycolor(baseColors.accent).lighten(80).toHexString(),
+        60: {
+          value: tinycolor(baseColors.accent).lighten(40).toHexString(),
           attributes: {
             figmaType: 'color'
           }
