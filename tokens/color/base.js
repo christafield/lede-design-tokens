@@ -143,7 +143,7 @@ module.exports = {
           }
         },
         base: {
-          value: baseColors.accent,
+          value: baseColors.orange,
           attributes: {
             figmaType: 'color'
           }
