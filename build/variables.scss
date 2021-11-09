@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 09 Nov 2021 17:44:19 GMT
+// Generated on Tue, 09 Nov 2021 17:48:32 GMT
 
 $typography-figma-weight-black: Black;
 $typography-figma-weight-bold: Bold;
@@ -188,10 +188,16 @@ $color-font-link: $color-brand-primary-base;
 $color-font-light: $color-base-gray-70;
 $color-font-medium: $color-base-gray-80;
 $color-font-base: $color-base-gray-90;
-$color-border-button-secondary-active: $color-brand-secondary-90;
-$color-border-button-secondary-base: $color-brand-secondary-base;
-$color-border-button-primary-active: $color-brand-primary-90;
-$color-border-button-primary-base: $color-brand-primary-base;
+$color-button-secondary-background-active: $color-brand-secondary-110;
+$color-button-secondary-background-disabled: $color-brand-secondary-20;
+$color-button-secondary-background-base: $color-brand-secondary-base;
+$color-button-secondary-border-active: $color-brand-secondary-90;
+$color-button-secondary-border-base: $color-brand-secondary-base;
+$color-button-primary-background-active: $color-brand-primary-110;
+$color-button-primary-background-disabled: $color-brand-primary-20;
+$color-button-primary-background-base: $color-brand-primary-base;
+$color-button-primary-border-active: $color-brand-primary-90;
+$color-button-primary-border-base: $color-brand-primary-base;
 $color-border-success: $color-base-green-base;
 $color-border-warning: $color-base-orange-base;
 $color-border-error: $color-base-red-base;
@@ -201,12 +207,6 @@ $color-border-base: $color-base-gray-30;
 $color-border-light: $color-base-gray-20;
 $color-base-black: $color-base-gray-100;
 $color-base-white: $color-base-gray-0;
-$color-background-button-secondary-active: $color-brand-secondary-110;
-$color-background-button-secondary-disabled: $color-brand-secondary-20;
-$color-background-button-secondary-base: $color-brand-secondary-base;
-$color-background-button-primary-active: $color-brand-primary-110;
-$color-background-button-primary-disabled: $color-brand-primary-20;
-$color-background-button-primary-base: $color-brand-primary-base;
 $color-background-inverse-low-priority: $color-base-gray-30;
 $color-background-inverse-warning: $color-base-orange-20;
 $color-background-inverse-error: $color-base-red-20;
@@ -265,8 +265,8 @@ $typography-set-body-text-font-family: $typography-family-primary;
 $color-font-inverse-disabled: $color-font-inverse-light;
 $color-font-inverse-base: $color-base-white;
 $color-font-disabled: $color-font-light;
-$color-border-button-secondary-disabled: $color-border-light;
-$color-border-button-primary-disabled: $color-border-light;
+$color-button-secondary-border-disabled: $color-border-light;
+$color-button-primary-border-disabled: $color-border-light;
 $color-background-base: $color-base-white;
-$color-font-button-secondary: $color-font-inverse-base;
-$color-font-button-primary: $color-font-inverse-base;
+$color-button-secondary-text: $color-font-inverse-base;
+$color-button-primary-text: $color-font-inverse-base;

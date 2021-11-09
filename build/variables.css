@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Nov 2021 17:44:19 GMT
+ * Generated on Tue, 09 Nov 2021 17:48:32 GMT
  */
 
 :root {
@@ -34,12 +34,6 @@
   --color-background-inverse-error: #f7c4c2;
   --color-background-inverse-warning: #ffd3b3;
   --color-background-inverse-low-priority: #b3b3b3;
-  --color-background-button-primary-base: #510a7f;
-  --color-background-button-primary-disabled: #dccee5;
-  --color-background-button-primary-active: #490972;
-  --color-background-button-secondary-base: #f6212e;
-  --color-background-button-secondary-disabled: #fdd3d5;
-  --color-background-button-secondary-active: #dd1e29;
   --color-background-overlay-light: rgba(255, 255, 255, 0.8);
   --color-background-overlay-dark: rgba(0, 0, 0, 0.27);
   --color-base-gray-0: #ffffff;
@@ -76,12 +70,6 @@
   --color-border-error: #e53935;
   --color-border-warning: #ff6d00;
   --color-border-success: #4caf50;
-  --color-border-button-primary-base: #510a7f;
-  --color-border-button-primary-active: #62238c;
-  --color-border-button-primary-disabled: #cccccc;
-  --color-border-button-secondary-base: #f6212e;
-  --color-border-button-secondary-active: #f73743;
-  --color-border-button-secondary-disabled: #cccccc;
   --color-brand-primary-10: #eee7f2;
   --color-brand-primary-20: #dccee5;
   --color-brand-primary-90: #62238c;
@@ -93,6 +81,20 @@
   --color-brand-secondary-110: #dd1e29;
   --color-brand-secondary-base: #f6212e;
   --color-brand-accent-base: #ffdc2e;
+  --color-button-primary-border-base: #510a7f;
+  --color-button-primary-border-active: #62238c;
+  --color-button-primary-border-disabled: #cccccc;
+  --color-button-primary-background-base: #510a7f;
+  --color-button-primary-background-disabled: #dccee5;
+  --color-button-primary-background-active: #490972;
+  --color-button-primary-text: #ffffff;
+  --color-button-secondary-border-base: #f6212e;
+  --color-button-secondary-border-active: #f73743;
+  --color-button-secondary-border-disabled: #cccccc;
+  --color-button-secondary-background-base: #f6212e;
+  --color-button-secondary-background-disabled: #fdd3d5;
+  --color-button-secondary-background-active: #dd1e29;
+  --color-button-secondary-text: #ffffff;
   --color-font-base: #1a1a1a;
   --color-font-medium: #333333;
   --color-font-light: #4d4d4d;
@@ -111,8 +113,6 @@
   --color-font-inverse-warning: #ffd3b3;
   --color-font-inverse-success: #c9e7cb;
   --color-font-inverse-disabled: #cccccc;
-  --color-font-button-primary: #ffffff;
-  --color-font-button-secondary: #ffffff;
   --color-social-comment: #101010;
   --color-social-facebook: #3b5998;
   --color-social-pinterest: #e60023;

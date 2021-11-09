@@ -556,144 +556,6 @@
           ]
         }
       },
-      "button": {
-        "primary": {
-          "base": {
-            "value": "#510A7F",
-            "attributes": {
-              "figmaType": "color"
-            },
-            "filePath": "tokens/color/background.yml",
-            "isSource": true,
-            "original": {
-              "value": "{color.brand.primary.base.value}",
-              "attributes": {
-                "figmaType": "color"
-              }
-            },
-            "name": "color-background-button-primary-base",
-            "path": [
-              "color",
-              "background",
-              "button",
-              "primary",
-              "base"
-            ]
-          },
-          "disabled": {
-            "value": "#dccee5",
-            "attributes": {
-              "figmaType": "color"
-            },
-            "filePath": "tokens/color/background.yml",
-            "isSource": true,
-            "original": {
-              "value": "{color.brand.primary.20.value}",
-              "attributes": {
-                "figmaType": "color"
-              }
-            },
-            "name": "color-background-button-primary-disabled",
-            "path": [
-              "color",
-              "background",
-              "button",
-              "primary",
-              "disabled"
-            ]
-          },
-          "active": {
-            "value": "#490972",
-            "attributes": {
-              "figmaType": "color"
-            },
-            "filePath": "tokens/color/background.yml",
-            "isSource": true,
-            "original": {
-              "value": "{color.brand.primary.110.value}",
-              "attributes": {
-                "figmaType": "color"
-              }
-            },
-            "name": "color-background-button-primary-active",
-            "path": [
-              "color",
-              "background",
-              "button",
-              "primary",
-              "active"
-            ]
-          }
-        },
-        "secondary": {
-          "base": {
-            "value": "#F6212E",
-            "attributes": {
-              "figmaType": "color"
-            },
-            "filePath": "tokens/color/background.yml",
-            "isSource": true,
-            "original": {
-              "value": "{color.brand.secondary.base.value}",
-              "attributes": {
-                "figmaType": "color"
-              }
-            },
-            "name": "color-background-button-secondary-base",
-            "path": [
-              "color",
-              "background",
-              "button",
-              "secondary",
-              "base"
-            ]
-          },
-          "disabled": {
-            "value": "#fdd3d5",
-            "attributes": {
-              "figmaType": "color"
-            },
-            "filePath": "tokens/color/background.yml",
-            "isSource": true,
-            "original": {
-              "value": "{color.brand.secondary.20.value}",
-              "attributes": {
-                "figmaType": "color"
-              }
-            },
-            "name": "color-background-button-secondary-disabled",
-            "path": [
-              "color",
-              "background",
-              "button",
-              "secondary",
-              "disabled"
-            ]
-          },
-          "active": {
-            "value": "#dd1e29",
-            "attributes": {
-              "figmaType": "color"
-            },
-            "filePath": "tokens/color/background.yml",
-            "isSource": true,
-            "original": {
-              "value": "{color.brand.secondary.110.value}",
-              "attributes": {
-                "figmaType": "color"
-              }
-            },
-            "name": "color-background-button-secondary-active",
-            "path": [
-              "color",
-              "background",
-              "button",
-              "secondary",
-              "active"
-            ]
-          }
-        }
-      },
       "overlay": {
         "light": {
           "value": "#FFFFFFCC",
@@ -1454,144 +1316,6 @@
           "border",
           "success"
         ]
-      },
-      "button": {
-        "primary": {
-          "base": {
-            "value": "#510A7F",
-            "attributes": {
-              "figmaType": "color"
-            },
-            "filePath": "tokens/color/border.yml",
-            "isSource": true,
-            "original": {
-              "value": "{color.brand.primary.base.value}",
-              "attributes": {
-                "figmaType": "color"
-              }
-            },
-            "name": "color-border-button-primary-base",
-            "path": [
-              "color",
-              "border",
-              "button",
-              "primary",
-              "base"
-            ]
-          },
-          "active": {
-            "value": "#62238c",
-            "attributes": {
-              "figmaType": "color"
-            },
-            "filePath": "tokens/color/border.yml",
-            "isSource": true,
-            "original": {
-              "value": "{color.brand.primary.90.value}",
-              "attributes": {
-                "figmaType": "color"
-              }
-            },
-            "name": "color-border-button-primary-active",
-            "path": [
-              "color",
-              "border",
-              "button",
-              "primary",
-              "active"
-            ]
-          },
-          "disabled": {
-            "value": "#cccccc",
-            "attributes": {
-              "figmaType": "color"
-            },
-            "filePath": "tokens/color/border.yml",
-            "isSource": true,
-            "original": {
-              "value": "{color.border.light.value}",
-              "attributes": {
-                "figmaType": "color"
-              }
-            },
-            "name": "color-border-button-primary-disabled",
-            "path": [
-              "color",
-              "border",
-              "button",
-              "primary",
-              "disabled"
-            ]
-          }
-        },
-        "secondary": {
-          "base": {
-            "value": "#F6212E",
-            "attributes": {
-              "figmaType": "color"
-            },
-            "filePath": "tokens/color/border.yml",
-            "isSource": true,
-            "original": {
-              "value": "{color.brand.secondary.base.value}",
-              "attributes": {
-                "figmaType": "color"
-              }
-            },
-            "name": "color-border-button-secondary-base",
-            "path": [
-              "color",
-              "border",
-              "button",
-              "secondary",
-              "base"
-            ]
-          },
-          "active": {
-            "value": "#f73743",
-            "attributes": {
-              "figmaType": "color"
-            },
-            "filePath": "tokens/color/border.yml",
-            "isSource": true,
-            "original": {
-              "value": "{color.brand.secondary.90.value}",
-              "attributes": {
-                "figmaType": "color"
-              }
-            },
-            "name": "color-border-button-secondary-active",
-            "path": [
-              "color",
-              "border",
-              "button",
-              "secondary",
-              "active"
-            ]
-          },
-          "disabled": {
-            "value": "#cccccc",
-            "attributes": {
-              "figmaType": "color"
-            },
-            "filePath": "tokens/color/border.yml",
-            "isSource": true,
-            "original": {
-              "value": "{color.border.light.value}",
-              "attributes": {
-                "figmaType": "color"
-              }
-            },
-            "name": "color-border-button-secondary-disabled",
-            "path": [
-              "color",
-              "border",
-              "button",
-              "secondary",
-              "disabled"
-            ]
-          }
-        }
       }
     },
     "brand": {
@@ -1829,6 +1553,326 @@
             "brand",
             "accent",
             "base"
+          ]
+        }
+      }
+    },
+    "button": {
+      "primary": {
+        "border": {
+          "base": {
+            "value": "#510A7F",
+            "attributes": {
+              "figmaType": "color"
+            },
+            "filePath": "tokens/color/button.yml",
+            "isSource": true,
+            "original": {
+              "value": "{color.brand.primary.base.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
+            },
+            "name": "color-button-primary-border-base",
+            "path": [
+              "color",
+              "button",
+              "primary",
+              "border",
+              "base"
+            ]
+          },
+          "active": {
+            "value": "#62238c",
+            "attributes": {
+              "figmaType": "color"
+            },
+            "filePath": "tokens/color/button.yml",
+            "isSource": true,
+            "original": {
+              "value": "{color.brand.primary.90.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
+            },
+            "name": "color-button-primary-border-active",
+            "path": [
+              "color",
+              "button",
+              "primary",
+              "border",
+              "active"
+            ]
+          },
+          "disabled": {
+            "value": "#cccccc",
+            "attributes": {
+              "figmaType": "color"
+            },
+            "filePath": "tokens/color/button.yml",
+            "isSource": true,
+            "original": {
+              "value": "{color.border.light.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
+            },
+            "name": "color-button-primary-border-disabled",
+            "path": [
+              "color",
+              "button",
+              "primary",
+              "border",
+              "disabled"
+            ]
+          }
+        },
+        "background": {
+          "base": {
+            "value": "#510A7F",
+            "attributes": {
+              "figmaType": "color"
+            },
+            "filePath": "tokens/color/button.yml",
+            "isSource": true,
+            "original": {
+              "value": "{color.brand.primary.base.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
+            },
+            "name": "color-button-primary-background-base",
+            "path": [
+              "color",
+              "button",
+              "primary",
+              "background",
+              "base"
+            ]
+          },
+          "disabled": {
+            "value": "#dccee5",
+            "attributes": {
+              "figmaType": "color"
+            },
+            "filePath": "tokens/color/button.yml",
+            "isSource": true,
+            "original": {
+              "value": "{color.brand.primary.20.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
+            },
+            "name": "color-button-primary-background-disabled",
+            "path": [
+              "color",
+              "button",
+              "primary",
+              "background",
+              "disabled"
+            ]
+          },
+          "active": {
+            "value": "#490972",
+            "attributes": {
+              "figmaType": "color"
+            },
+            "filePath": "tokens/color/button.yml",
+            "isSource": true,
+            "original": {
+              "value": "{color.brand.primary.110.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
+            },
+            "name": "color-button-primary-background-active",
+            "path": [
+              "color",
+              "button",
+              "primary",
+              "background",
+              "active"
+            ]
+          }
+        },
+        "text": {
+          "value": "#FFFFFF",
+          "attributes": {
+            "figmaType": "color"
+          },
+          "filePath": "tokens/color/button.yml",
+          "isSource": true,
+          "original": {
+            "value": "{color.font.inverse.base.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
+          },
+          "name": "color-button-primary-text",
+          "path": [
+            "color",
+            "button",
+            "primary",
+            "text"
+          ]
+        }
+      },
+      "secondary": {
+        "border": {
+          "base": {
+            "value": "#F6212E",
+            "attributes": {
+              "figmaType": "color"
+            },
+            "filePath": "tokens/color/button.yml",
+            "isSource": true,
+            "original": {
+              "value": "{color.brand.secondary.base.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
+            },
+            "name": "color-button-secondary-border-base",
+            "path": [
+              "color",
+              "button",
+              "secondary",
+              "border",
+              "base"
+            ]
+          },
+          "active": {
+            "value": "#f73743",
+            "attributes": {
+              "figmaType": "color"
+            },
+            "filePath": "tokens/color/button.yml",
+            "isSource": true,
+            "original": {
+              "value": "{color.brand.secondary.90.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
+            },
+            "name": "color-button-secondary-border-active",
+            "path": [
+              "color",
+              "button",
+              "secondary",
+              "border",
+              "active"
+            ]
+          },
+          "disabled": {
+            "value": "#cccccc",
+            "attributes": {
+              "figmaType": "color"
+            },
+            "filePath": "tokens/color/button.yml",
+            "isSource": true,
+            "original": {
+              "value": "{color.border.light.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
+            },
+            "name": "color-button-secondary-border-disabled",
+            "path": [
+              "color",
+              "button",
+              "secondary",
+              "border",
+              "disabled"
+            ]
+          }
+        },
+        "background": {
+          "base": {
+            "value": "#F6212E",
+            "attributes": {
+              "figmaType": "color"
+            },
+            "filePath": "tokens/color/button.yml",
+            "isSource": true,
+            "original": {
+              "value": "{color.brand.secondary.base.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
+            },
+            "name": "color-button-secondary-background-base",
+            "path": [
+              "color",
+              "button",
+              "secondary",
+              "background",
+              "base"
+            ]
+          },
+          "disabled": {
+            "value": "#fdd3d5",
+            "attributes": {
+              "figmaType": "color"
+            },
+            "filePath": "tokens/color/button.yml",
+            "isSource": true,
+            "original": {
+              "value": "{color.brand.secondary.20.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
+            },
+            "name": "color-button-secondary-background-disabled",
+            "path": [
+              "color",
+              "button",
+              "secondary",
+              "background",
+              "disabled"
+            ]
+          },
+          "active": {
+            "value": "#dd1e29",
+            "attributes": {
+              "figmaType": "color"
+            },
+            "filePath": "tokens/color/button.yml",
+            "isSource": true,
+            "original": {
+              "value": "{color.brand.secondary.110.value}",
+              "attributes": {
+                "figmaType": "color"
+              }
+            },
+            "name": "color-button-secondary-background-active",
+            "path": [
+              "color",
+              "button",
+              "secondary",
+              "background",
+              "active"
+            ]
+          }
+        },
+        "text": {
+          "value": "#FFFFFF",
+          "attributes": {
+            "figmaType": "color"
+          },
+          "filePath": "tokens/color/button.yml",
+          "isSource": true,
+          "original": {
+            "value": "{color.font.inverse.base.value}",
+            "attributes": {
+              "figmaType": "color"
+            }
+          },
+          "name": "color-button-secondary-text",
+          "path": [
+            "color",
+            "button",
+            "secondary",
+            "text"
           ]
         }
       }
@@ -2202,50 +2246,6 @@
             "font",
             "inverse",
             "disabled"
-          ]
-        }
-      },
-      "button": {
-        "primary": {
-          "value": "#FFFFFF",
-          "attributes": {
-            "figmaType": "color"
-          },
-          "filePath": "tokens/color/font.yml",
-          "isSource": true,
-          "original": {
-            "value": "{color.font.inverse.base.value}",
-            "attributes": {
-              "figmaType": "color"
-            }
-          },
-          "name": "color-font-button-primary",
-          "path": [
-            "color",
-            "font",
-            "button",
-            "primary"
-          ]
-        },
-        "secondary": {
-          "value": "#FFFFFF",
-          "attributes": {
-            "figmaType": "color"
-          },
-          "filePath": "tokens/color/font.yml",
-          "isSource": true,
-          "original": {
-            "value": "{color.font.inverse.base.value}",
-            "attributes": {
-              "figmaType": "color"
-            }
-          },
-          "name": "color-font-button-secondary",
-          "path": [
-            "color",
-            "font",
-            "button",
-            "secondary"
           ]
         }
       }
