@@ -50,11 +50,11 @@ color:
         attributes:
           figmaType: "color"
       link:
-        value: "{color.brand.primary.10.value}"
+        value: "{color.brand.primary.50.value}"
         attributes:
           figmaType: "color"
       active:
-        value: "{color.brand.primary.20.value}"
+        value: "{color.brand.primary.90.value}"
         attributes:
           figmaType: "color"
       error:

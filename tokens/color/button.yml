@@ -7,7 +7,7 @@ color:
           attributes:
             figmaType: "color"
         disabled:
-          value: "{color.brand.primary.20.value}"
+          value: "{color.base.gray.20.value}"
           attributes:
             figmaType: "color"
         active:
@@ -25,7 +25,7 @@ color:
           attributes:
             figmaType: "color"
         disabled:
-          value: "{color.brand.secondary.20.value}"
+          value: "{color.base.gray.20.value}"
           attributes:
             figmaType: "color"
         active:
@@ -39,15 +39,15 @@ color:
     grayscale:
       background:
         base:
-          value: "{color.brand.secondary.base.value}"
+          value: "{color.base.gray.90.value}"
           attributes:
             figmaType: "color"
         disabled:
-          value: "{color.brand.secondary.20.value}"
+          value: "{color.base.gray.20.value}"
           attributes:
             figmaType: "color"
         active:
-          value: "{color.brand.secondary.110.value}"
+          value: "{color.base.gray.80.value}"
           attributes:
             figmaType: "color"
       text:
