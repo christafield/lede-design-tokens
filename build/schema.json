@@ -514,7 +514,7 @@
           ]
         },
         "warning": {
-          "value": "#ffffff",
+          "value": "#ffffcc",
           "attributes": {
             "figmaType": "color"
           },
@@ -1264,7 +1264,7 @@
           ]
         },
         "link": {
-          "value": "#cf92f6",
+          "value": "#d089fe",
           "attributes": {
             "figmaType": "color"
           },
@@ -1285,7 +1285,7 @@
           ]
         },
         "active": {
-          "value": "#6f0eae",
+          "value": "#6a2398",
           "attributes": {
             "figmaType": "color"
           },
@@ -1327,7 +1327,7 @@
           ]
         },
         "warning": {
-          "value": "#ffffff",
+          "value": "#ffffcc",
           "attributes": {
             "figmaType": "color"
           },
@@ -1765,14 +1765,14 @@
           ]
         },
         "90": {
-          "value": "#eb6562",
+          "value": "#fe524e",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/base.js",
           "isSource": true,
           "original": {
-            "value": "#eb6562",
+            "value": "#fe524e",
             "attributes": {
               "figmaType": "color"
             }
@@ -1830,14 +1830,14 @@
       },
       "orange": {
         "10": {
-          "value": "#ffffff",
+          "value": "#ffffe5",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/base.js",
           "isSource": true,
           "original": {
-            "value": "#ffffff",
+            "value": "#ffffe5",
             "attributes": {
               "figmaType": "color"
             }
@@ -1851,14 +1851,14 @@
           ]
         },
         "20": {
-          "value": "#ffffff",
+          "value": "#ffffcc",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/base.js",
           "isSource": true,
           "original": {
-            "value": "#ffffff",
+            "value": "#ffffcc",
             "attributes": {
               "figmaType": "color"
             }
@@ -1872,14 +1872,14 @@
           ]
         },
         "90": {
-          "value": "#ff8a33",
+          "value": "#ff8619",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/base.js",
           "isSource": true,
           "original": {
-            "value": "#ff8a33",
+            "value": "#ff8619",
             "attributes": {
               "figmaType": "color"
             }
@@ -1979,14 +1979,14 @@
           ]
         },
         "90": {
-          "value": "#6ec071",
+          "value": "#65c869",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/base.js",
           "isSource": true,
           "original": {
-            "value": "#6ec071",
+            "value": "#65c869",
             "attributes": {
               "figmaType": "color"
             }
@@ -2046,14 +2046,14 @@
     "brand": {
       "primary": {
         "50": {
-          "value": "#cf92f6",
+          "value": "#d089fe",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#cf92f6",
+            "value": "#d089fe",
             "attributes": {
               "figmaType": "color"
             }
@@ -2067,14 +2067,14 @@
           ]
         },
         "60": {
-          "value": "#ba62f3",
+          "value": "#b770e5",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#ba62f3",
+            "value": "#b770e5",
             "attributes": {
               "figmaType": "color"
             }
@@ -2088,14 +2088,14 @@
           ]
         },
         "90": {
-          "value": "#6f0eae",
+          "value": "#6a2398",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#6f0eae",
+            "value": "#6a2398",
             "attributes": {
               "figmaType": "color"
             }
@@ -2153,14 +2153,14 @@
       },
       "secondary": {
         "50": {
-          "value": "#ffffff",
+          "value": "#ffa0ad",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#ffffff",
+            "value": "#ffa0ad",
             "attributes": {
               "figmaType": "color"
             }
@@ -2174,14 +2174,14 @@
           ]
         },
         "60": {
-          "value": "#fee5e7",
+          "value": "#ff8794",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#fee5e7",
+            "value": "#ff8794",
             "attributes": {
               "figmaType": "color"
             }
@@ -2195,14 +2195,14 @@
           ]
         },
         "90": {
-          "value": "#f8525c",
+          "value": "#ff3a47",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#f8525c",
+            "value": "#ff3a47",
             "attributes": {
               "figmaType": "color"
             }
@@ -2260,14 +2260,14 @@
       },
       "accent": {
         "50": {
-          "value": "#ffffff",
+          "value": "#ffffad",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#ffffff",
+            "value": "#ffffad",
             "attributes": {
               "figmaType": "color"
             }
@@ -2281,14 +2281,14 @@
           ]
         },
         "60": {
-          "value": "#fffefa",
+          "value": "#ffff94",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#fffefa",
+            "value": "#ffff94",
             "attributes": {
               "figmaType": "color"
             }
@@ -2302,14 +2302,14 @@
           ]
         },
         "90": {
-          "value": "#ffe561",
+          "value": "#fff547",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#ffe561",
+            "value": "#fff547",
             "attributes": {
               "figmaType": "color"
             }

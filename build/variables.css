@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Nov 2021 23:41:10 GMT
+ * Generated on Tue, 09 Nov 2021 23:53:35 GMT
  */
 
 :root {
@@ -32,7 +32,7 @@
   --color-background-inverse-disabled: #cccccc;
   --color-background-inverse-success: #ffffff;
   --color-background-inverse-error: #ffffff;
-  --color-background-inverse-warning: #ffffff;
+  --color-background-inverse-warning: #ffffcc;
   --color-background-inverse-low-priority: #b3b3b3;
   --color-background-overlay-light: rgba(255, 255, 255, 0.8);
   --color-background-overlay-dark: rgba(0, 0, 0, 0.27);
@@ -67,10 +67,10 @@
   --color-font-inverse-base: #ffffff;
   --color-font-inverse-medium: #e6e6e6;
   --color-font-inverse-light: #cccccc;
-  --color-font-inverse-link: #cf92f6;
-  --color-font-inverse-active: #6f0eae;
+  --color-font-inverse-link: #d089fe;
+  --color-font-inverse-active: #6a2398;
   --color-font-inverse-error: #ffffff;
-  --color-font-inverse-warning: #ffffff;
+  --color-font-inverse-warning: #ffffcc;
   --color-font-inverse-success: #ffffff;
   --color-font-inverse-disabled: #cccccc;
   --color-social-comment: #101010;
@@ -92,32 +92,32 @@
   --color-base-black: #000000;
   --color-base-red-10: #ffffff;
   --color-base-red-20: #ffffff;
-  --color-base-red-90: #eb6562;
+  --color-base-red-90: #fe524e;
   --color-base-red-110: #cd1e1a;
   --color-base-red-base: #e53935;
-  --color-base-orange-10: #ffffff;
-  --color-base-orange-20: #ffffff;
-  --color-base-orange-90: #ff8a33;
+  --color-base-orange-10: #ffffe5;
+  --color-base-orange-20: #ffffcc;
+  --color-base-orange-90: #ff8619;
   --color-base-orange-110: #cc5700;
   --color-base-orange-base: #ff6d00;
   --color-base-green-10: #ffffff;
   --color-base-green-20: #ffffff;
-  --color-base-green-90: #6ec071;
+  --color-base-green-90: #65c869;
   --color-base-green-110: #3d8b40;
   --color-base-green-base: #4caf50;
-  --color-brand-primary-50: #cf92f6;
-  --color-brand-primary-60: #ba62f3;
-  --color-brand-primary-90: #6f0eae;
+  --color-brand-primary-50: #d089fe;
+  --color-brand-primary-60: #b770e5;
+  --color-brand-primary-90: #6a2398;
   --color-brand-primary-110: #330650;
   --color-brand-primary-base: #510a7f;
-  --color-brand-secondary-50: #ffffff;
-  --color-brand-secondary-60: #fee5e7;
-  --color-brand-secondary-90: #f8525c;
+  --color-brand-secondary-50: #ffa0ad;
+  --color-brand-secondary-60: #ff8794;
+  --color-brand-secondary-90: #ff3a47;
   --color-brand-secondary-110: #db0916;
   --color-brand-secondary-base: #f6212e;
-  --color-brand-accent-50: #ffffff;
-  --color-brand-accent-60: #fffefa;
-  --color-brand-accent-90: #ffe561;
+  --color-brand-accent-50: #ffffad;
+  --color-brand-accent-60: #ffff94;
+  --color-brand-accent-90: #fff547;
   --color-brand-accent-110: #fad000;
   --color-brand-accent-base: #ffdc2e;
   --opacity-base: 100%;
