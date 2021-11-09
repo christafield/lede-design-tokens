@@ -2,37 +2,94 @@ color:
   background:
     base:
       value: "{color.base.white.value}"
+      attributes:
+        figmaType: "color"
     alt:
       value: "{color.base.gray.10.value}"
+      attributes:
+        figmaType: "color"
     disabled:
       value: "{color.base.gray.20.value}"
-    inverse:
-      value: "{color.base.gray.90.value}"
+      attributes:
+        figmaType: "color"
     success:
       value: "{color.base.green.base.value}"
+      attributes:
+        figmaType: "color"
     error:
       value: "{color.base.red.base.value}"
+      attributes:
+        figmaType: "color"
     warning:
       value: "{color.base.orange.base.value}"
+      attributes:
+        figmaType: "color"
     low-priority:
       value: "{color.base.gray.70.value}"
+      attributes:
+        figmaType: "color"
+    inverse:
+      base:
+        value: "{color.base.gray.90.value}"
+        attributes:
+          figmaType: "color"
+      alt:
+        value: "{color.base.gray.80.value}"
+        attributes:
+          figmaType: "color"
+      disabled:
+        value: "{color.base.gray.20.value}"
+        attributes:
+          figmaType: "color"
+      success:
+        value: "{color.base.green.20.value}"
+        attributes:
+          figmaType: "color"
+      error:
+        value: "{color.base.red.20.value}"
+        attributes:
+          figmaType: "color"
+      warning:
+        value: "{color.base.orange.20.value}"
+        attributes:
+          figmaType: "color"
+      low-priority:
+        value: "{color.base.gray.30.value}"
+        attributes:
+          figmaType: "color"
     button:
       primary:
         base:
           value: "{color.brand.primary.base.value}"
+          attributes:
+            figmaType: "color"
         disabled:
           value: "{color.brand.primary.20.value}"
+          attributes:
+            figmaType: "color"
         active:
           value: "{color.brand.primary.110.value}"
+          attributes:
+            figmaType: "color"
       secondary:
         base:
           value: "{color.brand.secondary.base.value}"
+          attributes:
+            figmaType: "color"
         disabled:
           value: "{color.brand.secondary.20.value}"
+          attributes:
+            figmaType: "color"
         active:
           value: "{color.brand.secondary.110.value}"
+          attributes:
+            figmaType: "color"
     overlay:
       light:
         value: "#FFFFFFCC"
+        attributes:
+          figmaType: "color"
       dark:
         value: "#00000044"
+        attributes:
+          figmaType: "color"

@@ -1,0 +1,17 @@
+opacity:
+  base:
+    value: "100%"
+    attributes:
+      figmaType: "opacity"
+  low:
+    value: "10%"
+    attributes:
+      figmaType: "opacity"
+  medium:
+    value: "50%"
+    attributes:
+      figmaType: "opacity"
+  high:
+    value: "90%"
+    attributes:
+      figmaType: "opacity"

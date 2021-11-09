@@ -1,0 +1,40 @@
+size:
+  border:
+    radius:
+      base:
+        value: "0"
+        attributes:
+          figmaType: "borderRadius"
+      small:
+        value: "5"
+        attributes:
+          figmaType: "borderRadius"
+      medium:
+        value: "10"
+        attributes:
+          figmaType: "borderRadius"
+      large:
+        value: "20"
+        attributes:
+          figmaType: "borderRadius"
+    width:
+      none:
+        value: "0"
+        attributes:
+          figmaType: "borderWidth"
+      xs:
+        value: "1"
+        attributes:
+          figmaType: "borderWidth"
+      sm:
+        value: "2"
+        attributes:
+          figmaType: "borderWidth"
+      md:
+        value: "4"
+        attributes:
+          figmaType: "borderWidth"
+      lg:
+        value: "8"
+        attributes:
+          figmaType: "borderWidth

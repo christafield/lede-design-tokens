@@ -2,43 +2,83 @@ color:
   font:
     base:
       value: "{color.base.gray.90.value}"
+      attributes:
+        figmaType: "color"
     medium:
       value: "{color.base.gray.80.value}"
+      attributes:
+        figmaType: "color"
     light:
       value: "{color.base.gray.70.value}"
+      attributes:
+        figmaType: "color"
     link:
       value: "{color.brand.primary.base.value}"
+      attributes:
+        figmaType: "color"
     active:
       value: "{color.brand.primary.110.value}"
+      attributes:
+        figmaType: "color"
     error:
       value: "{color.base.red.base.value}"
+      attributes:
+        figmaType: "color"
     warning:
       value: "{color.base.orange.base.value}"
+      attributes:
+        figmaType: "color"
     success:
       value: "{color.base.green.base.value}"
+      attributes:
+        figmaType: "color"
     disabled:
       value: "{color.font.light.value}"
+      attributes:
+        figmaType: "color"
     inverse:
       base:
         value: "{color.base.white.value}"
+        attributes:
+          figmaType: "color"
       medium:
         value: "{color.base.gray.10.value}"
+        attributes:
+          figmaType: "color"
       light:
         value: "{color.base.gray.20.value}"
+        attributes:
+          figmaType: "color"
       link:
         value: "{color.brand.primary.10.value}"
+        attributes:
+          figmaType: "color"
       active:
         value: "{color.brand.primary.20.value}"
+        attributes:
+          figmaType: "color"
       error:
         value: "{color.base.red.20.value}"
+        attributes:
+          figmaType: "color"
       warning:
         value: "{color.base.orange.20.value}"
+        attributes:
+          figmaType: "color"
       success:
         value: "{color.base.green.20.value}"
+        attributes:
+          figmaType: "color"
       disabled:
         value: "{color.font.inverse.light.value}"
+        attributes:
+          figmaType: "color"
     button:
       primary:
         value: "{color.font.inverse.base.value}"
+        attributes:
+          figmaType: "color"
       secondary:
-        value: "{color.font.link.value}"
+        value: "{color.font.inverse.base.value}"
+        attributes:
+          figmaType: "color"

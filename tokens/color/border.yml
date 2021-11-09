@@ -2,30 +2,56 @@ color:
   border:
     light:
       value: "{color.base.gray.20.value}"
+      attributes:
+        figmaType: "color"
     base:
       value: "{color.base.gray.25.value}"
+      attributes:
+        figmaType: "color"
     dark:
       value: "{color.base.gray.35.value}"
+      attributes:
+        figmaType: "color"
     focus:
       value: "{color.brand.primary.base.value}"
+      attributes:
+        figmaType: "color"
     error:
       value: "{color.base.red.base.value}"
+      attributes:
+        figmaType: "color"
     warning:
       value: "{color.base.orange.base.value}"
+      attributes:
+        figmaType: "color"
     success:
       value: "{color.base.green.base.value}"
+      attributes:
+        figmaType: "color"
     button:
       primary:
         base:
-          value: "{color.border.base.value}"
+          value: "{color.brand.primary.base.value}"
+          attributes:
+            figmaType: "color"
         active:
-          value: "{color.brand.primary.110.value}"
+          value: "{color.brand.primary.90.value}"
+          attributes:
+            figmaType: "color"
         disabled:
           value: "{color.border.light.value}"
+          attributes:
+            figmaType: "color"
       secondary:
         base:
-          value: "{color.border.base.value}"
+          value: "{color.brand.secondary.base.value}"
+          attributes:
+            figmaType: "color"
         active:
-          value: "{color.brand.primary.110.value}"
+          value: "{color.brand.secondary.90.value}"
+          attributes:
+            figmaType: "color"
         disabled:
           value: "{color.border.light.value}"
+          attributes:
+            figmaType: "color"
