@@ -73,12 +73,3 @@ color:
         value: "{color.font.inverse.light.value}"
         attributes:
           figmaType: "color"
-    button:
-      primary:
-        value: "{color.font.inverse.base.value}"
-        attributes:
-          figmaType: "color"
-      secondary:
-        value: "{color.font.inverse.base.value}"
-        attributes:
-          figmaType: "color"

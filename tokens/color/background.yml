@@ -57,33 +57,6 @@ color:
         value: "{color.base.gray.30.value}"
         attributes:
           figmaType: "color"
-    button:
-      primary:
-        base:
-          value: "{color.brand.primary.base.value}"
-          attributes:
-            figmaType: "color"
-        disabled:
-          value: "{color.brand.primary.20.value}"
-          attributes:
-            figmaType: "color"
-        active:
-          value: "{color.brand.primary.110.value}"
-          attributes:
-            figmaType: "color"
-      secondary:
-        base:
-          value: "{color.brand.secondary.base.value}"
-          attributes:
-            figmaType: "color"
-        disabled:
-          value: "{color.brand.secondary.20.value}"
-          attributes:
-            figmaType: "color"
-        active:
-          value: "{color.brand.secondary.110.value}"
-          attributes:
-            figmaType: "color"
     overlay:
       light:
         value: "#FFFFFFCC"
