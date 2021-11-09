@@ -11,7 +11,7 @@ color:
           attributes:
             figmaType: "color"
         active:
-          value: "{color.brand.primary.120.value}"
+          value: "{color.brand.primary.110.value}"
           attributes:
             figmaType: "color"
       text:
@@ -29,7 +29,7 @@ color:
           attributes:
             figmaType: "color"
         active:
-          value: "{color.brand.secondary.120.value}"
+          value: "{color.brand.secondary.110.value}"
           attributes:
             figmaType: "color"
       text:
@@ -47,7 +47,7 @@ color:
           attributes:
             figmaType: "color"
         active:
-          value: "{color.brand.secondary.120.value}"
+          value: "{color.brand.secondary.110.value}"
           attributes:
             figmaType: "color"
       text:
