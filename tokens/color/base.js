@@ -3,9 +3,9 @@ const tinycolor = require('tinycolor2');
 const baseColors = {
   white: '#FFFFFF',
   black: '#000000',
-  red: '#fad7d7',
-  orange: '#ffe2cc',
-  green: '#dbefdc',
+  red: '#E53935',
+  orange: '#FF6D00',
+  green: '#4CAF50',
 };
 
 module.exports = {
@@ -87,25 +87,25 @@ module.exports = {
       },
       red: {
         10: {
-          value: tinycolor(baseColors.red).darken(10).toHexString(),
+          value: tinycolor(baseColors.red).lighten(90).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
         20: {
-          value: tinycolor(baseColors.red).darken(20).toHexString(),
+          value: tinycolor(baseColors.red).lighten(80).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
-        80: {
-          value: tinycolor(baseColors.red).darken(80).toHexString(),
+        90: {
+          value: tinycolor(baseColors.red).lighten(10).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
-        120: {
-          value: tinycolor(baseColors.red).darken(120).toHexString(),
+        110: {
+          value: tinycolor(baseColors.red).darken(10).toHexString(),
           attributes: {
             figmaType: 'color'
           }
@@ -119,31 +119,31 @@ module.exports = {
       },
       orange: {
         10: {
-          value: tinycolor(baseColors.orange).darken(10).toHexString(),
+          value: tinycolor(baseColors.orange).lighten(90).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
         20: {
-          value: tinycolor(baseColors.orange).darken(20).toHexString(),
+          value: tinycolor(baseColors.orange).lighten(80).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
-        80: {
-          value: tinycolor(baseColors.orange).darken(80).toHexString(),
+        90: {
+          value: tinycolor(baseColors.orange).lighten(10).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
-        120: {
-          value: tinycolor(baseColors.orange).darken(120).toHexString(),
+        110: {
+          value: tinycolor(baseColors.orange).darken(10).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
         base: {
-          value: baseColors.orange,
+          value: baseColors.accent,
           attributes: {
             figmaType: 'color'
           }
@@ -151,25 +151,25 @@ module.exports = {
       },
       green: {
         10: {
-          value: tinycolor(baseColors.green).darken(10).toHexString(),
+          value: tinycolor(baseColors.green).lighten(90).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
         20: {
-          value: tinycolor(baseColors.green).darken(20).toHexString(),
+          value: tinycolor(baseColors.green).lighten(80).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
-        80: {
-          value: tinycolor(baseColors.green).darken(80).toHexString(),
+        90: {
+          value: tinycolor(baseColors.green).lighten(10).toHexString(),
           attributes: {
             figmaType: 'color'
           }
         },
-        120: {
-          value: tinycolor(baseColors.green).darken(120).toHexString(),
+        110: {
+          value: tinycolor(baseColors.green).darken(10).toHexString(),
           attributes: {
             figmaType: 'color'
           }
