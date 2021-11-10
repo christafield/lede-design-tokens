@@ -8,11 +8,11 @@ const tinycolor = require('tinycolor2');
  */
 const tint = (value, tint) => {
   const hsl = tinycolor(value).toHsl();
-  const lightnessModifier = (tint / 100) + 1;
+  const modifier = (tint / 100) + 1;
 
   return tinycolor({
     ...hsl,
-    l: hsl.l * lightnessModifier,
+    l: (1 - hsl.l) * modifier,
   }).toHexString();
 };
 
