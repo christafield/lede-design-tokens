@@ -7,6 +7,8 @@ const baseColors = {
   accent: '#FFDC2E',
 };
 
+console.log(tinycolor(baseColors.primary).toHsl());
+
 module.exports = {
   color: {
     brand: {
@@ -29,8 +31,8 @@ module.exports = {
             figmaType: 'color'
           }
         },
-        120: {
-          value: shade(baseColors.primary, 20),
+        110: {
+          value: shade(baseColors.primary, 10),
           attributes: {
             figmaType: 'color'
           }

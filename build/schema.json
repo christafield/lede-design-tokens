@@ -2108,25 +2108,25 @@
             "80"
           ]
         },
-        "120": {
-          "value": "#410866",
+        "110": {
+          "value": "#490972",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#410866",
+            "value": "#490972",
             "attributes": {
               "figmaType": "color"
             }
           },
-          "name": "color-brand-primary-120",
+          "name": "color-brand-primary-110",
           "path": [
             "color",
             "brand",
             "primary",
-            "120"
+            "110"
           ]
         },
         "base": {
