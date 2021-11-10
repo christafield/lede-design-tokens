@@ -6,7 +6,6 @@ const baseColors = {
   secondary: '#F6212E',
   accent: '#FFDC2E',
 };
-console.log(tint(baseColors.primary, 50));
 
 module.exports = {
   color: {
@@ -18,20 +17,20 @@ module.exports = {
             figmaType: 'color'
           }
         },
-        20: {
-          value: tint(baseColors.primary, 80),
+        30: {
+          value: tint(baseColors.primary, 70),
           attributes: {
             figmaType: 'color'
           }
         },
-        90: {
-          value: tint(baseColors.primary, 10),
+        80: {
+          value: tint(baseColors.primary, 20),
           attributes: {
             figmaType: 'color'
           }
         },
-        110: {
-          value: shade(baseColors.primary, 10),
+        120: {
+          value: shade(baseColors.primary, 20),
           attributes: {
             figmaType: 'color'
           }
