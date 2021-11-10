@@ -12,7 +12,6 @@ const shade = (value, shade) => {
 
   return tinycolor({
     ...hsl,
-    s: hsl.s * modifier,
     l: hsl.l * modifier,
   }).toHexString();
 };

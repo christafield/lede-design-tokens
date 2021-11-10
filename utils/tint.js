@@ -9,11 +9,9 @@ const tinycolor = require('tinycolor2');
 const tint = (value, tint) => {
   const hsl = tinycolor(value).toHsl();
   const lightnessModifier = (tint / 100) + 1;
-  const saturationModifier = 1 - (tint / 100)
 
   return tinycolor({
     ...hsl,
-    s: hsl.s * saturationModifier,
     l: hsl.l * lightnessModifier,
   }).toHexString();
 };
