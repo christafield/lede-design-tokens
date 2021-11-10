@@ -105,8 +105,8 @@ module.exports = {
             figmaType: 'color'
           }
         },
-        110: {
-          value: shade(baseColors.red, 10),
+        120: {
+          value: shade(baseColors.red, 20),
           attributes: {
             figmaType: 'color'
           }
@@ -137,8 +137,8 @@ module.exports = {
             figmaType: 'color'
           }
         },
-        110: {
-          value: shade(baseColors.orange, 10),
+        120: {
+          value: shade(baseColors.orange, 20),
           attributes: {
             figmaType: 'color'
           }
@@ -169,8 +169,8 @@ module.exports = {
             figmaType: 'color'
           }
         },
-        110: {
-          value: shade(baseColors.green, 10),
+        120: {
+          value: shade(baseColors.green, 20),
           attributes: {
             figmaType: 'color'
           }

@@ -29,7 +29,7 @@ color:
           attributes:
             figmaType: "color"
         active:
-          value: "{color.brand.secondary.110.value}"
+          value: "{color.brand.secondary.80.value}"
           attributes:
             figmaType: "color"
       text:
