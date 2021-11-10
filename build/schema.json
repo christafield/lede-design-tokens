@@ -791,7 +791,7 @@
             ]
           },
           "active": {
-            "value": "#480e6d",
+            "value": "#490972",
             "attributes": {
               "figmaType": "color"
             },
@@ -1100,7 +1100,7 @@
         ]
       },
       "active": {
-        "value": "#480e6d",
+        "value": "#490972",
         "attributes": {
           "figmaType": "color"
         },
@@ -1264,7 +1264,7 @@
           ]
         },
         "link": {
-          "value": "#806690",
+          "value": "#9212e5",
           "attributes": {
             "figmaType": "color"
           },
@@ -1285,7 +1285,7 @@
           ]
         },
         "active": {
-          "value": "#581185",
+          "value": "#590b8c",
           "attributes": {
             "figmaType": "color"
           },
@@ -2046,14 +2046,14 @@
     "brand": {
       "primary": {
         "10": {
-          "value": "#84778d",
+          "value": "#9917ed",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#84778d",
+            "value": "#9917ed",
             "attributes": {
               "figmaType": "color"
             }
@@ -2067,14 +2067,14 @@
           ]
         },
         "20": {
-          "value": "#806690",
+          "value": "#9212e5",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#806690",
+            "value": "#9212e5",
             "attributes": {
               "figmaType": "color"
             }
@@ -2088,14 +2088,14 @@
           ]
         },
         "90": {
-          "value": "#581185",
+          "value": "#590b8c",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#581185",
+            "value": "#590b8c",
             "attributes": {
               "figmaType": "color"
             }
@@ -2109,14 +2109,14 @@
           ]
         },
         "110": {
-          "value": "#480e6d",
+          "value": "#490972",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#480e6d",
+            "value": "#490972",
             "attributes": {
               "figmaType": "color"
             }
