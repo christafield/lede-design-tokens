@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Nov 2021 00:46:16 GMT
+ * Generated on Wed, 10 Nov 2021 00:48:35 GMT
  */
 
 :root {
@@ -45,7 +45,7 @@
   --color-border-success: #4caf50;
   --color-button-primary-background-base: #510a7f;
   --color-button-primary-background-disabled: #cccccc;
-  --color-button-primary-background-active: #030005;
+  --color-button-primary-background-active: #e1bafa;
   --color-button-primary-text: #ffffff;
   --color-button-secondary-background-base: #f6212e;
   --color-button-secondary-background-disabled: #cccccc;
@@ -59,7 +59,7 @@
   --color-font-medium: #333333;
   --color-font-light: #4d4d4d;
   --color-font-link: #510a7f;
-  --color-font-active: #030005;
+  --color-font-active: #e1bafa;
   --color-font-error: #e53935;
   --color-font-warning: #ff6d00;
   --color-font-success: #4caf50;
@@ -67,8 +67,8 @@
   --color-font-inverse-base: #ffffff;
   --color-font-inverse-medium: #e6e6e6;
   --color-font-inverse-light: #cccccc;
-  --color-font-inverse-link: #050108;
-  --color-font-inverse-active: #050107;
+  --color-font-inverse-link: #670da2;
+  --color-font-inverse-active: #9312e7;
   --color-font-inverse-error: #fceaea;
   --color-font-inverse-warning: #ffe2cc;
   --color-font-inverse-success: #d9eeda;
@@ -105,9 +105,9 @@
   --color-base-green-90: #6ec071;
   --color-base-green-110: #3d8b40;
   --color-base-green-base: #4caf50;
-  --color-brand-primary-10: #050108;
-  --color-brand-primary-30: #050107;
-  --color-brand-primary-80: #030005;
+  --color-brand-primary-10: #670da2;
+  --color-brand-primary-30: #9312e7;
+  --color-brand-primary-80: #e1bafa;
   --color-brand-primary-110: #490972;
   --color-brand-primary-base: #510a7f;
   --color-brand-secondary-50: #ffffff;
