@@ -791,14 +791,14 @@
             ]
           },
           "active": {
-            "value": "#490972",
+            "value": "#610c98",
             "attributes": {
               "figmaType": "color"
             },
             "filePath": "tokens/color/button.yml",
             "isSource": true,
             "original": {
-              "value": "{color.brand.primary.110.value}",
+              "value": "{color.brand.primary.80.value}",
               "attributes": {
                 "figmaType": "color"
               }
@@ -1100,14 +1100,14 @@
         ]
       },
       "active": {
-        "value": "#490972",
+        "value": "#610c98",
         "attributes": {
           "figmaType": "color"
         },
         "filePath": "tokens/color/font.yml",
         "isSource": true,
         "original": {
-          "value": "{color.brand.primary.110.value}",
+          "value": "{color.brand.primary.80.value}",
           "attributes": {
             "figmaType": "color"
           }
@@ -1264,14 +1264,14 @@
           ]
         },
         "link": {
-          "value": "#9212e5",
+          "value": "#9917ed",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
-            "value": "{color.brand.primary.20.value}",
+            "value": "{color.brand.primary.10.value}",
             "attributes": {
               "figmaType": "color"
             }
@@ -1285,14 +1285,14 @@
           ]
         },
         "active": {
-          "value": "#590b8c",
+          "value": "#8a11d8",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
-            "value": "{color.brand.primary.90.value}",
+            "value": "{color.brand.primary.30.value}",
             "attributes": {
               "figmaType": "color"
             }
@@ -2066,67 +2066,67 @@
             "10"
           ]
         },
-        "20": {
-          "value": "#9212e5",
+        "30": {
+          "value": "#8a11d8",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#9212e5",
+            "value": "#8a11d8",
             "attributes": {
               "figmaType": "color"
             }
           },
-          "name": "color-brand-primary-20",
+          "name": "color-brand-primary-30",
           "path": [
             "color",
             "brand",
             "primary",
-            "20"
+            "30"
           ]
         },
-        "90": {
-          "value": "#590b8c",
+        "80": {
+          "value": "#610c98",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#590b8c",
+            "value": "#610c98",
             "attributes": {
               "figmaType": "color"
             }
           },
-          "name": "color-brand-primary-90",
+          "name": "color-brand-primary-80",
           "path": [
             "color",
             "brand",
             "primary",
-            "90"
+            "80"
           ]
         },
-        "110": {
-          "value": "#490972",
+        "120": {
+          "value": "#410866",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#490972",
+            "value": "#410866",
             "attributes": {
               "figmaType": "color"
             }
           },
-          "name": "color-brand-primary-110",
+          "name": "color-brand-primary-120",
           "path": [
             "color",
             "brand",
             "primary",
-            "110"
+            "120"
           ]
         },
         "base": {
