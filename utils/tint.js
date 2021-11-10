@@ -8,7 +8,7 @@ const tinycolor = require('tinycolor2');
  */
 const tint = (value, tint) => {
   const hsl = tinycolor(value).toHsl();
-  const modifier = 1 - (tint / 100);
+  const modifier = (tint / 100);
 
   return tinycolor({
     ...hsl,
