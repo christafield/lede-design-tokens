@@ -1,5 +1,6 @@
 const tinycolor = require('tinycolor2');
-
+const tint = require('../../utils/tint');
+const shade = require('../../utils/shade');
 const baseColors = {
   white: '#FFFFFF',
   black: '#000000',
@@ -86,26 +87,26 @@ module.exports = {
         }
       },
       red: {
-        50: {
-          value: tinycolor(baseColors.red).lighten(50).toString(),
+        10: {
+          value: tint(baseColors.red, 90),
           attributes: {
             figmaType: 'color'
           }
         },
-        60: {
-          value: tinycolor(baseColors.red).lighten(40).toString(),
+        30: {
+          value: tint(baseColors.red, 70),
           attributes: {
             figmaType: 'color'
           }
         },
-        90: {
-          value: tinycolor(baseColors.red).lighten(10).toString(),
+        80: {
+          value: tint(baseColors.red, 20),
           attributes: {
             figmaType: 'color'
           }
         },
         110: {
-          value: tinycolor(baseColors.red).darken(10).toString(),
+          value: shade(baseColors.red, 10),
           attributes: {
             figmaType: 'color'
           }
@@ -118,26 +119,26 @@ module.exports = {
         }
       },
       orange: {
-        50: {
-          value: tinycolor(baseColors.orange).lighten(50).toString(),
+        10: {
+          value: tint(baseColors.orange, 90),
           attributes: {
             figmaType: 'color'
           }
         },
-        60: {
-          value: tinycolor(baseColors.orange).lighten(40).toString(),
+        30: {
+          value: tint(baseColors.orange, 70),
           attributes: {
             figmaType: 'color'
           }
         },
-        90: {
-          value: tinycolor(baseColors.orange).lighten(10).toString(),
+        80: {
+          value: tint(baseColors.orange, 20),
           attributes: {
             figmaType: 'color'
           }
         },
         110: {
-          value: tinycolor(baseColors.orange).darken(10).toString(),
+          value: shade(baseColors.orange, 10),
           attributes: {
             figmaType: 'color'
           }
@@ -150,26 +151,26 @@ module.exports = {
         }
       },
       green: {
-        50: {
-          value: tinycolor(baseColors.green).lighten(50).toString(),
+        10: {
+          value: tint(baseColors.green, 90),
           attributes: {
             figmaType: 'color'
           }
         },
-        60: {
-          value: tinycolor(baseColors.green).lighten(40).toString(),
+        30: {
+          value: tint(baseColors.green, 70),
           attributes: {
             figmaType: 'color'
           }
         },
-        90: {
-          value: tinycolor(baseColors.green).lighten(10).toString(),
+        80: {
+          value: tint(baseColors.green, 20),
           attributes: {
             figmaType: 'color'
           }
         },
         110: {
-          value: tinycolor(baseColors.green).darken(10).toString(),
+          value: shade(baseColors.green, 10),
           attributes: {
             figmaType: 'color'
           }

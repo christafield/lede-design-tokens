@@ -1,4 +1,3 @@
-const tinycolor = require('tinycolor2');
 const tint = require('../../utils/tint');
 const shade = require('../../utils/shade');
 const baseColors = {
@@ -6,8 +5,6 @@ const baseColors = {
   secondary: '#F6212E',
   accent: '#FFDC2E',
 };
-
-console.log(tinycolor(baseColors.primary).toHsl());
 
 module.exports = {
   color: {
@@ -45,26 +42,26 @@ module.exports = {
         }
       },
       secondary: {
-        50: {
-          value: tinycolor(baseColors.secondary).lighten(50).toString(),
+        10: {
+          value: tint(baseColors.secondary, 90),
           attributes: {
             figmaType: 'color'
           }
         },
-        60: {
-          value: tinycolor(baseColors.secondary).lighten(40).toString(),
+        30: {
+          value: tint(baseColors.secondary, 70),
           attributes: {
             figmaType: 'color'
           }
         },
-        90: {
-          value: tinycolor(baseColors.secondary).lighten(10).toString(),
+        80: {
+          value: tint(baseColors.secondary, 20),
           attributes: {
             figmaType: 'color'
           }
         },
         110: {
-          value: tinycolor(baseColors.secondary).darken(10).toString(),
+          value: shade(baseColors.secondary, 10),
           attributes: {
             figmaType: 'color'
           }
@@ -77,26 +74,26 @@ module.exports = {
         }
       },
       accent: {
-        50: {
-          value: tinycolor(baseColors.accent).lighten(50).toString(),
+        10: {
+          value: tint(baseColors.accent, 90),
           attributes: {
             figmaType: 'color'
           }
         },
-        60: {
-          value: tinycolor(baseColors.accent).lighten(40).toString(),
+        30: {
+          value: tint(baseColors.accent, 70),
           attributes: {
             figmaType: 'color'
           }
         },
-        90: {
-          value: tinycolor(baseColors.accent).lighten(10).toString(),
+        80: {
+          value: tint(baseColors.accent, 20),
           attributes: {
             figmaType: 'color'
           }
         },
         110: {
-          value: tinycolor(baseColors.accent).darken(10).toString(),
+          value: shade(baseColors.accent, 10),
           attributes: {
             figmaType: 'color'
           }

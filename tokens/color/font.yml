@@ -58,15 +58,15 @@ color:
         attributes:
           figmaType: "color"
       error:
-        value: "{color.base.red.60.value}"
+        value: "{color.base.red.30.value}"
         attributes:
           figmaType: "color"
       warning:
-        value: "{color.base.orange.60.value}"
+        value: "{color.base.orange.30.value}"
         attributes:
           figmaType: "color"
       success:
-        value: "{color.base.green.60.value}"
+        value: "{color.base.green.30.value}"
         attributes:
           figmaType: "color"
       disabled:
