@@ -791,7 +791,7 @@
             ]
           },
           "active": {
-            "value": "#330650",
+            "value": "#490972",
             "attributes": {
               "figmaType": "color"
             },
@@ -1100,7 +1100,7 @@
         ]
       },
       "active": {
-        "value": "#330650",
+        "value": "#490972",
         "attributes": {
           "figmaType": "color"
         },
@@ -1264,14 +1264,14 @@
           ]
         },
         "link": {
-          "value": "#cf92f6",
+          "value": "#806690",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/font.yml",
           "isSource": true,
           "original": {
-            "value": "{color.brand.primary.50.value}",
+            "value": "{color.brand.primary.20.value}",
             "attributes": {
               "figmaType": "color"
             }
@@ -1285,7 +1285,7 @@
           ]
         },
         "active": {
-          "value": "#6f0eae",
+          "value": "#581185",
           "attributes": {
             "figmaType": "color"
           },
@@ -2045,57 +2045,57 @@
     },
     "brand": {
       "primary": {
-        "50": {
-          "value": "#cf92f6",
+        "10": {
+          "value": "#84778d",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#cf92f6",
+            "value": "#84778d",
             "attributes": {
               "figmaType": "color"
             }
           },
-          "name": "color-brand-primary-50",
+          "name": "color-brand-primary-10",
           "path": [
             "color",
             "brand",
             "primary",
-            "50"
+            "10"
           ]
         },
-        "60": {
-          "value": "#ba62f3",
+        "20": {
+          "value": "#806690",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#ba62f3",
+            "value": "#806690",
             "attributes": {
               "figmaType": "color"
             }
           },
-          "name": "color-brand-primary-60",
+          "name": "color-brand-primary-20",
           "path": [
             "color",
             "brand",
             "primary",
-            "60"
+            "20"
           ]
         },
         "90": {
-          "value": "#6f0eae",
+          "value": "#581185",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#6f0eae",
+            "value": "#581185",
             "attributes": {
               "figmaType": "color"
             }
@@ -2109,14 +2109,14 @@
           ]
         },
         "110": {
-          "value": "#330650",
+          "value": "#490972",
           "attributes": {
             "figmaType": "color"
           },
           "filePath": "tokens/color/brand.js",
           "isSource": true,
           "original": {
-            "value": "#330650",
+            "value": "#490972",
             "attributes": {
               "figmaType": "color"
             }

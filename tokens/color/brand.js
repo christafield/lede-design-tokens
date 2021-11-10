@@ -1,36 +1,37 @@
 const tinycolor = require('tinycolor2');
-
+const tint = require('../../utils/tint');
+const shade = require('../../utils/shade');
 const baseColors = {
   primary: '#510A7F',
   secondary: '#F6212E',
   accent: '#FFDC2E',
 };
-
+console.log(tint(baseColors.primary, 50));
 
 module.exports = {
   color: {
     brand: {
       primary: {
-        50: {
-          value: tinycolor(baseColors.primary).lighten(50).toHexString(),
+        10: {
+          value: tint(baseColors.primary, 90),
           attributes: {
             figmaType: 'color'
           }
         },
-        60: {
-          value: tinycolor(baseColors.primary).lighten(40).toHexString(),
+        20: {
+          value: tint(baseColors.primary, 80),
           attributes: {
             figmaType: 'color'
           }
         },
         90: {
-          value: tinycolor(baseColors.primary).lighten(10).toHexString(),
+          value: tint(baseColors.primary, 10),
           attributes: {
             figmaType: 'color'
           }
         },
         110: {
-          value: tinycolor(baseColors.primary).darken(10).toHexString(),
+          value: shade(baseColors.primary, 10),
           attributes: {
             figmaType: 'color'
           }
@@ -44,25 +45,25 @@ module.exports = {
       },
       secondary: {
         50: {
-          value: tinycolor(baseColors.secondary).lighten(50).toHexString(),
+          value: tinycolor(baseColors.secondary).lighten(50).toString(),
           attributes: {
             figmaType: 'color'
           }
         },
         60: {
-          value: tinycolor(baseColors.secondary).lighten(40).toHexString(),
+          value: tinycolor(baseColors.secondary).lighten(40).toString(),
           attributes: {
             figmaType: 'color'
           }
         },
         90: {
-          value: tinycolor(baseColors.secondary).lighten(10).toHexString(),
+          value: tinycolor(baseColors.secondary).lighten(10).toString(),
           attributes: {
             figmaType: 'color'
           }
         },
         110: {
-          value: tinycolor(baseColors.secondary).darken(10).toHexString(),
+          value: tinycolor(baseColors.secondary).darken(10).toString(),
           attributes: {
             figmaType: 'color'
           }
@@ -76,25 +77,25 @@ module.exports = {
       },
       accent: {
         50: {
-          value: tinycolor(baseColors.accent).lighten(50).toHexString(),
+          value: tinycolor(baseColors.accent).lighten(50).toString(),
           attributes: {
             figmaType: 'color'
           }
         },
         60: {
-          value: tinycolor(baseColors.accent).lighten(40).toHexString(),
+          value: tinycolor(baseColors.accent).lighten(40).toString(),
           attributes: {
             figmaType: 'color'
           }
         },
         90: {
-          value: tinycolor(baseColors.accent).lighten(10).toHexString(),
+          value: tinycolor(baseColors.accent).lighten(10).toString(),
           attributes: {
             figmaType: 'color'
           }
         },
         110: {
-          value: tinycolor(baseColors.accent).darken(10).toHexString(),
+          value: tinycolor(baseColors.accent).darken(10).toString(),
           attributes: {
             figmaType: 'color'
           }
