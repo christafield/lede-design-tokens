@@ -23,18 +23,33 @@ typography:
       paragraphSpacing:
         value: "{typography.paragraphSpacing.medium.value}"
     eyebrow:
-      attributes:
-        figmaType: "typography"
-      color:
-        value: "{color.brand.primary.base.value}"
-      fontFamily:
-        value: "{typography.family.primary.value}"
-      fontSize:
-        value: "{size.font.xs.value}"
-      lineHeight:
-        value: "{typography.lineHeight.large.value}"
-      paragraphSpacing:
-        value: "0"
+      small:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.xs.value}"
+        lineHeight:
+          value: "{typography.lineHeight.large.value}"
+      medium:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.base.value}"
+        lineHeight:
+          value: "{typography.lineHeight.large.value}"
+      large:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.large.value}"
+        lineHeight:
+          value: "{typography.lineHeight.medium.value}"
     body:
       text:
         attributes:
