@@ -217,7 +217,7 @@ typography:
         fontSize:
           value: "{size.font.heading.small.value}"
         lineHeight:
-          value: "{typography.lineHeight.large.value}"
+          value: "{typography.lineHeight.medium.value}"
         letterSpacing:
           value: "{typography.letterSpacing.default.value}"
         paragraphSpacing:
@@ -230,7 +230,7 @@ typography:
         fontSize:
           value: "{size.font.heading.xs.value}"
         lineHeight:
-          value: "{typography.lineHeight.large.value}"
+          value: "{typography.lineHeight.medium.value}"
         letterSpacing:
           value: "{typography.letterSpacing.default.value}"
         paragraphSpacing:
