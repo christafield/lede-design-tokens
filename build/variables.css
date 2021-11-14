@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Nov 2021 01:11:25 GMT
+ * Generated on Sun, 14 Nov 2021 14:18:18 GMT
  */
 
 :root {
@@ -196,18 +196,22 @@
   --typography-paragraph-spacing-small: 1rem;
   --typography-paragraph-spacing-medium: 1.5rem;
   --typography-paragraph-spacing-large: 2.5rem;
+  --typography-set-caption-font-family: IBM Plex Sans;
+  --typography-set-caption-font-size: 0.875rem;
+  --typography-set-caption-line-height: 165%;
+  --typography-set-caption-paragraph-spacing: 1.5rem;
+  --typography-set-timestamp-font-family: IBM Plex Sans;
+  --typography-set-timestamp-font-size: 0.875rem;
+  --typography-set-timestamp-line-height: 165%;
+  --typography-set-timestamp-paragraph-spacing: 1.5rem;
+  --typography-set-eyebrow-color: #510a7f;
+  --typography-set-eyebrow-font-family: IBM Plex Sans;
+  --typography-set-eyebrow-font-size: 0.75rem;
+  --typography-set-eyebrow-line-height: [object Object];
   --typography-set-body-text-font-family: IBM Plex Sans;
   --typography-set-body-text-font-size: 1rem;
   --typography-set-body-text-line-height: 165%;
   --typography-set-body-text-paragraph-spacing: 1.5rem;
-  --typography-set-body-caption-font-family: IBM Plex Sans;
-  --typography-set-body-caption-font-size: 0.875rem;
-  --typography-set-body-caption-line-height: 165%;
-  --typography-set-body-caption-paragraph-spacing: 1.5rem;
-  --typography-set-body-timestamp-font-family: IBM Plex Sans;
-  --typography-set-body-timestamp-font-size: 0.875rem;
-  --typography-set-body-timestamp-line-height: 165%;
-  --typography-set-body-timestamp-paragraph-spacing: 1.5rem;
   --typography-set-menu-small-font-family: IBM Plex Sans;
   --typography-set-menu-small-font-size: 0.875rem;
   --typography-set-menu-small-line-height: 130%;

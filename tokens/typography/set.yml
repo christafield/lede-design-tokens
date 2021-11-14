@@ -26,7 +26,7 @@ typography:
       attributes:
         figmaType: "typography"
       color:
-        value: "{colors.brand.primary.base.value}"
+        value: "{color.brand.primary.base.value}"
       fontFamily:
         value: "{typography.family.primary.value}"
       fontSize:

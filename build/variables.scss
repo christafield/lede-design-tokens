@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 10 Nov 2021 01:11:25 GMT
+// Generated on Sun, 14 Nov 2021 14:18:18 GMT
 
 $typography-figma-weight-black: Black;
 $typography-figma-weight-bold: Bold;
@@ -159,12 +159,15 @@ $typography-set-menu-medium-line-height: $typography-line-height-small;
 $typography-set-menu-medium-font-size: $size-font-medium;
 $typography-set-menu-small-line-height: $typography-line-height-small;
 $typography-set-menu-small-font-size: $size-font-small;
-$typography-set-body-timestamp-line-height: $typography-line-height-xl;
-$typography-set-body-timestamp-font-size: $size-font-small;
-$typography-set-body-caption-line-height: $typography-line-height-xl;
-$typography-set-body-caption-font-size: $size-font-small;
 $typography-set-body-text-line-height: $typography-line-height-xl;
 $typography-set-body-text-font-size: $size-font-base;
+$typography-set-eyebrow-line-height: [object Object];
+$typography-set-eyebrow-font-size: $size-font-xs;
+$typography-set-eyebrow-color: $color-brand-primary-base;
+$typography-set-timestamp-line-height: $typography-line-height-xl;
+$typography-set-timestamp-font-size: $size-font-small;
+$typography-set-caption-line-height: $typography-line-height-xl;
+$typography-set-caption-font-size: $size-font-small;
 $typography-paragraph-spacing-large: $size-space-xl;
 $typography-paragraph-spacing-medium: $size-space-medium;
 $typography-paragraph-spacing-small: $size-space-small;
@@ -261,12 +264,13 @@ $typography-set-button-small-font-family: $typography-family-primary;
 $typography-set-menu-large-font-family: $typography-family-primary;
 $typography-set-menu-medium-font-family: $typography-family-primary;
 $typography-set-menu-small-font-family: $typography-family-primary;
-$typography-set-body-timestamp-paragraph-spacing: $typography-paragraph-spacing-medium;
-$typography-set-body-timestamp-font-family: $typography-family-primary;
-$typography-set-body-caption-paragraph-spacing: $typography-paragraph-spacing-medium;
-$typography-set-body-caption-font-family: $typography-family-primary;
 $typography-set-body-text-paragraph-spacing: $typography-paragraph-spacing-medium;
 $typography-set-body-text-font-family: $typography-family-primary;
+$typography-set-eyebrow-font-family: $typography-family-primary;
+$typography-set-timestamp-paragraph-spacing: $typography-paragraph-spacing-medium;
+$typography-set-timestamp-font-family: $typography-family-primary;
+$typography-set-caption-paragraph-spacing: $typography-paragraph-spacing-medium;
+$typography-set-caption-font-family: $typography-family-primary;
 $color-font-inverse-disabled: $color-font-inverse-light;
 $color-font-disabled: $color-font-light;
 $color-button-grayscale-text: $color-font-inverse-base;
