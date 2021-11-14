@@ -4117,6 +4117,22 @@
         "attributes": {
           "figmaType": "typography"
         },
+        "color": {
+          "value": "#510A7F",
+          "filePath": "tokens/typography/set.yml",
+          "isSource": true,
+          "original": {
+            "value": "{color.brand.primary.base.value}"
+          },
+          "name": "typography-set-eyebrow-color",
+          "attributes": {},
+          "path": [
+            "typography",
+            "set",
+            "eyebrow",
+            "color"
+          ]
+        },
         "fontFamily": {
           "value": "IBM Plex Sans",
           "filePath": "tokens/typography/set.yml",
@@ -4149,7 +4165,7 @@
             "fontSize"
           ]
         },
-        "line_height": {
+        "lineHeight": {
           "value": {
             "value": "155%",
             "attributes": {
@@ -4181,7 +4197,7 @@
             "typography",
             "set",
             "eyebrow",
-            "line_height"
+            "lineHeight"
           ]
         }
       },
