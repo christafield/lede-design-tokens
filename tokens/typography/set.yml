@@ -25,8 +25,6 @@ typography:
     eyebrow:
       attributes:
         figmaType: "typography"
-      color:
-        value: "{color.brand.primary.base.value}"
       fontFamily:
         value: "{typography.family.primary.value}"
       fontSize:
