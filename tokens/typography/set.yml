@@ -31,6 +31,8 @@ typography:
         value: "{size.font.xs.value}"
       lineHeight:
         value: "{typography.lineHeight.large.value}"
+      paragraphSpacing:
+        value: "0px"
     body:
       text:
         attributes:
