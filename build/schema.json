@@ -3402,6 +3402,28 @@
       }
     },
     "space": {
+      "xxs": {
+        "value": 0.5,
+        "attributes": {
+          "figmaType": "spacing",
+          "category": "size"
+        },
+        "filePath": "tokens/size/space.yml",
+        "isSource": true,
+        "original": {
+          "value": 0.5,
+          "attributes": {
+            "figmaType": "spacing",
+            "category": "size"
+          }
+        },
+        "name": "size-space-xxs",
+        "path": [
+          "size",
+          "space",
+          "xxs"
+        ]
+      },
       "xs": {
         "value": 0.75,
         "attributes": {
