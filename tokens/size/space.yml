@@ -1,5 +1,10 @@
 size:
   space:
+    xxs:
+      value: 0.5
+      attributes:
+        figmaType: "spacing"
+        category: "size"
     xs:
       value: 0.75
       attributes:
