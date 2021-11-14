@@ -22,6 +22,25 @@ typography:
         value: "{typography.lineHeight.xl.value}"
       paragraphSpacing:
         value: "{typography.paragraphSpacing.medium.value}"
+    byline:
+      small:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.xs.value}"
+        lineHeight:
+          value: "{typography.lineHeight.large.value}"
+      large:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.medium.value}"
+        lineHeight:
+          value: "{typography.lineHeight.large.value}"
     eyebrow:
       small:
         attributes:
