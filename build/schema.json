@@ -4114,88 +4114,173 @@
         }
       },
       "eyebrow": {
-        "attributes": {
-          "figmaType": "typography"
-        },
-        "color": {
-          "value": "#510A7F",
-          "filePath": "tokens/typography/set.yml",
-          "isSource": true,
-          "original": {
-            "value": "{color.brand.primary.base.value}"
+        "small": {
+          "attributes": {
+            "figmaType": "typography"
           },
-          "name": "typography-set-eyebrow-color",
-          "attributes": {},
-          "path": [
-            "typography",
-            "set",
-            "eyebrow",
-            "color"
-          ]
-        },
-        "fontFamily": {
-          "value": "IBM Plex Sans",
-          "filePath": "tokens/typography/set.yml",
-          "isSource": true,
-          "original": {
-            "value": "{typography.family.primary.value}"
+          "fontFamily": {
+            "value": "IBM Plex Sans",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.family.primary.value}"
+            },
+            "name": "typography-set-eyebrow-small-font-family",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "eyebrow",
+              "small",
+              "fontFamily"
+            ]
           },
-          "name": "typography-set-eyebrow-font-family",
-          "attributes": {},
-          "path": [
-            "typography",
-            "set",
-            "eyebrow",
-            "fontFamily"
-          ]
-        },
-        "fontSize": {
-          "value": 0.75,
-          "filePath": "tokens/typography/set.yml",
-          "isSource": true,
-          "original": {
-            "value": "{size.font.xs.value}"
+          "fontSize": {
+            "value": 0.75,
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{size.font.xs.value}"
+            },
+            "name": "typography-set-eyebrow-small-font-size",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "eyebrow",
+              "small",
+              "fontSize"
+            ]
           },
-          "name": "typography-set-eyebrow-font-size",
-          "attributes": {},
-          "path": [
-            "typography",
-            "set",
-            "eyebrow",
-            "fontSize"
-          ]
+          "lineHeight": {
+            "value": "155%",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.lineHeight.large.value}"
+            },
+            "name": "typography-set-eyebrow-small-line-height",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "eyebrow",
+              "small",
+              "lineHeight"
+            ]
+          }
         },
-        "lineHeight": {
-          "value": "155%",
-          "filePath": "tokens/typography/set.yml",
-          "isSource": true,
-          "original": {
-            "value": "{typography.lineHeight.large.value}"
+        "medium": {
+          "attributes": {
+            "figmaType": "typography"
           },
-          "name": "typography-set-eyebrow-line-height",
-          "attributes": {},
-          "path": [
-            "typography",
-            "set",
-            "eyebrow",
-            "lineHeight"
-          ]
+          "fontFamily": {
+            "value": "IBM Plex Sans",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.family.primary.value}"
+            },
+            "name": "typography-set-eyebrow-medium-font-family",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "eyebrow",
+              "medium",
+              "fontFamily"
+            ]
+          },
+          "fontSize": {
+            "value": 1,
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{size.font.base.value}"
+            },
+            "name": "typography-set-eyebrow-medium-font-size",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "eyebrow",
+              "medium",
+              "fontSize"
+            ]
+          },
+          "lineHeight": {
+            "value": "155%",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.lineHeight.large.value}"
+            },
+            "name": "typography-set-eyebrow-medium-line-height",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "eyebrow",
+              "medium",
+              "lineHeight"
+            ]
+          }
         },
-        "paragraphSpacing": {
-          "value": "0",
-          "filePath": "tokens/typography/set.yml",
-          "isSource": true,
-          "original": {
-            "value": "0"
+        "large": {
+          "attributes": {
+            "figmaType": "typography"
           },
-          "name": "typography-set-eyebrow-paragraph-spacing",
-          "attributes": {},
-          "path": [
-            "typography",
-            "set",
-            "eyebrow",
-            "paragraphSpacing"
-          ]
+          "fontFamily": {
+            "value": "IBM Plex Sans",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.family.primary.value}"
+            },
+            "name": "typography-set-eyebrow-large-font-family",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "eyebrow",
+              "large",
+              "fontFamily"
+            ]
+          },
+          "fontSize": {
+            "value": 1.25,
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{size.font.large.value}"
+            },
+            "name": "typography-set-eyebrow-large-font-size",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "eyebrow",
+              "large",
+              "fontSize"
+            ]
+          },
+          "lineHeight": {
+            "value": "140%",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.lineHeight.medium.value}"
+            },
+            "name": "typography-set-eyebrow-large-line-height",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "eyebrow",
+              "large",
+              "lineHeight"
+            ]
+          }
         }
       },
       "body": {
