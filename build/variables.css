@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 14 Nov 2021 15:23:21 GMT
+ * Generated on Sun, 14 Nov 2021 18:00:31 GMT
  */
 
 :root {
@@ -270,12 +270,12 @@
   --typography-set-heading-h4-paragraph-spacing: 1rem;
   --typography-set-heading-h5-font-family: Times;
   --typography-set-heading-h5-font-size: 1.5rem;
-  --typography-set-heading-h5-line-height: 155%;
+  --typography-set-heading-h5-line-height: 140%;
   --typography-set-heading-h5-letter-spacing: 0%;
   --typography-set-heading-h5-paragraph-spacing: 1rem;
   --typography-set-heading-h6-font-family: Times;
   --typography-set-heading-h6-font-size: 1.25rem;
-  --typography-set-heading-h6-line-height: 155%;
+  --typography-set-heading-h6-line-height: 140%;
   --typography-set-heading-h6-letter-spacing: 0%;
   --typography-set-heading-h6-paragraph-spacing: 1rem;
   --typography-weight-light: 300;
