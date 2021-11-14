@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Sun, 14 Nov 2021 14:31:20 GMT
+// Generated on Sun, 14 Nov 2021 14:33:03 GMT
 
 $typography-figma-weight-black: Black;
 $typography-figma-weight-bold: Bold;
@@ -19,7 +19,7 @@ $typography-set-button-large-line-height: 100%;
 $typography-set-button-medium-line-height: 100%;
 $typography-set-button-base-line-height: 100%;
 $typography-set-button-small-line-height: 100%;
-$typography-set-eyebrow-paragraph-spacing: 0px;
+$typography-set-eyebrow-paragraph-spacing: 0;
 $typography-line-height-xl: 165%;
 $typography-line-height-large: 155%;
 $typography-line-height-medium: 140%;
@@ -164,6 +164,7 @@ $typography-set-body-text-line-height: $typography-line-height-xl;
 $typography-set-body-text-font-size: $size-font-base;
 $typography-set-eyebrow-line-height: $typography-line-height-large;
 $typography-set-eyebrow-font-size: $size-font-xs;
+$typography-set-eyebrow-color: $color-brand-primary-base;
 $typography-set-timestamp-line-height: $typography-line-height-xl;
 $typography-set-timestamp-font-size: $size-font-small;
 $typography-set-caption-line-height: $typography-line-height-xl;

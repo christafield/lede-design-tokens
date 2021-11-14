@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 14 Nov 2021 14:31:20 GMT
+ * Generated on Sun, 14 Nov 2021 14:33:03 GMT
  */
 
 :root {
@@ -204,10 +204,11 @@
   --typography-set-timestamp-font-size: 0.875rem;
   --typography-set-timestamp-line-height: 165%;
   --typography-set-timestamp-paragraph-spacing: 1.5rem;
+  --typography-set-eyebrow-color: #510a7f;
   --typography-set-eyebrow-font-family: IBM Plex Sans;
   --typography-set-eyebrow-font-size: 0.75rem;
   --typography-set-eyebrow-line-height: 155%;
-  --typography-set-eyebrow-paragraph-spacing: 0px;
+  --typography-set-eyebrow-paragraph-spacing: 0;
   --typography-set-body-text-font-family: IBM Plex Sans;
   --typography-set-body-text-font-size: 1rem;
   --typography-set-body-text-line-height: 165%;
