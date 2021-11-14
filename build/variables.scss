@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Sun, 14 Nov 2021 14:33:03 GMT
+// Generated on Sun, 14 Nov 2021 14:48:25 GMT
 
 $typography-figma-weight-black: Black;
 $typography-figma-weight-bold: Bold;
@@ -19,7 +19,6 @@ $typography-set-button-large-line-height: 100%;
 $typography-set-button-medium-line-height: 100%;
 $typography-set-button-base-line-height: 100%;
 $typography-set-button-small-line-height: 100%;
-$typography-set-eyebrow-paragraph-spacing: 0;
 $typography-line-height-xl: 165%;
 $typography-line-height-large: 155%;
 $typography-line-height-medium: 140%;
@@ -162,9 +161,12 @@ $typography-set-menu-small-line-height: $typography-line-height-small;
 $typography-set-menu-small-font-size: $size-font-small;
 $typography-set-body-text-line-height: $typography-line-height-xl;
 $typography-set-body-text-font-size: $size-font-base;
-$typography-set-eyebrow-line-height: $typography-line-height-large;
-$typography-set-eyebrow-font-size: $size-font-xs;
-$typography-set-eyebrow-color: $color-brand-primary-base;
+$typography-set-eyebrow-large-line-height: $typography-line-height-medium;
+$typography-set-eyebrow-large-font-size: $size-font-large;
+$typography-set-eyebrow-medium-line-height: $typography-line-height-large;
+$typography-set-eyebrow-medium-font-size: $size-font-base;
+$typography-set-eyebrow-small-line-height: $typography-line-height-large;
+$typography-set-eyebrow-small-font-size: $size-font-xs;
 $typography-set-timestamp-line-height: $typography-line-height-xl;
 $typography-set-timestamp-font-size: $size-font-small;
 $typography-set-caption-line-height: $typography-line-height-xl;
@@ -267,7 +269,9 @@ $typography-set-menu-medium-font-family: $typography-family-primary;
 $typography-set-menu-small-font-family: $typography-family-primary;
 $typography-set-body-text-paragraph-spacing: $typography-paragraph-spacing-medium;
 $typography-set-body-text-font-family: $typography-family-primary;
-$typography-set-eyebrow-font-family: $typography-family-primary;
+$typography-set-eyebrow-large-font-family: $typography-family-primary;
+$typography-set-eyebrow-medium-font-family: $typography-family-primary;
+$typography-set-eyebrow-small-font-family: $typography-family-primary;
 $typography-set-timestamp-paragraph-spacing: $typography-paragraph-spacing-medium;
 $typography-set-timestamp-font-family: $typography-family-primary;
 $typography-set-caption-paragraph-spacing: $typography-paragraph-spacing-medium;
