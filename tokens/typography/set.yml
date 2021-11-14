@@ -25,12 +25,14 @@ typography:
     eyebrow:
       attributes:
         figmaType: "typography"
+      color:
+        value: "{color.brand.primary.base.value}"
       fontFamily:
         value: "{typography.family.primary.value}"
       fontSize:
         value: "{size.font.xs.value}"
       lineHeight:
-        value: "{typography.lineHeight.large}"
+        value: "{typography.lineHeight.large.value}"
     body:
       text:
         attributes:
