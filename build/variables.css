@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 14 Nov 2021 14:27:50 GMT
+ * Generated on Sun, 14 Nov 2021 14:31:20 GMT
  */
 
 :root {
@@ -207,6 +207,7 @@
   --typography-set-eyebrow-font-family: IBM Plex Sans;
   --typography-set-eyebrow-font-size: 0.75rem;
   --typography-set-eyebrow-line-height: 155%;
+  --typography-set-eyebrow-paragraph-spacing: 0px;
   --typography-set-body-text-font-family: IBM Plex Sans;
   --typography-set-body-text-font-size: 1rem;
   --typography-set-body-text-line-height: 165%;

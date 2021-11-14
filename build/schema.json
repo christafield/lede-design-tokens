@@ -4164,6 +4164,22 @@
             "eyebrow",
             "lineHeight"
           ]
+        },
+        "paragraphSpacing": {
+          "value": "0px",
+          "filePath": "tokens/typography/set.yml",
+          "isSource": true,
+          "original": {
+            "value": "0px"
+          },
+          "name": "typography-set-eyebrow-paragraph-spacing",
+          "attributes": {},
+          "path": [
+            "typography",
+            "set",
+            "eyebrow",
+            "paragraphSpacing"
+          ]
         }
       },
       "body": {
