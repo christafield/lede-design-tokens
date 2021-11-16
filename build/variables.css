@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 14 Nov 2021 18:00:31 GMT
+ * Generated on Tue, 16 Nov 2021 14:46:43 GMT
  */
 
 :root {
@@ -243,11 +243,14 @@
   --typography-set-button-medium-font-size: 1.25rem;
   --typography-set-button-medium-line-height: 100%;
   --typography-set-button-large-font-family: IBM Plex Sans;
-  --typography-set-button-large-font-size: 1rem;
+  --typography-set-button-large-font-size: 1.5rem;
   --typography-set-button-large-line-height: 100%;
   --typography-set-input-base-font-family: IBM Plex Sans;
   --typography-set-input-base-font-size: 0.875rem;
   --typography-set-input-base-line-height: 100%;
+  --typography-set-input-large-font-family: IBM Plex Sans;
+  --typography-set-input-large-font-size: 1.25rem;
+  --typography-set-input-large-line-height: 100%;
   --typography-set-heading-h1-font-family: Times;
   --typography-set-heading-h1-font-size: 3rem;
   --typography-set-heading-h1-line-height: 130%;
