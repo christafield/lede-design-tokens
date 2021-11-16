@@ -5,7 +5,7 @@ color:
       attributes:
         figmaType: "color"
     alt:
-      value: "{color.base.gray.10.value}"
+      value: "{color.base.gray.2.value}"
       attributes:
         figmaType: "color"
     disabled:
