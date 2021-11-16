@@ -288,14 +288,14 @@
         ]
       },
       "alt": {
-        "value": "#e6e6e6",
+        "value": "#fafafa",
         "attributes": {
           "figmaType": "color"
         },
         "filePath": "tokens/color/background.yml",
         "isSource": true,
         "original": {
-          "value": "{color.base.gray.10.value}",
+          "value": "{color.base.gray.2.value}",
           "attributes": {
             "figmaType": "color"
           }
