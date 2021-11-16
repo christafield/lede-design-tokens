@@ -5348,11 +5348,11 @@
             ]
           },
           "lineHeight": {
-            "value": "155%",
+            "value": "140%",
             "filePath": "tokens/typography/set.yml",
             "isSource": true,
             "original": {
-              "value": "{typography.lineHeight.large.value}"
+              "value": "{typography.lineHeight.medium.value}"
             },
             "name": "typography-set-heading-h5-line-height",
             "attributes": {},
@@ -5438,11 +5438,11 @@
             ]
           },
           "lineHeight": {
-            "value": "155%",
+            "value": "140%",
             "filePath": "tokens/typography/set.yml",
             "isSource": true,
             "original": {
-              "value": "{typography.lineHeight.large.value}"
+              "value": "{typography.lineHeight.medium.value}"
             },
             "name": "typography-set-heading-h6-line-height",
             "attributes": {},
