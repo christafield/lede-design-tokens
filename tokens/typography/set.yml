@@ -143,7 +143,7 @@ typography:
         fontFamily:
           value: "{typography.family.primary.value}"
         fontSize:
-          value: "{size.font.base.value}"
+          value: "{size.font.button.large.value}"
         lineHeight:
           value: "100%"
     input:
@@ -154,6 +154,15 @@ typography:
           value: "{typography.family.primary.value}"
         fontSize:
           value: "{size.font.button.small.value}"
+        lineHeight:
+          value: "100%"
+      large:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.button.medium.value}"
         lineHeight:
           value: "100%"
     heading:
