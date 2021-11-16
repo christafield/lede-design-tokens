@@ -4855,11 +4855,11 @@
             ]
           },
           "fontSize": {
-            "value": 1,
+            "value": 1.5,
             "filePath": "tokens/typography/set.yml",
             "isSource": true,
             "original": {
-              "value": "{size.font.base.value}"
+              "value": "{size.font.button.large.value}"
             },
             "name": "typography-set-button-large-font-size",
             "attributes": {},
@@ -4943,6 +4943,62 @@
               "set",
               "input",
               "base",
+              "lineHeight"
+            ]
+          }
+        },
+        "large": {
+          "attributes": {
+            "figmaType": "typography"
+          },
+          "fontFamily": {
+            "value": "IBM Plex Sans",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.family.primary.value}"
+            },
+            "name": "typography-set-input-large-font-family",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "input",
+              "large",
+              "fontFamily"
+            ]
+          },
+          "fontSize": {
+            "value": 1.25,
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{size.font.button.medium.value}"
+            },
+            "name": "typography-set-input-large-font-size",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "input",
+              "large",
+              "fontSize"
+            ]
+          },
+          "lineHeight": {
+            "value": "100%",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "100%"
+            },
+            "name": "typography-set-input-large-line-height",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "input",
+              "large",
               "lineHeight"
             ]
           }
