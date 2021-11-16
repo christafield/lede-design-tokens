@@ -70,7 +70,7 @@ typography:
         lineHeight:
           value: "{typography.lineHeight.medium.value}"
     body:
-      text:
+      base:
         attributes:
           figmaType: "typography"
         fontFamily:
@@ -79,6 +79,17 @@ typography:
           value: "{size.font.base.value}"
         lineHeight:
           value: "{typography.lineHeight.xl.value}"
+        paragraphSpacing:
+          value: "{typography.paragraphSpacing.medium.value}"
+      large:
+        attributes:
+          figmaType: "typography"
+        fontFamily:
+          value: "{typography.family.primary.value}"
+        fontSize:
+          value: "{size.font.large.value}"
+        lineHeight:
+          value: "{typography.lineHeight.large.value}"
         paragraphSpacing:
           value: "{typography.paragraphSpacing.medium.value}"
     menu:
