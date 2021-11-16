@@ -19,6 +19,18 @@ module.exports = {
             figmaType: 'color'
           }
         },
+        2: {
+          value: tinycolor(baseColors.white).darken(2).toString(),
+          attributes: {
+            figmaType: 'color'
+          }
+        },
+        10: {
+          value: tinycolor(baseColors.white).darken(10).toString(),
+          attributes: {
+            figmaType: 'color'
+          }
+        },
         10: {
           value: tinycolor(baseColors.white).darken(10).toString(),
           attributes: {

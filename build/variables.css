@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 16 Nov 2021 14:46:43 GMT
+ * Generated on Tue, 16 Nov 2021 17:08:56 GMT
  */
 
 :root {
@@ -79,6 +79,7 @@
   --color-social-reddit: #ff4500;
   --color-social-twitter: #1da1f2;
   --color-base-gray-0: #ffffff;
+  --color-base-gray-2: #fafafa;
   --color-base-gray-10: #e6e6e6;
   --color-base-gray-20: #cccccc;
   --color-base-gray-30: #b3b3b3;
@@ -220,10 +221,14 @@
   --typography-set-eyebrow-large-font-family: IBM Plex Sans;
   --typography-set-eyebrow-large-font-size: 1.25rem;
   --typography-set-eyebrow-large-line-height: 140%;
-  --typography-set-body-text-font-family: IBM Plex Sans;
-  --typography-set-body-text-font-size: 1rem;
-  --typography-set-body-text-line-height: 165%;
-  --typography-set-body-text-paragraph-spacing: 1.5rem;
+  --typography-set-body-base-font-family: IBM Plex Sans;
+  --typography-set-body-base-font-size: 1rem;
+  --typography-set-body-base-line-height: 165%;
+  --typography-set-body-base-paragraph-spacing: 1.5rem;
+  --typography-set-body-large-font-family: IBM Plex Sans;
+  --typography-set-body-large-font-size: 1.25rem;
+  --typography-set-body-large-line-height: 155%;
+  --typography-set-body-large-paragraph-spacing: 1.5rem;
   --typography-set-menu-small-font-family: IBM Plex Sans;
   --typography-set-menu-small-font-size: 0.875rem;
   --typography-set-menu-small-line-height: 130%;
