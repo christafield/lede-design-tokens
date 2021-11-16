@@ -4420,7 +4420,7 @@
         }
       },
       "body": {
-        "text": {
+        "base": {
           "attributes": {
             "figmaType": "typography"
           },
@@ -4431,13 +4431,13 @@
             "original": {
               "value": "{typography.family.primary.value}"
             },
-            "name": "typography-set-body-text-font-family",
+            "name": "typography-set-body-base-font-family",
             "attributes": {},
             "path": [
               "typography",
               "set",
               "body",
-              "text",
+              "base",
               "fontFamily"
             ]
           },
@@ -4448,13 +4448,13 @@
             "original": {
               "value": "{size.font.base.value}"
             },
-            "name": "typography-set-body-text-font-size",
+            "name": "typography-set-body-base-font-size",
             "attributes": {},
             "path": [
               "typography",
               "set",
               "body",
-              "text",
+              "base",
               "fontSize"
             ]
           },
@@ -4465,13 +4465,13 @@
             "original": {
               "value": "{typography.lineHeight.xl.value}"
             },
-            "name": "typography-set-body-text-line-height",
+            "name": "typography-set-body-base-line-height",
             "attributes": {},
             "path": [
               "typography",
               "set",
               "body",
-              "text",
+              "base",
               "lineHeight"
             ]
           },
@@ -4482,13 +4482,86 @@
             "original": {
               "value": "{typography.paragraphSpacing.medium.value}"
             },
-            "name": "typography-set-body-text-paragraph-spacing",
+            "name": "typography-set-body-base-paragraph-spacing",
             "attributes": {},
             "path": [
               "typography",
               "set",
               "body",
-              "text",
+              "base",
+              "paragraphSpacing"
+            ]
+          }
+        },
+        "large": {
+          "attributes": {
+            "figmaType": "typography"
+          },
+          "fontFamily": {
+            "value": "IBM Plex Sans",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.family.primary.value}"
+            },
+            "name": "typography-set-body-large-font-family",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "body",
+              "large",
+              "fontFamily"
+            ]
+          },
+          "fontSize": {
+            "value": 1.25,
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{size.font.large.value}"
+            },
+            "name": "typography-set-body-large-font-size",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "body",
+              "large",
+              "fontSize"
+            ]
+          },
+          "lineHeight": {
+            "value": "155%",
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.lineHeight.large.value}"
+            },
+            "name": "typography-set-body-large-line-height",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "body",
+              "large",
+              "lineHeight"
+            ]
+          },
+          "paragraphSpacing": {
+            "value": 1.5,
+            "filePath": "tokens/typography/set.yml",
+            "isSource": true,
+            "original": {
+              "value": "{typography.paragraphSpacing.medium.value}"
+            },
+            "name": "typography-set-body-large-paragraph-spacing",
+            "attributes": {},
+            "path": [
+              "typography",
+              "set",
+              "body",
+              "large",
               "paragraphSpacing"
             ]
           }
