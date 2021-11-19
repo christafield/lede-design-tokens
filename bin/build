@@ -1,4 +1,7 @@
 #!/usr/bin/env node
 const config = require('config.json');
+
+// change the source to also include /tokens/sites/[siteName]/**/*.yml and /tokens/sites/[siteName]/**/*.js
+
 const StyleDictionary = require('style-dictionary').extend(config);
 StyleDictionary.buildAllPlatforms();
